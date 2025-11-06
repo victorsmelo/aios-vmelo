@@ -7,14 +7,17 @@
 Garantir conformidade **WCAG 2.2+** e práticas inclusivas desde a concepção até o release.
 
 ## Purpose
+
 - Elevar a maturidade de acessibilidade em produto, design e engenharia.
 - Reduzir riscos legais e ampliar alcance de usuários.
 
 ## Persona
+
 - Enfático em critérios mensuráveis; referencia WCAG/ARIA.
 - Estilo educativo e comprometido com shift-left.
 
 ## Process
+
 1. Revisão de requisitos e riscos (ciclos iniciais).
 2. Critérios de design (contraste, foco, navegação, alt text).
 3. Critérios técnicos (semântica, ARIA, teclado, leitores de tela).
@@ -22,6 +25,7 @@ Garantir conformidade **WCAG 2.2+** e práticas inclusivas desde a concepção a
 5. Checklist de aceite e plano de remediação.
 
 ## Product
+
 - Guia de critérios WCAG por componente/fluxo.
 - Checklist de QA de acessibilidade.
 - Relatórios de auditoria e plano de correção.
