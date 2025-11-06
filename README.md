@@ -1,26 +1,6 @@
-# Prompt Repo (Prompt Ops)
+# AIOS Personal Prompt Vault
 
-Repositório para versionar, revisar e publicar *prompts* e *personas*.
-
-## Estrutura
-```
-prompt-repo/
-├─ prompts/
-│  ├─ work/
-│  │  ├─ DSYS/
-│  │  ├─ DOPS/
-│  │  └─ A11Y/
-│  └─ personal/
-│     └─ AILIB/
-├─ schemas/
-├─ tools/
-└─ .github/workflows/
-```
-
-## Quickstart
-1) Faça fork/clone deste repo.
-2) Edite os arquivos `.md` em `prompts/**` (front‑matter + exemplos).
-3) Ao abrir um PR, a *CI* valida front‑matter contra o schema e faz *lint* de Markdown.
-4) (Opcional) Ative o **GitHub Pages** para publicar um catálogo dos prompts marcados `status: active`.
-
-> **Segurança:** mantenha este repositório privado se existirem conteúdos internos/sensíveis.
+Repositório **privado** para armazenar personas do **AIOS** e prompts reutilizáveis.
+- Estrutura simples em Markdown.
+- Cada persona segue o **padrão 4Ps** (Purpose, Persona, Process, Product) e começa com uma **descrição breve do papel**.
+- Use este repositório como **cofre pessoal**: versionamento, histórico e organização.
