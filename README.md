@@ -28,7 +28,9 @@ Repositório central das personas e prompts do **AI Operating System (AIOS)** de
 ## 🌲 Directory tree
 
 aios-config/
+
  ├── personas/
+
  │    ├── trabalho-design-system-e-ops/
  │    │    ├── DSYS.md            # Design System Architect
  │    │    ├── DOPS.md            # Design Ops Strategist
