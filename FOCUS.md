@@ -1,9 +1,3 @@
-
----
-
-# 📄 `FOCUS.md`
-
-```md
 # FOCUS — Cognitive Protocol
 
 ## Overview
@@ -168,5 +162,5 @@ Entregas:
 
 ---
 
-FOCUS não entrega respostas rápidas.
-Entrega bases sólidas para decisões corretas.
+>**FOCUS** não entrega respostas rápidas.
+>Entrega bases sólidas para decisões corretas.
