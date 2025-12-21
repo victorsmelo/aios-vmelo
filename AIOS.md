@@ -144,5 +144,6 @@ A decisão final é sempre humana.
 - Precedência: Máxima
 - Evolução: Contínua, sob controle humano
 
-O AIOS não pensa por você.
-Ele garante que você pense do melhor modo possível.
+
+>O **AIOS** não pensa por você.
+>Ele garante que você pense do melhor modo possível.
