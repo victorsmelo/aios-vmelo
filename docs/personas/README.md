@@ -44,9 +44,25 @@ Toda persona deve seguir o padrão 4Ps:
 | Process | Como ela trabalha, em etapas claras. |
 | Product | Quais entregáveis produz. |
 
+## Template
+
+Use o template oficial para criar novas personas:
+
+- [`docs/templates/persona-template.md`](../templates/persona-template.md)
+
+O template inclui:
+
+- metadados obrigatórios;
+- estrutura 4Ps;
+- orientação de ativação;
+- inputs e outputs esperados;
+- guardrails gerais e específicos;
+- relação com outras personas;
+- checklist de governança.
+
 ## Required File Structure
 
-Cada arquivo de persona deve conter:
+Cada arquivo de persona deve conter, no mínimo:
 
 ```md
 # NICKNAME
