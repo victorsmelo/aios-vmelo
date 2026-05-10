@@ -46,15 +46,17 @@ REQUIRED_PERSONA_SECTIONS = [
     "## Guardrails",
 ]
 
-COMMON_UNACCENTED_TERMS = [
-    "Operacoes",
-    "governanca",
-    "documentacao",
-    "decisao",
-    "estrategia",
-    "Nao ",
-    "metodo",
-]
+# Match only complete unaccented words, not substrings of correct words
+# such as "metodológico".
+COMMON_UNACCENTED_PATTERNS = {
+    "Operacoes": r"\bOperacoes\b",
+    "governanca": r"\bgovernanca\b",
+    "documentacao": r"\bdocumentacao\b",
+    "decisao": r"\bdecisao\b",
+    "estrategia": r"\bestrategia\b",
+    "Nao": r"\bNao\b",
+    "metodo": r"\bmetodo\b",
+}
 
 
 def fail(message: str, errors: list[str]) -> None:
@@ -128,9 +130,9 @@ def validate_persona_files(persona_files: list[tuple[str, Path]], errors: list[s
         else:
             fail(f"Persona {nickname} missing Process body", errors)
 
-        for term in COMMON_UNACCENTED_TERMS:
-            if term in text:
-                fail(f"Persona {nickname} contains unnormalized term: {term.strip()}", errors)
+        for label, pattern in COMMON_UNACCENTED_PATTERNS.items():
+            if re.search(pattern, text):
+                fail(f"Persona {nickname} contains unnormalized term: {label}", errors)
 
 
 def validate_persona_map(persona_files: list[tuple[str, Path]], errors: list[str]) -> None:
