@@ -48,12 +48,14 @@ Ele deve ser atualizado sempre que houver:
   - **LEX**
   - **EVNT**
   - **F0NT**
+- Normalização editorial em PT-BR com acentuação completa nas personas revisadas.
 
 ### Notes
 - A mudança alinha a estrutura real do repositório aos entry points declarados no `README.md`.
 - A separação constitucional entre orquestrador, protocolo e personas passa a estar refletida também na árvore documental.
 - A documentação agora possui guias internos para evolução das camadas core, protocols, personas e templates.
 - As personas antigas agora seguem um padrão mais próximo das personas restauradas em 2026-05-10.
+- A rodada editorial não altera arquitetura, escopo ou governança; apenas melhora consistência linguística e legibilidade.
 
 ---
 
