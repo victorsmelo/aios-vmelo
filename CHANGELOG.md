@@ -18,44 +18,24 @@ Ele deve ser atualizado sempre que houver:
 - Criação de `docs/personas/README.md` para formalizar padrão 4Ps, regras de criação e governança de personas.
 - Criação de `docs/templates/persona-template.md` como template oficial para novas personas.
 - Criação de `docs/LINK_INTEGRITY_CHECKLIST.md` para validação de links, entry points e referências cruzadas antes de releases.
-- Restauração das personas ausentes:
-  - **AILIB** — AI Librarian
-  - **KNOW** — AI Learning Coach
-  - **KOGN** — Neuropsicologia infantil, autismo e TDAH
-  - **KHELP** — Ajudante de estudantes entre 8 e 12 anos
-  - **SOUL** — Analista Clínico Virtual
+- Criação de `scripts/validate_aios_docs.py` para validação automatizada da integridade documental.
+- Criação de `.github/workflows/validate-aios-docs.yml` para executar a validação em push e pull request.
+- Criação de `docs/releases/v1.1.0.md` como release conceitual da rodada de maturação documental.
+- Restauração das personas ausentes: AILIB, KNOW, KOGN, KHELP e SOUL.
 
 ### Changed
 - Reorganização do protocolo cognitivo **FOCUS** para o caminho canônico `docs/protocols/focus-protocol.md`.
 - Remoção do arquivo duplicado `FOCUS.md` da raiz do repositório.
 - Remoção de **AIOS** da camada de personas.
-- Atualização do `README.md` com a nova estrutura documental e checklist de integridade.
-- Atualização do `docs/personas/README.md` com link para o template oficial de novas personas.
-- Atualização do `docs/personas-index.md` para refletir apenas personas de domínio.
-- Expansão do `docs/aios-persona-map.md` com todos os grupos e personas restauradas.
-- Revisão e expansão das personas antigas para o padrão documental completo com `Status`, 4Ps detalhados, processos numerados, produtos ampliados e guardrails específicos:
-  - **DSYS**
-  - **DOPS**
-  - **CSYS**
-  - **A11Y**
-  - **UXR**
-  - **ZHUB**
-  - **T0OL**
-  - **FGM8**
-  - **ENTC**
-  - **AXIS**
-  - **FITS**
-  - **LEX**
-  - **EVNT**
-  - **F0NT**
+- Atualização do `README.md`, `docs/personas-index.md` e `docs/aios-persona-map.md` para refletir a nova arquitetura documental.
+- Revisão e expansão das personas antigas para o padrão documental completo.
+- Equalização de profundidade das personas restauradas para manter nível similar de detalhamento com as demais.
 - Normalização editorial em PT-BR com acentuação completa nas personas revisadas.
 
 ### Notes
-- A mudança alinha a estrutura real do repositório aos entry points declarados no `README.md`.
 - A separação constitucional entre orquestrador, protocolo e personas passa a estar refletida também na árvore documental.
 - A documentação agora possui guias internos para evolução das camadas core, protocols, personas e templates.
-- As personas antigas agora seguem um padrão mais próximo das personas restauradas em 2026-05-10.
-- A rodada editorial não altera arquitetura, escopo ou governança; apenas melhora consistência linguística e legibilidade.
+- A release conceitual `v1.1.0` está documentada em `docs/releases/v1.1.0.md`; a tag Git ainda deve ser criada manualmente caso desejado.
 
 ---
 
