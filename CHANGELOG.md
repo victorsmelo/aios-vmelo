@@ -9,6 +9,17 @@ Ele deve ser atualizado sempre que houver:
 
 ---
 
+## [2026-05-10]
+
+### Changed
+- Reorganização do protocolo cognitivo **FOCUS** para o caminho canônico `docs/protocols/focus-protocol.md`.
+- Remoção do arquivo duplicado `FOCUS.md` da raiz do repositório.
+
+### Notes
+- A mudança alinha a estrutura real do repositório aos entry points declarados no `README.md`.
+
+---
+
 ## [2025-12-20]
 
 ### Added
