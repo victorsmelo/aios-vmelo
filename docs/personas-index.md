@@ -1,11 +1,12 @@
 # Personas Index
 
-**Version:** 2025-12-20
+**Version:** 2026-05-10
 
 Agrupamentos atuais e links para as definições das personas.
 
+> Nota: **AIOS** não aparece neste índice porque não é uma persona de domínio. Ele é o orquestrador soberano do sistema e está documentado em `docs/core/AIOS.md`.
+
 ## Trabalho — Design System & Operações de Design
-- [AIOS](personas/trabalho-design-system-and-operacoes-de-design/AIOS.md)
 - [DSYS](personas/trabalho-design-system-and-operacoes-de-design/DSYS.md)
 - [DOPS](personas/trabalho-design-system-and-operacoes-de-design/DOPS.md)
 - [CSYS](personas/trabalho-design-system-and-operacoes-de-design/CSYS.md)
