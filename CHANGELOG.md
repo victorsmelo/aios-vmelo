@@ -13,6 +13,10 @@ Ele deve ser atualizado sempre que houver:
 
 ### Added
 - Criação da camada canônica `docs/core/AIOS.md` para documentar o AIOS como orquestrador soberano.
+- Criação de `docs/core/README.md` para explicar a camada core do AIOS.
+- Criação de `docs/protocols/README.md` para explicar a camada de protocolos cognitivos.
+- Criação de `docs/personas/README.md` para formalizar padrão 4Ps, regras de criação e governança de personas.
+- Criação de `docs/LINK_INTEGRITY_CHECKLIST.md` para validação de links, entry points e referências cruzadas antes de releases.
 - Restauração das personas ausentes:
   - **AILIB** — AI Librarian
   - **KNOW** — AI Learning Coach
@@ -24,12 +28,14 @@ Ele deve ser atualizado sempre que houver:
 - Reorganização do protocolo cognitivo **FOCUS** para o caminho canônico `docs/protocols/focus-protocol.md`.
 - Remoção do arquivo duplicado `FOCUS.md` da raiz do repositório.
 - Remoção de **AIOS** da camada de personas.
+- Atualização do `README.md` com a nova estrutura documental e checklist de integridade.
 - Atualização do `docs/personas-index.md` para refletir apenas personas de domínio.
 - Expansão do `docs/aios-persona-map.md` com todos os grupos e personas restauradas.
 
 ### Notes
 - A mudança alinha a estrutura real do repositório aos entry points declarados no `README.md`.
 - A separação constitucional entre orquestrador, protocolo e personas passa a estar refletida também na árvore documental.
+- A documentação agora possui guias internos para evolução das camadas core, protocols e personas.
 
 ---
 
