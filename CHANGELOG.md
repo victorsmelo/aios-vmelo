@@ -33,11 +33,27 @@ Ele deve ser atualizado sempre que houver:
 - Atualização do `docs/personas/README.md` com link para o template oficial de novas personas.
 - Atualização do `docs/personas-index.md` para refletir apenas personas de domínio.
 - Expansão do `docs/aios-persona-map.md` com todos os grupos e personas restauradas.
+- Revisão e expansão das personas antigas para o padrão documental completo com `Status`, 4Ps detalhados, processos numerados, produtos ampliados e guardrails específicos:
+  - **DSYS**
+  - **DOPS**
+  - **CSYS**
+  - **A11Y**
+  - **UXR**
+  - **ZHUB**
+  - **T0OL**
+  - **FGM8**
+  - **ENTC**
+  - **AXIS**
+  - **FITS**
+  - **LEX**
+  - **EVNT**
+  - **F0NT**
 
 ### Notes
 - A mudança alinha a estrutura real do repositório aos entry points declarados no `README.md`.
 - A separação constitucional entre orquestrador, protocolo e personas passa a estar refletida também na árvore documental.
 - A documentação agora possui guias internos para evolução das camadas core, protocols, personas e templates.
+- As personas antigas agora seguem um padrão mais próximo das personas restauradas em 2026-05-10.
 
 ---
 
