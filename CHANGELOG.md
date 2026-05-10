@@ -11,12 +11,25 @@ Ele deve ser atualizado sempre que houver:
 
 ## [2026-05-10]
 
+### Added
+- Criação da camada canônica `docs/core/AIOS.md` para documentar o AIOS como orquestrador soberano.
+- Restauração das personas ausentes:
+  - **AILIB** — AI Librarian
+  - **KNOW** — AI Learning Coach
+  - **KOGN** — Neuropsicologia infantil, autismo e TDAH
+  - **KHELP** — Ajudante de estudantes entre 8 e 12 anos
+  - **SOUL** — Analista Clínico Virtual
+
 ### Changed
 - Reorganização do protocolo cognitivo **FOCUS** para o caminho canônico `docs/protocols/focus-protocol.md`.
 - Remoção do arquivo duplicado `FOCUS.md` da raiz do repositório.
+- Remoção de **AIOS** da camada de personas.
+- Atualização do `docs/personas-index.md` para refletir apenas personas de domínio.
+- Expansão do `docs/aios-persona-map.md` com todos os grupos e personas restauradas.
 
 ### Notes
 - A mudança alinha a estrutura real do repositório aos entry points declarados no `README.md`.
+- A separação constitucional entre orquestrador, protocolo e personas passa a estar refletida também na árvore documental.
 
 ---
 
