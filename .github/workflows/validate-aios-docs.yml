@@ -1,0 +1,40 @@
+name: Validate AIOS Docs
+
+on:
+  push:
+    paths:
+      - "README.md"
+      - "CHANGELOG.md"
+      - "DOCOPS.md"
+      - "RELEASE_PROCESS.md"
+      - "MANIFESTO.md"
+      - "docs/**"
+      - "scripts/validate_aios_docs.py"
+      - ".github/workflows/validate-aios-docs.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - "CHANGELOG.md"
+      - "DOCOPS.md"
+      - "RELEASE_PROCESS.md"
+      - "MANIFESTO.md"
+      - "docs/**"
+      - "scripts/validate_aios_docs.py"
+      - ".github/workflows/validate-aios-docs.yml"
+
+jobs:
+  validate-docs:
+    name: Validate documentation integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run AIOS documentation validation
+        run: python scripts/validate_aios_docs.py
