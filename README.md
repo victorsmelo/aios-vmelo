@@ -44,6 +44,9 @@ Especialistas de domínio (Design System, Estratégia, Pesquisa, Jurídico, etc.
 
 ## Entry Points
 
+- **AIOS — Orquestrador**  
+  `docs/core/AIOS.md`
+
 - **Constituição do AIOS**  
   `docs/constitution/aios-constitution.md`
 
@@ -55,6 +58,15 @@ Especialistas de domínio (Design System, Estratégia, Pesquisa, Jurídico, etc.
 
 - **Mapa de Personas**  
   `docs/aios-persona-map.md`
+
+---
+
+## Documentation Structure
+
+- **Core:** `docs/core/README.md`
+- **Protocols:** `docs/protocols/README.md`
+- **Personas:** `docs/personas/README.md`
+- **Link Integrity Checklist:** `docs/LINK_INTEGRITY_CHECKLIST.md`
 
 ---
 
@@ -73,6 +85,7 @@ Especialistas de domínio (Design System, Estratégia, Pesquisa, Jurídico, etc.
 - 🟢 Protocolo FOCUS ativo
 - 🟢 Personas documentadas
 - 🟢 Governança e DocOps estabelecidos
+- 🟢 Checklist de integridade documental definido
 
 ---
 
