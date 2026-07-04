@@ -56,6 +56,14 @@ COMMON_UNACCENTED_PATTERNS = {
     "estrategia": r"\bestrategia\b",
     "Nao": r"\bNao\b",
     "metodo": r"\bmetodo\b",
+    "administracao": r"\badministracao\b",
+    "comunicacao": r"\bcomunicacao\b",
+    "informacao": r"\binformacao\b",
+    "integracao": r"\bintegracao\b",
+    "organizacao": r"\borganizacao\b",
+    "publicacao": r"\bpublicacao\b",
+    "avaliacao": r"\bavaliacao\b",
+    "execucao": r"\bexecucao\b",
 }
 
 

@@ -1,6 +1,7 @@
 name: Validate AIOS Docs
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "README.md"
