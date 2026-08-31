@@ -1,82 +1,24 @@
 # DOCOPS — Documentation Operations for AIOS
 
-Este documento define **como o AIOS evolui documentalmente** no GitHub, garantindo rigor, rastreabilidade e autoridade humana final.
+DOCOPS define como o AIOS evolui documentalmente com rigor, rastreabilidade e autoridade humana final.
 
----
+## Triggers
 
-## Purpose
+Ative DOCOPS quando houver mudança em Constituição, Manifesto, protocolos, skills, personas, agrupamentos, precedência, conectores, automações, artefatos publicados, estrutura, links ou templates.
 
-Estabelecer um processo claro para:
-- registrar mudanças estruturais do AIOS
-- evitar documentação acidental ou prematura
-- manter coerência entre Constituição, Manifesto, Protocolos e Personas
+## Release flow
 
----
-
-## Core Principles
-
-1. **Human-in-the-loop obrigatório**  
-   Nenhuma mudança estrutural é publicada sem revisão humana.
-
-2. **Clareza antes de versionamento**  
-   Discussões precedem documentação oficial.
-
-3. **Histórico é ativo estratégico**  
-   O Git é memória institucional do AIOS.
-
----
-
-## What triggers DOCOPS
-
-DOCOPS deve ser ativado quando ocorrer:
-- criação ou alteração de protocolo (ex.: FOCUS)
-- criação, remoção ou mudança relevante de persona
-- mudança de agrupamento ou precedência
-- atualização de Constituição ou Manifesto
-
----
-
-## Canonical Flow (Release Ritual)
-
-1. **Definição conceitual**
-   - Discussão e consenso humano
-   - Decisão explícita de “isso vira oficial”
-
-2. **Preparação documental (AIOS-assisted)**
-   - Atualizar arquivos `.md` afetados
-   - Atualizar `README.md` se necessário
-   - Criar entrada no `CHANGELOG.md`
-
-3. **Pacote de release**
-   - Geração de zip versionado
-   - Inclusão de checklist de cobertura
-
-4. **Revisão humana**
-   - Conferência de conteúdo e coerência
-   - Aprovação consciente
-
-5. **Commit & Merge**
-   - Commit claro
-   - Merge em `main`
-   - (Opcional) tag de versão
-
----
+1. Definição conceitual e decisão humana explícita.
+2. Atualização dos arquivos afetados e dos índices.
+3. Auditoria de links, referências, exemplos e validações.
+4. Registro no CHANGELOG.md e, quando arquitetural, em docs/decisions/.
+5. Revisão humana.
+6. Commit e merge em main, com tag opcional.
 
 ## Guardrails
 
-- Não documentar hipóteses
-- Não versionar rascunhos
-- Não misturar método com domínio
-- Não automatizar decisões de publicação
-
----
-
-## Suggested Commands (mental model)
-
-> “AIOS, prepare um release de documentação.”
-
-> “AIOS, isso deve ir para o CHANGELOG?”
-
----
-
-DOCOPS garante que o AIOS **evolua com intenção, não por acúmulo**.
+- Não tratar hipótese como definição oficial.
+- Não misturar método, capacidade, domínio e acesso.
+- Não automatizar decisões de publicação.
+- Não publicar mudanças estruturais sem revisão humana.
+- Validar referências antes de concluir o release.
