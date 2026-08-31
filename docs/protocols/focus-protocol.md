@@ -1,166 +1,52 @@
 # FOCUS — Cognitive Protocol
 
+**Version:** 2026-08-31  
+**Status:** Active
+
 ## Overview
 
-**FOCUS** é um **protocolo cognitivo** do AIOS responsável por governar **como o pensamento ocorre** em situações de complexidade, ambiguidade ou alto impacto.
+FOCUS é o protocolo cognitivo do AIOS para estruturar tarefas complexas, ambíguas, incertas ou de alto impacto. Ele governa como pensar, não o conteúdo nem a decisão.
 
-FOCUS não é uma persona, não tem voz própria e não produz decisões.  
-Seu papel é estruturar o processo cognitivo antes da execução.
+## Five cognitive functions
 
----
+1. **Find** — localizar fontes, evidências, contradições e lacunas.
+2. **Organize** — estruturar informações, conceitos, fatos, hipóteses e opiniões.
+3. **Condense** — reduzir redundância sem perder nuance ou rigor.
+4. **Understand** — esclarecer conceitos, pressupostos, causas, correlações e trade-offs.
+5. **Synthesize** — integrar achados em entendimento acionável, sem usurpar a decisão humana.
 
-## Purpose
+## Optional operational checks
 
-FOCUS existe para:
+Quando a tarefa produzir um resultado externo, FOCUS pode ser complementado por:
 
-- evitar pensamento superficial
-- reduzir ruído e dispersão
-- organizar informação complexa
-- preservar rigor intelectual
-- criar base sólida para decisão humana
+- **Execute** — realizar a ação autorizada;
+- **Validate** — verificar o resultado, integridade, referências, cálculos, testes ou renderização;
+- **Record** — registrar uma mudança estrutural, decisão ou artefato quando aplicável.
 
----
+Essas etapas são operacionais, não novas funções cognitivas do acrônimo.
 
-## Core Principle
+## Activation rules
 
-> **FOCUS governa o processo, nunca o conteúdo.**
+- O AIOS é o único elemento autorizado a ativar FOCUS.
+- O AIOS pode ativá-lo automaticamente quando a complexidade, ambiguidade ou risco justificar.
+- Para tarefas simples, pode usar apenas as etapas necessárias.
+- A confirmação humana é exigida antes de mudanças estruturais, publicações, ações destrutivas ou outras operações determinadas pelos guardrails.
+- O plano deve ser comunicado quando a estrutura for relevante para o usuário.
 
----
+## FOCUS plan
 
-## The Five Cognitive Functions
+Quando aplicável, declarar:
 
-### 1. Find
-Identificar e coletar informações relevantes.
+- etapas ativadas;
+- etapas omitidas e motivo;
+- fontes e limitações;
+- ordem das entregas;
+- validações previstas.
 
-Inclui:
-- fontes primárias e secundárias
-- referências históricas ou conceituais
-- dados contraditórios
-- lacunas de informação
+## What FOCUS is not
 
----
+FOCUS não decide, não cria autoridade normativa, não substitui especialistas, não se autoativa e não publica alterações.
 
-### 2. Organize
-Estruturar o espaço informacional.
+## Relationship with other layers
 
-Inclui:
-- agrupamento temático
-- hierarquização
-- linhas de tempo
-- mapas conceituais
-- separação entre fato, hipótese e opinião
-
----
-
-### 3. Condense
-Reduzir sem perder rigor.
-
-Inclui:
-- eliminação de redundâncias
-- sínteses intermediárias
-- preservação de nuances
-- rejeição de “resumos rasos”
-
----
-
-### 4. Understand
-Garantir compreensão real.
-
-Inclui:
-- explicação de conceitos
-- esclarecimento de pressupostos
-- identificação de trade-offs
-- distinção entre causa, correlação e consequência
-
----
-
-### 5. Synthesize
-Integrar em entendimento acionável.
-
-Inclui:
-- narrativa coerente
-- conexões entre partes
-- implicações práticas
-- perguntas estratégicas abertas
-
-FOCUS **pode parar aqui**.  
-Decidir é responsabilidade humana.
-
----
-
-## What FOCUS Is Not
-
-FOCUS **não**:
-- decide
-- recomenda direção normativa
-- cria opinião
-- assume voz própria
-- substitui especialistas
-
----
-
-## Activation Rules
-
-FOCUS:
-- só pode ser ativado pelo **AIOS**
-- nunca se autoativa
-- pode ser sugerido, mas precisa confirmação
-
----
-
-## FOCUS Plan
-
-Antes da execução, o AIOS deve declarar explicitamente:
-
-- quais etapas serão ativadas
-- quais serão puladas (e por quê)
-- ordem das entregas
-
-### Example
-
-FOCUS PLAN
-Ativar: Find, Condense, Understand, Synthesize
-Não ativar: Organize (fonte única)
-
-Entregas:
-1) Lista de achados
-2) Explicação conceitual
-3) Síntese final
-
----
-
-## Relationship with Personas
-- Personas operam dentro do protocolo FOCUS quando ativo
-- FOCUS não chama personas
-- FOCUS não avalia respostas
-- O AIOS coordena a interação
-
----
-
-## Typical Use Cases
-- decisões estratégicas
-- análise de documentos complexos
-- síntese de múltiplas fontes
-- definição de problemas mal estruturados
-- preparação para decisões humanas relevantes
-
----
-
-## Design Philosophy
-- Lento quando necessário
-- Rigor acima de fluidez
-- Clareza acima de velocidade
-- Estrutura antes de opinião
-
----
-
-## Status
-- Tipo: Protocolo Cognitivo
-- Categoria: Método
-- Precedência: Abaixo do AIOS, acima das personas
-- Evolução: Conservadora e explícita
-
----
-
->**FOCUS** não entrega respostas rápidas.
->Entrega bases sólidas para decisões corretas.
+O AIOS coordena FOCUS. Skills podem implementar partes do processo. Personas fornecem conhecimento de domínio. Conectores e ferramentas fornecem acesso a fontes ou superfícies de execução. O AIOS consolida e valida o resultado.
