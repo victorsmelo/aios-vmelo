@@ -1,5 +1,17 @@
 # Changelog — AIOS
 
+## [2026-09-06 — Integração de skills]
+
+### Added
+
+- Pacotes aios, aios-maintenance e orchestrate, com manifesto de integridade e fluxo explícito de instalação.
+- [Decisão de integração](docs/decisions/2026-09-06-aios-skills-orchestration.md), aprovada pelo usuário junto à publicação.
+
+### Changed
+
+- Limites explícitos: AIOS planeja e valida globalmente; FOCUS orienta raciocínio; orchestrate coordena execução distribuída e entregas parciais.
+- Core, FOCUS, arquitetura, catálogo, mapa e referências locais alinhados, sem criar sincronização automática.
+
 ## [2026-09-06]
 
 ### Added

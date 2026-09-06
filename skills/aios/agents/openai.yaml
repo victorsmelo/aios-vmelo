@@ -1,0 +1,12 @@
+interface:
+  display_name: AIOS
+  short_description: Coordene personas, skills e execução com o AIOS
+  default_prompt: Use $aios para executar este pedido com as especialidades e ferramentas
+    necessárias.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

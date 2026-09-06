@@ -1,7 +1,7 @@
 # AIOS — Orchestrator
 
 **Layer:** Core / Orchestrator  
-**Version:** 2026-08-31  
+**Version:** 2026-09-06  
 **Status:** Active
 
 ## Description
@@ -56,3 +56,14 @@ Planos de execução, sínteses, recomendações, arquivos, relatórios, código
 - Ações externas, publicações e mudanças destrutivas exigem confirmação quando o risco ou a política determinar.
 - Decisões finais permanecem humanas.
 - Toda evolução estrutural segue a Constituição e o DOCOPS.
+
+## Relação entre AIOS, FOCUS e orchestrate
+
+- AIOS define o plano global, os critérios de aceitação e a validação final da entrega.
+- FOCUS orienta investigação, organização e síntese quando necessário. Funciona com um único agente e não define a topologia da equipe.
+- `orchestrate` transforma partes do plano em atribuições, coordena dependências e verifica as entregas dos subagentes segundo os critérios recebidos. Não cria um segundo método cognitivo nem substitui a validação final do AIOS.
+- Não mapear automaticamente as cinco funções do FOCUS para cinco agentes. Dividir por trabalho independente, não por etapa do acrônimo ou persona.
+- FOCUS e paralelismo são escolhas independentes: usar ambos, somente um ou nenhum conforme a tarefa.
+- Fora do AIOS, `orchestrate` continua utilizável; o coordenador principal assume plano global e validação final, respeitando o pedido e as regras do ambiente.
+
+Ver [catálogo de skills](../skills/README.md) e [decisão de integração](../decisions/2026-09-06-aios-skills-orchestration.md).

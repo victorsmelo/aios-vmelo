@@ -63,3 +63,7 @@ flowchart TD
 ## Integração de saúde e performance
 
 FITS lidera treino, nutrição e recuperação; BHKR lidera farmacologia e biohacking. AIOS integra perguntas mistas conforme a [decisão FITS–BHKR](decisions/2026-09-06-fits-bhkr.md).
+
+## Execução com skills
+
+AIOS seleciona [aios-maintenance e orchestrate](skills/README.md) conforme a tarefa. FOCUS orienta o raciocínio; orchestrate distribui atribuições. Plano e validação final permanecem no AIOS. Essas capacidades não são personas.

@@ -1,0 +1,21 @@
+{
+  "version": "2026-09-06-orchestration",
+  "automatic_sync": false,
+  "files": {
+    "skills/aios/SKILL.md": "8c73122fb178bbff37f97389f28e795d816870d3806dcc3d1cace4278711f9bb",
+    "skills/aios/agents/openai.yaml": "2cd0101adee49041c81ed0f3f90d3715aff3d2aa7071fc941bf42b87e714d9ef",
+    "skills/aios/references/aios-sources.md": "1cdb3efb16afa0d5a35d8592a41d997630d51716ae751b55f768b13da0db4c6a",
+    "skills/aios-maintenance/SKILL.md": "6628c2472be62062c75c325717cc577f726ddfc1e82fb6f6ee98c07c3819d75a",
+    "skills/aios-maintenance/agents/openai.yaml": "549896c849a98a1af555d28e7c40ea459e6b28f5d8b80a07d6a405dcea231303",
+    "skills/aios-maintenance/references/aios-sources.md": "1cdb3efb16afa0d5a35d8592a41d997630d51716ae751b55f768b13da0db4c6a",
+    "skills/orchestrate/SKILL.md": "6613f88766a08eb8ef1820f744ecf871ff5b5608ac80d6911d190d57813dfd36",
+    "skills/orchestrate/agents/openai.yaml": "afcddeead3d6ab660a3c5981eee6d78e938f7668b9d696437ab1d9b129d1aebb"
+  },
+  "source_files": {
+    "docs/core/AIOS.md": "66ccbdb135f7c579ee4cd11920d782d1671f86692d0f01ade21d7f9de76b2b8c",
+    "docs/constitution/aios-constitution.md": "f8961c147ee754cb92c2dbf99356390b7e282205479f92485eaa2234ac00bcba",
+    "docs/protocols/focus-protocol.md": "4f1d3a6f01fc48b767f01e5c7567f10f931d68e3514651a120942d288e8a8e3b",
+    "docs/skills/README.md": "896b6f77dbcf55ad36a8f61ff0f8c928bc3a40fbce2211b413f113a2f4018428",
+    "docs/personas-index.md": "e7bc2f07877c20c71c9ff7bb7180e2699f6ccbd7935fefc2542f75d394d861b9"
+  }
+}

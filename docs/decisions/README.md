@@ -16,3 +16,5 @@ Conversation ideas remain proposals until explicitly approved and recorded.
 ## Accepted decisions
 
 - [2026-09-06 — Separação e integração FITS–BHKR](2026-09-06-fits-bhkr.md)
+
+- [2026-09-06 — Integração de skills e limites da orquestração](2026-09-06-aios-skills-orchestration.md)
