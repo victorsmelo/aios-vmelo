@@ -12,3 +12,7 @@ Each decision should record:
 - affected files or layers.
 
 Conversation ideas remain proposals until explicitly approved and recorded.
+
+## Accepted decisions
+
+- [2026-09-06 — Separação e integração FITS–BHKR](2026-09-06-fits-bhkr.md)

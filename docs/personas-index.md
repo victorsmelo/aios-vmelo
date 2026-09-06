@@ -1,6 +1,6 @@
 # Personas Index
 
-**Version:** 2026-08-31
+**Version:** 2026-09-06
 
 Personas são autoridades de domínio. AIOS, FOCUS, skills e conectores não aparecem como personas.
 
@@ -20,7 +20,8 @@ Personas são autoridades de domínio. AIOS, FOCUS, skills e conectores não apa
 
 - [AILIB](personas/pessoal-conhecimento-and-saude/AILIB.md)
 - [KNOW](personas/pessoal-conhecimento-and-saude/KNOW.md)
-- [FITS](personas/pessoal-conhecimento-and-saude/FITS.md)
+- [FITS](personas/pessoal-conhecimento-and-saude/FITS.md) — treino, hipertrofia, nutrição e recuperação.
+- [BHKR](personas/pessoal-conhecimento-and-saude/BHKR.md) — farmacologia, peptídeos, hormônios e biohacking.
 - [EVNT](personas/pessoal-conhecimento-and-saude/EVNT.md)
 
 ## Jurídico e Política

@@ -1,6 +1,6 @@
 # AIOS System Map
 
-**Version:** 2026-08-31
+**Version:** 2026-09-06
 
 ```mermaid
 flowchart TD
@@ -34,6 +34,7 @@ flowchart TD
   PE --> AILIB[AILIB]
   PE --> KNOW[KNOW]
   PE --> FITS[FITS]
+  PE --> BHKR[BHKR]
   PE --> EVNT[EVNT]
   PE --> AXIS[AXIS]
   PE --> LEX[LEX]
@@ -58,3 +59,7 @@ flowchart TD
 - [Pessoal](personas/pessoal-conhecimento-and-saude)
 - [Família](personas/familia-assuntos-familiares-e-escolares)
 - [Estratégia](personas/estrategia-disciplina-and-lideranca)
+
+## Integração de saúde e performance
+
+FITS lidera treino, nutrição e recuperação; BHKR lidera farmacologia e biohacking. AIOS integra perguntas mistas conforme a [decisão FITS–BHKR](decisions/2026-09-06-fits-bhkr.md).

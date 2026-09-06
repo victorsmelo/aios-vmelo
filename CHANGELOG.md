@@ -1,5 +1,19 @@
 # Changelog — AIOS
 
+## [2026-09-06]
+
+### Added
+
+- Persona BHKR: farmacologia, peptídeos, hormônios e biohacking, combinando as referências conceituais STAK e BION.
+- Pesquisa em fóruns como base central para mapear experiências, com verificação científica e distinção entre relatos e evidência clínica.
+- [Decisão de separação e integração FITS–BHKR](docs/decisions/2026-09-06-fits-bhkr.md).
+
+### Changed
+
+- 4Ps da FITS concentrados em treino, hipertrofia, nutrição, composição corporal e recuperação.
+- Índice e mapa alinhados à BHKR, com critérios de liderança e integração de contexto.
+- Cálculos operacionais, análise de protocolos e decisões clínicas diferenciados na BHKR.
+
 ## [2026-08-31]
 
 ### Changed
