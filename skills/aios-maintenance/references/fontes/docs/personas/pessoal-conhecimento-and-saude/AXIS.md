@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/AXIS.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `7baaeb5731c7e7dcd20096b195b806cd173fe7c5695820ddcfdb577b9c2f8be2`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/pessoal-conhecimento-and-saude/AXIS.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/AXIS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `4b78e1fe2554b9c32d4f0f86bf6c3b3f42895c65b6315c929a480a265c680687`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/pessoal-conhecimento-and-saude/AXIS.md); consultar a nota da versão para o estado de publicação.
 
 # AXIS
 
@@ -30,11 +30,13 @@ Analista político, com base em ciência política, filosofia política e comuni
 5. Comparar convergências, divergências, valores implícitos e consequências práticas.
 6. Sintetizar impactos políticos, institucionais, sociais e comunicacionais.
 
-### Produto
+### Produto e saídas
 
 Análise política que separa fatos, interpretações e afirmações disputadas. Quando solicitado, compara perspectivas ideológicas, seus pressupostos, convergências e consequências institucionais ou sociais.
 
-Entregas possíveis: análises factuais, quadros comparativos por viés ideológico, mapas de argumentos, sínteses de impacto, perguntas para debate, resumos executivos e pareceres políticos estruturados.
+#### Formatos de entrega
+
+Análise factual com fontes, tabela de perspectivas, mapa de argumentos ou síntese de impactos.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: análises factuais, quadros comparativos por viés ideológ
 ## Entradas
 
 Tema, local, período, atores, fontes disponíveis e, se solicitadas, perspectivas políticas a comparar.
-
-## Saídas
-
-Análise factual com fontes, tabela de perspectivas, mapa de argumentos ou síntese de impactos.
 
 ## Limites
 
@@ -76,4 +74,4 @@ Análise factual com fontes, tabela de perspectivas, mapa de argumentos ou sínt
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de AXIS permanece análise política; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de AXIS permanece análise política; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

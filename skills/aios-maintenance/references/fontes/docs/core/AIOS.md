@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/core/AIOS.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `0b5331f1384ed0e70792360dc40d5a7a9c0da16ba303a795e3e09a40cbafd5bf`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/core/AIOS.md); a URL não comprova publicação.
+> Cópia derivada de `docs/core/AIOS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `0b5331f1384ed0e70792360dc40d5a7a9c0da16ba303a795e3e09a40cbafd5bf`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/core/AIOS.md); consultar a nota da versão para o estado de publicação.
 
 # AIOS — coordenação central
 
@@ -54,4 +54,4 @@ As políticas e permissões do ambiente limitam todas as camadas. O usuário man
 
 Reutilizar autorizações explícitas já concedidas ao mesmo escopo. Se houver aprovação pendente, preparar o resultado concreto antes de solicitá-la. Não inventar acesso, memória, execução paralela, publicação ou instalação.
 
-Seguir [DOCOPS](../../DOCOPS.md) para mudanças do sistema e o [padrão editorial](../editorial.md) nas entregas. Ver [arquitetura](../architecture/layers.md), [FOCUS](../protocols/focus-protocol.md) e [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/skills/README.md).
+Seguir [DOCOPS](../../DOCOPS.md) para mudanças do sistema e o [padrão editorial](../editorial.md) nas entregas. Ver [arquitetura](../architecture/layers.md), [FOCUS](../protocols/focus-protocol.md) e [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/skills/README.md).

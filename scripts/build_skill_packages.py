@@ -11,8 +11,8 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_REVISION = '526485a6'
-TARGET_VERSION = 'v1.2.0'
+BASE_REVISION = 'b0b151540bf9c5061d3c2529f0d4657d4344ed0f'
+TARGET_VERSION = 'v1.3.0'
 REPO = 'https://github.com/victorsmelo/aios-vmelo'
 NAMES = ('aios', 'aios-maintenance', 'orchestrate')
 ENVIRONMENTS = {
@@ -72,27 +72,26 @@ def snapshot(path: str, selected: set[str]) -> bytes:
             return match.group(0)
         return f'[{label}]({REPO}/blob/{TARGET_VERSION}/{resolved}' + (f'#{anchor}' if sep else '') + ')'
     body = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link, body)
-    header = (f'> Cópia derivada de `{path}` da árvore de trabalho para {TARGET_VERSION}. '
-              f'Revisão-base: `{BASE_REVISION}`; conteúdo novo pode ainda não estar commitado.\n'
+    header = (f'> Cópia derivada de `{path}` para {TARGET_VERSION}. '
+              f'Revisão-base: `{BASE_REVISION}`.\n'
               f'> SHA-256 da fonte antes da adaptação dos links: `{digest(original)}`. '
               f'[URL da versão alvo]({REPO}/blob/{TARGET_VERSION}/{path}); '
-              'a URL não comprova publicação.\n\n')
+              'consultar a nota da versão para o estado de publicação.\n\n')
     return (header + body).encode('utf-8')
 
 def reference_files(name: str) -> dict[str, bytes]:
     selected = sources(name)
     files = {'references/fontes/'+p: snapshot(p, set(selected)) for p in selected}
     inventory = {'base_revision': BASE_REVISION, 'target_version': TARGET_VERSION,
-                 'source_state': 'árvore de trabalho; hashes identificam os bytes das fontes, não um commit publicado',
+                 'source_state': 'cópia gerada para a versão indicada; hashes identificam os bytes das fontes antes da adaptação de links',
                  'sources': {p: digest((ROOT/p).read_bytes()) for p in selected}}
     files['references/fontes.json'] = (json.dumps(inventory, ensure_ascii=False, indent=2)+'\n').encode()
     index = '# Fontes do pacote\n\n'
-    index += (f'Revisão-base: `{BASE_REVISION}`. Versão alvo: `{TARGET_VERSION}`. As cópias vêm da árvore '
-              'de trabalho e podem incluir mudanças ainda não commitadas. URLs da versão alvo não atestam '
-              'que a versão foi publicada. [Hashes das fontes](fontes.json) identificam os bytes usados '
-              'antes da adaptação de links. Não há sincronização automática.\n\n'
+    index += (f'Revisão-base: `{BASE_REVISION}`. Versão alvo: `{TARGET_VERSION}`. [Hashes das fontes](fontes.json) '
+              'identificam os bytes usados antes da adaptação de links. Consultar a nota da versão para o estado de '
+              'publicação. Não há sincronização automática.\n\n'
               'Leia somente o assunto necessário. Os links entre fontes incluídas funcionam localmente; '
-              'outros links apontam para a versão alvo no GitHub e podem exigir acesso ou publicação.\n\n')
+              'outros links apontam para a versão alvo no GitHub e podem exigir acesso.\n\n')
     index += '\n'.join(f'- [{p}](fontes/{p})' for p in selected)+'\n'
     files['references/fontes.md'] = index.encode()
     return files

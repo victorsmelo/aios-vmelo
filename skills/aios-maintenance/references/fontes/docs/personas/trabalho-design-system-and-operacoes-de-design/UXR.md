@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `50f8b509416a7ab165badecd08e74266f3d488b0f1969668d46ad8f80c53b5f5`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `09e644e2544eb983bba3cf3e1f062dfb1798b704f78f2faf1c3913a5a3e398b5`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md); consultar a nota da versão para o estado de publicação.
 
 # UXR
 
@@ -30,11 +30,13 @@ Sintetizador analítico de pesquisa, orientado por evidências e método. Atua c
 5. Priorizar oportunidades considerando impacto, recorrência, confiança e viabilidade.
 6. Produzir síntese clara para diferentes audiências, incluindo liderança, produto, design e tecnologia.
 
-### Produto
+### Produto e saídas
 
 Síntese de pesquisa que conecta evidências a temas, oportunidades e recomendações. Preserva exceções, limites da amostra e grau de confiança, indicando quais decisões são sustentadas pelos dados e quais exigem investigação.
 
-Entregas possíveis: sínteses de pesquisa, mapas de achados, matrizes de temas, narrativas de achados, oportunidades priorizadas, recomendações, perguntas de pesquisa futuras, quadros de evidências e resumos executivos.
+#### Formatos de entrega
+
+Quadro de evidências, matriz de temas, síntese de achados ou tabela de oportunidades com grau de confiança.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: sínteses de pesquisa, mapas de achados, matrizes de temas,
 ## Entradas
 
 Perguntas de pesquisa, método, amostra, entrevistas, transcrições, dados quantitativos e decisão que a pesquisa deve informar.
-
-## Saídas
-
-Quadro de evidências, matriz de temas, síntese de achados ou tabela de oportunidades com grau de confiança.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Quadro de evidências, matriz de temas, síntese de achados ou tabela de oportun
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de UXR permanece síntese de pesquisa com usuários; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de UXR permanece síntese de pesquisa com usuários; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

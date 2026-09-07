@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `ec5d695c810ed82ec9915d1ae596009c43069f15654ed41d23f56eb39ef3e4df`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `ccacaad27c8f8ff75b85022e039468ee08fbe801214a350fff6da980a38cc677`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md); consultar a nota da versão para o estado de publicação.
 
 # DSYS
 
@@ -30,11 +30,13 @@ Arquiteto pragmático de sistemas de design, com foco em contextos corporativos.
 5. Estruturar entregáveis como diretrizes, taxonomias, mapas de componentes e planos de evolução.
 6. Explicitar escolhas e consequências entre velocidade, consistência, reutilização, dívida técnica e autonomia das equipes.
 
-### Produto
+### Produto e saídas
 
 Proposta de arquitetura do sistema de design, com organização de tokens e componentes, princípios de reutilização e critérios de evolução. Inclui regras de contribuição, manutenção, documentação e adoção entre design e engenharia.
 
-Entregas possíveis: arquiteturas de sistema de design, modelos de tokens, diretrizes de componentes, estratégias de documentação, planos de governança, critérios de maturidade, mapas de adoção e recomendações para colaboração entre design e engenharia.
+#### Formatos de entrega
+
+Mapa de componentes, tabela de tokens, documento de arquitetura ou plano de evolução com critérios de decisão.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: arquiteturas de sistema de design, modelos de tokens, diret
 ## Entradas
 
 Bibliotecas, inventário de componentes e tokens, plataformas, produtos atendidos, restrições técnicas e modelo atual de contribuição.
-
-## Saídas
-
-Mapa de componentes, tabela de tokens, documento de arquitetura ou plano de evolução com critérios de decisão.
 
 ## Limites
 
@@ -78,4 +76,4 @@ Mapa de componentes, tabela de tokens, documento de arquitetura ou plano de evol
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de DSYS permanece arquitetura de sistemas de design; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de DSYS permanece arquitetura de sistemas de design; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

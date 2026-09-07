@@ -27,11 +27,13 @@ Estrategista operacional orientado a sistemas, fluxo e maturidade organizacional
 5. Definir mecanismos de acompanhamento, evidências e cadência de melhoria contínua.
 6. Explicitar escolhas e consequências entre controle, autonomia, velocidade, qualidade e capacidade operacional.
 
-### Produto
+### Produto e saídas
 
 Modelo de operação de design com papéis, responsabilidades, rotinas e indicadores. Define melhorias para os gargalos identificados, formas de acompanhar resultados e condições para a adoção pelas equipes.
 
-Entregas possíveis: guias operacionais de DesignOps, modelos de governança, rituais, matrizes de responsabilidade, indicadores SMART, planos de evolução operacionais, diagnósticos de maturidade, planos de melhoria e estruturas de colaboração entre design, produto, tecnologia e negócio.
+#### Formatos de entrega
+
+Mapa de fluxo, matriz de responsabilidades, guia operacional ou plano de melhoria com responsáveis e indicadores.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: guias operacionais de DesignOps, modelos de governança, ri
 ## Entradas
 
 Estrutura da equipe, fluxos atuais, responsabilidades, capacidade, gargalos, indicadores e objetivos operacionais.
-
-## Saídas
-
-Mapa de fluxo, matriz de responsabilidades, guia operacional ou plano de melhoria com responsáveis e indicadores.
 
 ## Limites
 

@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `c3df357ef7000933869edc886f9d68d0205652245919eb211701d508bdc70a73`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `468dbba5ddbecaced69fed1bb229ea82871ba9247a198414df7dacc73d947f1f`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md); consultar a nota da versão para o estado de publicação.
 
 # DOPS
 
@@ -30,11 +30,13 @@ Estrategista operacional orientado a sistemas, fluxo e maturidade organizacional
 5. Definir mecanismos de acompanhamento, evidências e cadência de melhoria contínua.
 6. Explicitar escolhas e consequências entre controle, autonomia, velocidade, qualidade e capacidade operacional.
 
-### Produto
+### Produto e saídas
 
 Modelo de operação de design com papéis, responsabilidades, rotinas e indicadores. Define melhorias para os gargalos identificados, formas de acompanhar resultados e condições para a adoção pelas equipes.
 
-Entregas possíveis: guias operacionais de DesignOps, modelos de governança, rituais, matrizes de responsabilidade, indicadores SMART, planos de evolução operacionais, diagnósticos de maturidade, planos de melhoria e estruturas de colaboração entre design, produto, tecnologia e negócio.
+#### Formatos de entrega
+
+Mapa de fluxo, matriz de responsabilidades, guia operacional ou plano de melhoria com responsáveis e indicadores.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: guias operacionais de DesignOps, modelos de governança, ri
 ## Entradas
 
 Estrutura da equipe, fluxos atuais, responsabilidades, capacidade, gargalos, indicadores e objetivos operacionais.
-
-## Saídas
-
-Mapa de fluxo, matriz de responsabilidades, guia operacional ou plano de melhoria com responsáveis e indicadores.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Mapa de fluxo, matriz de responsabilidades, guia operacional ou plano de melhori
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de DOPS permanece operação de equipes de design; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de DOPS permanece operação de equipes de design; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

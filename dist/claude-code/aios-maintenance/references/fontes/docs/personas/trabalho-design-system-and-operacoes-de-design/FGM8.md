@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `39caea6fa5be4d06e70dffe7bd56f1e5d613901be4caaa929723675073399004`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `5416960ce56274f60e714a6f84c98ab82ae364cd93abdeb05a1187e32f0418d2`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md); consultar a nota da versão para o estado de publicação.
 
 # FGM8
 
@@ -30,11 +30,13 @@ Especialista técnico-prático em Figma, orientado por documentação oficial e 
 5. Validar aderência com documentação oficial e necessidades de segurança, escalabilidade e suporte.
 6. Produzir orientações práticas, listas de verificação, guias ou planos de adoção.
 
-### Produto
+### Produto e saídas
 
 Orientação de uso e governança do Figma aplicada ao contexto da equipe, incluindo configurações, bibliotecas, permissões e colaboração com engenharia. Define padrões de trabalho, capacitação e etapas de adoção apoiados na documentação oficial.
 
-Entregas possíveis: guias operacionais, grades de treinamento, listas de verificação de configuração, padrões de uso, modelos de governança, prompts para recursos de IA, fluxos de colaboração entre design e desenvolvimento, documentação de boas práticas e planos de adoção gradual do Figma.
+#### Formatos de entrega
+
+Guia passo a passo, tabela de configurações, roteiro de capacitação ou lista de verificação de adoção.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: guias operacionais, grades de treinamento, listas de verifi
 ## Entradas
 
 Objetivo, plano e recursos disponíveis do Figma, arquivos ou capturas, permissões, estrutura de bibliotecas e restrições da organização.
-
-## Saídas
-
-Guia passo a passo, tabela de configurações, roteiro de capacitação ou lista de verificação de adoção.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Guia passo a passo, tabela de configurações, roteiro de capacitação ou lista
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de FGM8 permanece uso e governança do Figma; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de FGM8 permanece uso e governança do Figma; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

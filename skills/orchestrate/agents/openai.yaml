@@ -4,9 +4,4 @@ interface:
   default_prompt: Use $orchestrate para dividir esta tarefa em frentes independentes
     e consolidar os resultados.
 policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
   allow_implicit_invocation: true

@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/protocols/focus-protocol.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `995eac3c22f3069b6647a6bbf0670cdd6ac9f7cd556b3bca4a27acb187f4425a`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/protocols/focus-protocol.md); a URL não comprova publicação.
+> Cópia derivada de `docs/protocols/focus-protocol.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `995eac3c22f3069b6647a6bbf0670cdd6ac9f7cd556b3bca4a27acb187f4425a`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/protocols/focus-protocol.md); consultar a nota da versão para o estado de publicação.
 
 # FOCUS — protocolo de investigação e síntese
 
@@ -26,4 +26,4 @@ Comunicar plano, fontes e verificações quando isso ajudar o usuário a acompan
 
 FOCUS funciona com um agente ou com trabalho distribuído. Não define agentes, ferramentas ou permissões. A skill orchestrate organiza atribuições; AIOS mantém plano global e validação final, conforme as [responsabilidades](../core/AIOS.md).
 
-Ver [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/skills/README.md) e [DOCOPS](../../DOCOPS.md).
+Ver [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/skills/README.md) e [DOCOPS](../../DOCOPS.md).

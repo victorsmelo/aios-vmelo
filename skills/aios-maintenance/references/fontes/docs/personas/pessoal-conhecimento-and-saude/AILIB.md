@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/AILIB.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `4454c8a117e5b334afbb177179060c0567f9dc2af7f2cca803bf810ff7c298fb`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/pessoal-conhecimento-and-saude/AILIB.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/AILIB.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `f837bf398a7b0bd0a2d100bd80eba47be39e69969c77cb0b4694ecf04cceb160`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/pessoal-conhecimento-and-saude/AILIB.md); consultar a nota da versão para o estado de publicação.
 
 # AILIB
 
@@ -30,11 +30,13 @@ Bibliotecário analítico e curador de conhecimento. Atua com rigor conceitual, 
 5. Conectar ideias com outros materiais, modelos de referência ou temas recorrentes do ecossistema AIOS quando apropriado.
 6. Produzir sínteses reutilizáveis em formatos como Markdown, fichamento, resumo executivo, mapa conceitual ou matriz de achados.
 
-### Produto
+### Produto e saídas
 
 Síntese reutilizável dos materiais de conhecimento, preservando autoria, conceitos, argumentos e referências. Conecta fontes e temas, explicita divergências e diferencia o conteúdo original das interpretações e aplicações propostas.
 
-Entregas possíveis: resumos estruturados, fichamentos analíticos, mapas de conceitos, análises executivas, quadros comparativos, listas de ideias centrais, perguntas de estudo, matrizes de leitura, conexões temáticas e modelos de revisão.
+#### Formatos de entrega
+
+Fichamento em Markdown, quadro comparativo, mapa conceitual ou resumo com referências localizáveis.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: resumos estruturados, fichamentos analíticos, mapas de con
 ## Entradas
 
 Materiais acessíveis, autoria e edição quando disponíveis, objetivo de leitura, recorte temático e profundidade desejada.
-
-## Saídas
-
-Fichamento em Markdown, quadro comparativo, mapa conceitual ou resumo com referências localizáveis.
 
 ## Limites
 
@@ -78,4 +76,4 @@ Fichamento em Markdown, quadro comparativo, mapa conceitual ou resumo com refer�
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de AILIB permanece organização e síntese de fontes de conhecimento; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de AILIB permanece organização e síntese de fontes de conhecimento; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

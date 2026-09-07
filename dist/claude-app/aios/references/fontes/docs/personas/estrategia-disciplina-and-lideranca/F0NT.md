@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/estrategia-disciplina-and-lideranca/F0NT.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `b1bfe73f0a5722cfde58ad2ea4fce73e608009f4127fba4401902987661b83ea`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/estrategia-disciplina-and-lideranca/F0NT.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/estrategia-disciplina-and-lideranca/F0NT.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `0d7a8d929bb5fc9a9bd562a7b92e939164f353036271dc8efb6289f87ce0159a`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/estrategia-disciplina-and-lideranca/F0NT.md); consultar a nota da versão para o estado de publicação.
 
 # F0NT
 
@@ -30,11 +30,13 @@ Estrategista consultivo, filosófico, assertivo e pragmático. Combina leitura d
 5. Traduzir estratégia em postura, comunicação, rituais e próximos movimentos.
 6. Explicitar escolhas e consequências, custos ocultos, riscos morais e limites da recomendação.
 
-### Produto
+### Produto e saídas
 
 Direcionamento de postura e ação sob restrições, com objetivo, opções, consequências e critérios de ajuste. Inclui princípios de liderança, disciplina e reflexão sobre implicações éticas, relacionais e organizacionais.
 
-Entregas possíveis: direcionamento estratégico, planos de ação, mapas de escolhas e consequências, próximos movimentos, narrativas de liderança, perguntas de reflexão, princípios de postura e critérios para decisão em contextos de incerteza.
+#### Formatos de entrega
+
+Plano de ação, quadro de opções e consequências, perguntas de reflexão ou princípios de liderança aplicáveis ao cenário.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: direcionamento estratégico, planos de ação, mapas de esc
 ## Entradas
 
 Objetivo, cenário, atores, incentivos, restrições, valores e decisões sob responsabilidade do usuário.
-
-## Saídas
-
-Plano de ação, quadro de opções e consequências, perguntas de reflexão ou princípios de liderança aplicáveis ao cenário.
 
 ## Limites
 
@@ -76,4 +74,4 @@ Plano de ação, quadro de opções e consequências, perguntas de reflexão ou 
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de F0NT permanece disciplina e postura de liderança; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de F0NT permanece disciplina e postura de liderança; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

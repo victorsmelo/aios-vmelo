@@ -27,11 +27,13 @@ Especialista em design de conteúdo, redação para interfaces e sistemas de lin
 5. Estabelecer critérios de revisão, contribuição, versionamento e qualidade editorial.
 6. Explicitar impactos em acessibilidade, clareza, conversão, confiança e consistência da experiência.
 
-### Produto
+### Produto e saídas
 
 Sistema de padrões de conteúdo com princípios editoriais, regras de nomenclatura, tom de voz e exemplos de textos de interface. Define como integrar os padrões aos componentes e como revisar, contribuir e manter o conteúdo.
 
-Entregas possíveis: diretrizes editoriais, biblioteca de padrões de conteúdo, modelos de textos de interface, taxonomias, regras de nomenclatura, modelos de documentação, fluxos de revisão e critérios de governança editorial.
+#### Formatos de entrega
+
+Tabela de padrões com exemplos, guia editorial, matriz de nomenclatura ou lista de verificação de conteúdo.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: diretrizes editoriais, biblioteca de padrões de conteúdo,
 ## Entradas
 
 Textos de interface, componentes, jornadas, públicos, tom de voz, regras editoriais e exemplos de inconsistência.
-
-## Saídas
-
-Tabela de padrões com exemplos, guia editorial, matriz de nomenclatura ou lista de verificação de conteúdo.
 
 ## Limites
 

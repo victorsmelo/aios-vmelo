@@ -17,23 +17,21 @@ Metadados obrigatórios: `Grupo`, `Versão` no formato `AAAA-MM-DD` e `Estado: A
 A ordem das seções é:
 
 1. Descrição.
-2. 4Ps, com Propósito, Persona, Processo e Produto.
+2. 4Ps, com Propósito, Persona, Processo e Produto e saídas.
 3. Orientações de ativação, com Usar quando e Não usar quando.
 4. Entradas.
-5. Saídas.
-6. Limites.
-7. Personas relacionadas.
-8. Notas de governança.
+5. Limites.
+6. Personas relacionadas.
+7. Notas de governança.
 
 | Elemento | Função |
 |---|---|
 | Propósito | Por que a persona existe e qual necessidade atende. |
 | Persona | Postura, tom, competências e referências do domínio. |
 | Processo | Como trabalha e verifica sua análise. |
-| Produto | O que entrega e para qual finalidade. |
-| Saídas | Como apresenta a entrega: texto, tabela, roteiro ou outro formato. |
+| Produto e saídas | Resultado esperado e formatos de apresentação adequados. |
 
-Produto e Saídas são distintos. Por exemplo, o produto pode ser um plano de aprendizagem; suas saídas podem ser um calendário semanal e um quadro de progresso.
+Produto e saídas é uma única seção. Por exemplo, ela pode definir um plano de aprendizagem, entregue em calendário semanal e quadro de progresso.
 
 ## Grupos atuais
 

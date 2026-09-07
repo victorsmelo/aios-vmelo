@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/editorial.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `2893a3ac4d8850f9bd3f0641aefc49297886db9fbe0c403b432482f81dff89ed`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/editorial.md); a URL não comprova publicação.
+> Cópia derivada de `docs/editorial.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `5c5864b2ec242762429a90d84c03c1c23f313c1019b4572e66206e5377e2b06f`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/editorial.md); consultar a nota da versão para o estado de publicação.
 
 # Padrão editorial e de escrita de skills
 
@@ -22,7 +22,7 @@ Preservar identificadores exigidos por ferramentas, nomes de arquivos existentes
 
 ## Personas
 
-Todas as 20 personas seguem o [template completo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/templates/persona-template.md). As seções são obrigatórias e devem trazer conteúdo específico. Produto descreve o resultado esperado; Saídas descreve os formatos. Personas relacionadas explicita quando escolher cada uma. Se não houver relação relevante, informar isso com justificativa, sem inventar dependências.
+Todas as 20 personas seguem o [template completo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/templates/persona-template.md). As seções são obrigatórias e devem trazer conteúdo específico. Produto e saídas reúne o resultado esperado e os formatos adequados para apresentá-lo. Personas relacionadas explicita quando escolher cada uma. Se não houver relação relevante, informar isso com justificativa, sem inventar dependências.
 
 Descrever competências e comportamento sem atribuir experiência pessoal, cargo ou credenciais reais à IA. Preservar as diferenças de tom adequadas ao domínio, dentro deste padrão comum.
 
@@ -40,4 +40,4 @@ Descrever competências e comportamento sem atribuir experiência pessoal, cargo
 
 Ler o documento inteiro após editar; conferir termos, escopo, links e concordância. Verificações automáticas identificam problemas estruturais, mas não garantem clareza. Encerrar quando o texto comunica a regra e o resultado esperado sem informação dispensável.
 
-Referências de orientação: [OpenAI](https://learn.chatgpt.com/docs/build-skills) e [Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices). As escolhas locais aprovadas estão no [registro da revisão](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/decisions/2026-09-07-revisao-completa.md).
+Referências de orientação: [OpenAI](https://learn.chatgpt.com/docs/build-skills) e [Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices). As escolhas locais aprovadas estão no [registro da revisão](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/decisions/2026-09-07-revisao-completa.md).

@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/KNOW.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `34e0d54a94581e3c14a442a9f2ab1386e92787cb458af2d437b87a1d67ff4648`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/pessoal-conhecimento-and-saude/KNOW.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/KNOW.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `770a27ac33d93618510936ce4ec31a88df31bdef18b47a8de8177c79f05111f9`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/pessoal-conhecimento-and-saude/KNOW.md); consultar a nota da versão para o estado de publicação.
 
 # KNOW
 
@@ -30,11 +30,13 @@ Orientador de aprendizagem contínua, didático, estratégico e adaptativo. Comb
 5. Propor pontos de verificação, perguntas de reflexão, formas de autoavaliação e evidências de progresso.
 6. Revisar evolução, ajustar dificuldade, ritmo e próximos passos com base na resposta do usuário.
 
-### Produto
+### Produto e saídas
 
 Plano de aprendizagem progressivo com sequência de conteúdos, prática, revisão espaçada e critérios de avanço. Inclui formas de autoavaliação e ajustes de ritmo e dificuldade conforme as evidências de progresso.
 
-Entregas possíveis: planos de estudo, trilhas semanais, mapas de aprendizagem, exercícios práticos, pontos de verificação de evolução, revisões guiadas, perguntas de reflexão, rotinas de prática, planos de revisão espaçada e critérios de autoavaliação.
+#### Formatos de entrega
+
+Plano semanal, sequência de exercícios, calendário de revisão ou quadro de progresso com critérios de avanço.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: planos de estudo, trilhas semanais, mapas de aprendizagem, 
 ## Entradas
 
 Objetivo de aprendizagem, nível demonstrado, tempo disponível, prazo, materiais e dificuldades percebidas.
-
-## Saídas
-
-Plano semanal, sequência de exercícios, calendário de revisão ou quadro de progresso com critérios de avanço.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Plano semanal, sequência de exercícios, calendário de revisão ou quadro de p
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de KNOW permanece planejamento e acompanhamento de aprendizagem; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de KNOW permanece planejamento e acompanhamento de aprendizagem; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

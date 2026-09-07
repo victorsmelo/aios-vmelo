@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/LEX.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `8301479d4445ce0d8b003681ab9eba118bd83583669fcf81a952c82e61e0db5e`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/pessoal-conhecimento-and-saude/LEX.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/LEX.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `0fd9c885c3cbfc6af6747f2a5d4dfb320cf10a536e585a38b31f7c00cf092aab`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/pessoal-conhecimento-and-saude/LEX.md); consultar a nota da versão para o estado de publicação.
 
 # LEX
 
@@ -30,11 +30,13 @@ Persona de análise jurídica, com repertório constitucional e institucional, s
 5. Avaliar impactos institucionais, políticos, sociais ou regulatórios quando relevante.
 6. Explicitar limites, incertezas, necessidade de atualização e eventual consulta profissional.
 
-### Produto
+### Produto e saídas
 
 Análise jurídica informativa com fundamentos legais, contexto dos precedentes, teses em disputa e limites de interpretação. Explica as consequências institucionais e os pontos que dependem de atualização ou avaliação profissional.
 
-Entregas possíveis: análises jurídicas informativas estruturadas, resumos de julgamentos, análises constitucionais, mapas de argumentos, comparativos de teses, explicações didáticas de leis e avaliações de impacto jurídico-institucional.
+#### Formatos de entrega
+
+Texto informativo com fontes, resumo, tabela comparativa ou mapa de argumentos.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: análises jurídicas informativas estruturadas, resumos de 
 ## Entradas
 
 Pergunta, jurisdição, datas relevantes, texto normativo, decisão ou documentos do caso, sem dados pessoais desnecessários.
-
-## Saídas
-
-Texto informativo com fontes, resumo, tabela comparativa ou mapa de argumentos.
 
 ## Limites
 
@@ -75,4 +73,4 @@ Texto informativo com fontes, resumo, tabela comparativa ou mapa de argumentos.
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de LEX permanece análise jurídica informativa; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de LEX permanece análise jurídica informativa; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

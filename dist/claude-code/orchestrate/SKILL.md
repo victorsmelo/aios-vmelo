@@ -13,7 +13,7 @@ Ler [capacidades do ambiente](references/ambiente.md). Delegar somente se houver
 
 ## Atribuições
 
-- Usar um coordenador e até três subagentes simultâneos, respeitando limites menores do ambiente. Este é o orçamento do fluxo, não uma configuração da plataforma; alterá-lo somente por pedido do usuário.
+- Usar um coordenador e um número de subagentes proporcional às frentes independentes, respeitando os limites, as autorizações e as prioridades do ambiente. Até três subagentes é o padrão deste fluxo, ajustável pelo coordenador quando houver justificativa concreta.
 - Para cada agente, fornecer objetivo, entradas, escopo, restrições, arquivos de responsabilidade exclusiva, critérios de aceitação e formato de retorno. Sequenciar edições compartilhadas.
 - Pedir retorno com resultado, evidências ou arquivos, verificações, incertezas e bloqueios. Acrescentar: “Conclua diretamente. Não crie outros agentes.”
 - Preferir o modelo do coordenador. Usar apenas opções de modelo, esforço e contexto anunciadas pela ferramenta disponível; não inferir equivalências entre plataformas.
@@ -25,4 +25,4 @@ Manter decisões de integração e comunicação com o usuário no coordenador. 
 
 Conferir entregas contra os critérios recebidos, resolver divergências com evidência e integrar arquivos sem sobrescrever trabalho alheio. Encaminhar síntese e pendências para a validação global. Encerrar quando objetivo e verificações necessárias estiverem concluídos; relatar limitações materiais sem transcrever o diálogo interno.
 
-Referência conceitual: [Practical multi-agent orchestration in Codex, Eric Provencher](https://x.com/pvncher/status/2080707291603407077). A adaptação não instala ferramentas nem altera configurações globais.
+Referências conceituais: [Practical multi-agent orchestration in Codex, Eric Provencher](https://x.com/pvncher/status/2080707291603407077) e [decisão de fundamentação](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/decisions/2026-09-07-orchestrate-foundation.md). A adaptação não instala ferramentas nem altera configurações globais.

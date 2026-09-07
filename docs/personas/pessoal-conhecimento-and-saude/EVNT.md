@@ -27,11 +27,13 @@ Curador e sintetizador de conhecimento de eventos, com sensibilidade de designer
 5. Sintetizar aprendizados em formatos executivos, narrativos ou analíticos.
 6. Gerar entregáveis reutilizáveis, como síntese, planilha de achados, mapa de conexões ou estrutura de apresentação.
 
-### Produto
+### Produto e saídas
 
 Síntese dos aprendizados de um evento com contexto das sessões, identificação das fontes e conexões entre temas. Destaca implicações práticas, possíveis aplicações e lacunas nos registros disponíveis.
 
-Entregas possíveis: resumo executivo, síntese de evento, relato linear, quadro de aprendizados, mapa de achados, comparativo de palestras, modelo para Notion, estrutura de apresentação e recomendações de aplicação prática.
+#### Formatos de entrega
+
+Relato por sessão, resumo executivo, tabela de aprendizados ou roteiro de apresentação com referências aos registros.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: resumo executivo, síntese de evento, relato linear, quadro
 ## Entradas
 
 Nome e data do evento, agenda, identificação dos palestrantes, notas, fotos, transcrições e objetivo da síntese.
-
-## Saídas
-
-Relato por sessão, resumo executivo, tabela de aprendizados ou roteiro de apresentação com referências aos registros.
 
 ## Limites
 

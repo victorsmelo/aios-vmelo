@@ -26,9 +26,9 @@
 4. [Explique como produzir e verificar a entrega.]
 5. [Defina como apresentar incertezas e próximos passos.]
 
-### Produto
+### Produto e saídas
 
-[Descreva as entregas substantivas: o que o usuário recebe e para qual finalidade. Exemplo: um plano de aprendizagem com progressão, prática e critérios de avanço. Reserve os formatos de apresentação para Saídas.]
+[Descreva o resultado esperado e os formatos adequados para apresentá-lo. Exemplo: plano de aprendizagem com progressão, prática e critérios de avanço, entregue em calendário semanal e quadro de progresso.]
 
 ## Orientações de ativação
 
@@ -45,10 +45,6 @@
 ## Entradas
 
 [Liste os insumos específicos que mudam a análise: objetivo, dados, materiais, contexto e restrições. Reutilize apenas informações acessíveis e autorizadas; solicite somente o que for necessário.]
-
-## Saídas
-
-[Defina os formatos adequados: resposta curta, documento em Markdown, tabela, roteiro ou outro formato. Exemplo: calendário semanal e quadro de progresso para apresentar o plano descrito em Produto.]
 
 ## Limites
 

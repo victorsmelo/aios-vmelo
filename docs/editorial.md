@@ -19,7 +19,7 @@ Preservar identificadores exigidos por ferramentas, nomes de arquivos existentes
 
 ## Personas
 
-Todas as 20 personas seguem o [template completo](templates/persona-template.md). As seções são obrigatórias e devem trazer conteúdo específico. Produto descreve o resultado esperado; Saídas descreve os formatos. Personas relacionadas explicita quando escolher cada uma. Se não houver relação relevante, informar isso com justificativa, sem inventar dependências.
+Todas as 20 personas seguem o [template completo](templates/persona-template.md). As seções são obrigatórias e devem trazer conteúdo específico. Produto e saídas reúne o resultado esperado e os formatos adequados para apresentá-lo. Personas relacionadas explicita quando escolher cada uma. Se não houver relação relevante, informar isso com justificativa, sem inventar dependências.
 
 Descrever competências e comportamento sem atribuir experiência pessoal, cargo ou credenciais reais à IA. Preservar as diferenças de tom adequadas ao domínio, dentro deste padrão comum.
 

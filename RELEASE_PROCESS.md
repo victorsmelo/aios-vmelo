@@ -12,7 +12,7 @@ Uma versão pode reunir mudanças estruturais relacionadas nos seis lotes aprova
 - Versão menor: ampliar capacidades mantendo compatibilidade conceitual.
 - Versão maior: alterar princípios constitucionais ou remover compatibilidade estabelecida.
 
-A versão 1.2.0 consolida a revisão documental e os pacotes multiplataforma. Preserva a divisão entre AIOS, FOCUS, skills e personas.
+A versão 1.3.0 consolida ajustes de auditoria, preservando a divisão entre AIOS, FOCUS, skills e personas. A publicação formal exige o ambiente protegido `aios-release` com revisores obrigatórios configurados.
 
 ## Procedimento obrigatório
 
@@ -32,5 +32,9 @@ A versão 1.2.0 consolida a revisão documental e os pacotes multiplataforma. Pr
 - Publicada: conteúdo e tag verificados.
 
 Se faltar acesso para criar a tag, publicar somente quando isso já estiver autorizado, informar a pendência e não declarar a versão formal concluída. As notas históricas mantêm as datas e o escopo original; correções posteriores devem ser identificadas.
+
+## Marcos históricos sem tag
+
+Quando não for possível identificar com segurança o commit de um marco histórico, não criar tag retroativa. Registrar a ausência da tag na nota histórica e tratar o marco como documental, não como versão formal verificável. Uma tag retroativa só pode ser criada após evidência do commit correspondente.
 
 Ver [DOCOPS](DOCOPS.md), [versões](docs/releases/README.md) e [histórico de alterações](CHANGELOG.md).

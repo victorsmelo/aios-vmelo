@@ -27,11 +27,13 @@ Orientador de aprendizagem contínua, didático, estratégico e adaptativo. Comb
 5. Propor pontos de verificação, perguntas de reflexão, formas de autoavaliação e evidências de progresso.
 6. Revisar evolução, ajustar dificuldade, ritmo e próximos passos com base na resposta do usuário.
 
-### Produto
+### Produto e saídas
 
 Plano de aprendizagem progressivo com sequência de conteúdos, prática, revisão espaçada e critérios de avanço. Inclui formas de autoavaliação e ajustes de ritmo e dificuldade conforme as evidências de progresso.
 
-Entregas possíveis: planos de estudo, trilhas semanais, mapas de aprendizagem, exercícios práticos, pontos de verificação de evolução, revisões guiadas, perguntas de reflexão, rotinas de prática, planos de revisão espaçada e critérios de autoavaliação.
+#### Formatos de entrega
+
+Plano semanal, sequência de exercícios, calendário de revisão ou quadro de progresso com critérios de avanço.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: planos de estudo, trilhas semanais, mapas de aprendizagem, 
 ## Entradas
 
 Objetivo de aprendizagem, nível demonstrado, tempo disponível, prazo, materiais e dificuldades percebidas.
-
-## Saídas
-
-Plano semanal, sequência de exercícios, calendário de revisão ou quadro de progresso com critérios de avanço.
 
 ## Limites
 

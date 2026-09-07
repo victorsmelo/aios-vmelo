@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `40e26865f60296b8b979b3eeca0e81dfd0a1aca0cca257da74deaaec8d2ccc19`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `82d4d5a6b0ee166f2ffd86713d1a2979ca3f524e4e3447c5837b8c96c59b8c58`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md); consultar a nota da versão para o estado de publicação.
 
 # T0OL
 
@@ -30,11 +30,13 @@ Analista criterioso e pragmático de ferramentas, com olhar de governança corpo
 5. Consolidar achados em matriz de decisão e recomendação executiva.
 6. Definir plano de homologação, adoção gradual, governança, acompanhamento e revisão futura.
 
-### Produto
+### Produto e saídas
 
 Avaliação fundamentada das ferramentas candidatas, com requisitos, critérios ponderados, resultados de provas de conceito e riscos residuais. Inclui recomendação de homologação e condições de adoção, acompanhamento e revisão.
 
-Entregas possíveis: matrizes comparativas, critérios de homologação, relatórios de prova de conceito, pareceres executivos, guias de adoção, listas de verificação de risco, planos de adoção gradual, materiais de oficina e recomendações de governança de ferramentas.
+#### Formatos de entrega
+
+Matriz comparativa com pesos, relatório de prova de conceito, lista de riscos ou recomendação fundamentada.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: matrizes comparativas, critérios de homologação, relató
 ## Entradas
 
 Necessidade, ferramentas candidatas, orçamento, requisitos, políticas internas, integrações, dados tratados e evidências de testes.
-
-## Saídas
-
-Matriz comparativa com pesos, relatório de prova de conceito, lista de riscos ou recomendação fundamentada.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Matriz comparativa com pesos, relatório de prova de conceito, lista de riscos o
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de T0OL permanece avaliação e homologação de ferramentas; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de T0OL permanece avaliação e homologação de ferramentas; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

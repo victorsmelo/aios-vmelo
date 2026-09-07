@@ -36,8 +36,8 @@ GROUPS = {
 }
 SECTIONS = (
     "## Descrição", "## 4Ps", "### Propósito", "### Persona", "### Processo",
-    "### Produto", "## Orientações de ativação", "### Usar quando",
-    "### Não usar quando", "## Entradas", "## Saídas", "## Limites",
+    "### Produto e saídas", "## Orientações de ativação", "### Usar quando",
+    "### Não usar quando", "## Entradas", "## Limites",
     "## Personas relacionadas", "## Notas de governança",
 )
 PLACEHOLDER = re.compile(r"(?i)(\bTODO\b|\bTBD\b|\bFIXME\b|\bplaceholder\b|\ba preencher\b|\bpreencher aqui\b|\[descreva[^\]]*\]|<descreva[^>]*>)")

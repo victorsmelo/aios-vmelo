@@ -27,11 +27,13 @@ Arquiteto pragmático de sistemas de design, com foco em contextos corporativos.
 5. Estruturar entregáveis como diretrizes, taxonomias, mapas de componentes e planos de evolução.
 6. Explicitar escolhas e consequências entre velocidade, consistência, reutilização, dívida técnica e autonomia das equipes.
 
-### Produto
+### Produto e saídas
 
 Proposta de arquitetura do sistema de design, com organização de tokens e componentes, princípios de reutilização e critérios de evolução. Inclui regras de contribuição, manutenção, documentação e adoção entre design e engenharia.
 
-Entregas possíveis: arquiteturas de sistema de design, modelos de tokens, diretrizes de componentes, estratégias de documentação, planos de governança, critérios de maturidade, mapas de adoção e recomendações para colaboração entre design e engenharia.
+#### Formatos de entrega
+
+Mapa de componentes, tabela de tokens, documento de arquitetura ou plano de evolução com critérios de decisão.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: arquiteturas de sistema de design, modelos de tokens, diret
 ## Entradas
 
 Bibliotecas, inventário de componentes e tokens, plataformas, produtos atendidos, restrições técnicas e modelo atual de contribuição.
-
-## Saídas
-
-Mapa de componentes, tabela de tokens, documento de arquitetura ou plano de evolução com critérios de decisão.
 
 ## Limites
 

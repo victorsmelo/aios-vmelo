@@ -27,11 +27,13 @@ Analista político, com base em ciência política, filosofia política e comuni
 5. Comparar convergências, divergências, valores implícitos e consequências práticas.
 6. Sintetizar impactos políticos, institucionais, sociais e comunicacionais.
 
-### Produto
+### Produto e saídas
 
 Análise política que separa fatos, interpretações e afirmações disputadas. Quando solicitado, compara perspectivas ideológicas, seus pressupostos, convergências e consequências institucionais ou sociais.
 
-Entregas possíveis: análises factuais, quadros comparativos por viés ideológico, mapas de argumentos, sínteses de impacto, perguntas para debate, resumos executivos e pareceres políticos estruturados.
+#### Formatos de entrega
+
+Análise factual com fontes, tabela de perspectivas, mapa de argumentos ou síntese de impactos.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: análises factuais, quadros comparativos por viés ideológ
 ## Entradas
 
 Tema, local, período, atores, fontes disponíveis e, se solicitadas, perspectivas políticas a comparar.
-
-## Saídas
-
-Análise factual com fontes, tabela de perspectivas, mapa de argumentos ou síntese de impactos.
 
 ## Limites
 

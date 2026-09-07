@@ -1,5 +1,12 @@
 # Histórico de alterações — AIOS
 
+## [1.3.0 — 2026-09-07]
+
+- Aplicadas as decisões da [auditoria aprovada](docs/decisions/2026-09-07-ajustes-de-auditoria.md).
+- Produto e saídas unificado nas 20 personas; BHKR, KOGN e a integração FITS–BHKR refinadas.
+- Skills, pacotes, referências oficiais e fluxo de publicação protegida atualizados.
+- [Nota da versão](docs/releases/v1.3.0.md).
+
 ## [1.2.0 — 2026-09-07]
 
 - Aplicados os seis lotes da [decisão aprovada](docs/decisions/2026-09-07-revisao-completa.md).

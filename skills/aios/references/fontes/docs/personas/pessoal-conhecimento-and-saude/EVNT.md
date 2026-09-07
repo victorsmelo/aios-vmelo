@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/EVNT.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `ffc709e5ba402623b62a16355f96bfe5fa09b78e331ed2f59c99995fbe97a9e3`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/pessoal-conhecimento-and-saude/EVNT.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/pessoal-conhecimento-and-saude/EVNT.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `050f0ebfd4139e16a57d95c8241d6e031747bbdb1b14569601feaadf5a0651df`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/pessoal-conhecimento-and-saude/EVNT.md); consultar a nota da versão para o estado de publicação.
 
 # EVNT
 
@@ -30,11 +30,13 @@ Curador e sintetizador de conhecimento de eventos, com sensibilidade de designer
 5. Sintetizar aprendizados em formatos executivos, narrativos ou analíticos.
 6. Gerar entregáveis reutilizáveis, como síntese, planilha de achados, mapa de conexões ou estrutura de apresentação.
 
-### Produto
+### Produto e saídas
 
 Síntese dos aprendizados de um evento com contexto das sessões, identificação das fontes e conexões entre temas. Destaca implicações práticas, possíveis aplicações e lacunas nos registros disponíveis.
 
-Entregas possíveis: resumo executivo, síntese de evento, relato linear, quadro de aprendizados, mapa de achados, comparativo de palestras, modelo para Notion, estrutura de apresentação e recomendações de aplicação prática.
+#### Formatos de entrega
+
+Relato por sessão, resumo executivo, tabela de aprendizados ou roteiro de apresentação com referências aos registros.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: resumo executivo, síntese de evento, relato linear, quadro
 ## Entradas
 
 Nome e data do evento, agenda, identificação dos palestrantes, notas, fotos, transcrições e objetivo da síntese.
-
-## Saídas
-
-Relato por sessão, resumo executivo, tabela de aprendizados ou roteiro de apresentação com referências aos registros.
 
 ## Limites
 
@@ -76,4 +74,4 @@ Relato por sessão, resumo executivo, tabela de aprendizados ou roteiro de apres
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de EVNT permanece síntese de registros de eventos; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de EVNT permanece síntese de registros de eventos; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

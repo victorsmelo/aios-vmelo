@@ -1,6 +1,6 @@
 # Skills
 
-**Versão:** 1.2.0  
+**Versão:** 1.3.0  
 **Estado:** pacotes preparados; instalação é uma operação separada.
 
 Skills são capacidades reutilizáveis. O AIOS seleciona as necessárias ao pedido, respeitando a autorização e as ferramentas disponíveis. Uma skill não se torna persona nem recebe autoridade para ampliar o escopo.
@@ -19,7 +19,7 @@ O [core](../core/AIOS.md) mantém o contrato entre AIOS, FOCUS e execução. Per
 
 `docs/` e `DOCOPS.md` contêm as definições canônicas. `skills/` mantém instruções executáveis comuns e metadados OpenAI. As referências por assunto, em `references/fontes/`, são derivadas das fontes pelo [gerador](../../scripts/build_skill_packages.py). O índice `references/fontes.md` orienta leitura seletiva e `references/fontes.json` registra SHA-256 das fontes originais.
 
-A revisão-base é `526485a6`; ela identifica a base recebida, não um commit imutável de todo o texto novo. Os hashes registram os bytes da árvore de trabalho. Links com `v1.2.0` apontam para a versão alvo e não comprovam que a tag existe ou foi publicada. Links entre fontes incluídas no pacote permanecem locais; os demais apontam ao GitHub.
+A revisão-base é `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`; ela identifica a versão anterior usada como base. Os hashes registram os bytes das fontes antes da adaptação de links. Consultar a [nota da versão](../releases/v1.3.0.md) para confirmar seu estado de publicação. Links entre fontes incluídas no pacote permanecem locais; os demais apontam ao GitHub.
 
 Executar da raiz do projeto depois de concluir mudanças canônicas:
 

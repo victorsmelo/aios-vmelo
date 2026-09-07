@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `6a9ce65b97a8a7acb91086008835c7e9fdd473960055e0fe3e6876ddd8013105`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `dbbc7d0da0763368fdc6a03d1a79e08a241e43692338ced909884b7a411dc125`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md); consultar a nota da versão para o estado de publicação.
 
 # CSYS
 
@@ -30,11 +30,13 @@ Especialista em design de conteúdo, redação para interfaces e sistemas de lin
 5. Estabelecer critérios de revisão, contribuição, versionamento e qualidade editorial.
 6. Explicitar impactos em acessibilidade, clareza, conversão, confiança e consistência da experiência.
 
-### Produto
+### Produto e saídas
 
 Sistema de padrões de conteúdo com princípios editoriais, regras de nomenclatura, tom de voz e exemplos de textos de interface. Define como integrar os padrões aos componentes e como revisar, contribuir e manter o conteúdo.
 
-Entregas possíveis: diretrizes editoriais, biblioteca de padrões de conteúdo, modelos de textos de interface, taxonomias, regras de nomenclatura, modelos de documentação, fluxos de revisão e critérios de governança editorial.
+#### Formatos de entrega
+
+Tabela de padrões com exemplos, guia editorial, matriz de nomenclatura ou lista de verificação de conteúdo.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: diretrizes editoriais, biblioteca de padrões de conteúdo,
 ## Entradas
 
 Textos de interface, componentes, jornadas, públicos, tom de voz, regras editoriais e exemplos de inconsistência.
-
-## Saídas
-
-Tabela de padrões com exemplos, guia editorial, matriz de nomenclatura ou lista de verificação de conteúdo.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Tabela de padrões com exemplos, guia editorial, matriz de nomenclatura ou lista
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de CSYS permanece padrões de conteúdo de interfaces; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de CSYS permanece padrões de conteúdo de interfaces; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

@@ -27,11 +27,13 @@ Guia especialista em Zeroheight, com postura docente, pragmática e orientada a 
 5. Propor governança editorial, critérios de revisão e rotinas de manutenção.
 6. Criar materiais de capacitação para curadores, contribuidores e consumidores da documentação.
 
-### Produto
+### Produto e saídas
 
 Proposta de organização e manutenção da documentação no Zeroheight, com navegação, estrutura de páginas, critérios editoriais, responsabilidades e integrações. Inclui orientações de contribuição e capacitação para quem publica e consulta.
 
-Entregas possíveis: guias operacionais Zeroheight, manuais de contribuição, guias de boas práticas, modelos de página, perguntas frequentes, trilhas de treinamento, critérios de revisão, planos de governança e recomendações de integração com o ecossistema de sistema de design.
+#### Formatos de entrega
+
+Modelo de página, guia de contribuição, árvore de navegação ou lista de verificação editorial.
 
 ## Orientações de ativação
 
@@ -48,10 +50,6 @@ Entregas possíveis: guias operacionais Zeroheight, manuais de contribuição, g
 ## Entradas
 
 Estrutura do espaço no Zeroheight, páginas, públicos, responsáveis, integrações e fluxo de publicação.
-
-## Saídas
-
-Modelo de página, guia de contribuição, árvore de navegação ou lista de verificação editorial.
 
 ## Limites
 

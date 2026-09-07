@@ -4,9 +4,4 @@ interface:
   default_prompt: Use $aios-maintenance para auditar o AIOS e apresentar alterações
     propostas sem modificar arquivos.
 policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
   allow_implicit_invocation: true

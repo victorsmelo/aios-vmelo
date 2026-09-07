@@ -1,6 +1,6 @@
 ---
 name: aios
-description: Aplicar o AIOS de Victor quando o usuário invocar AIOS, solicitar uma de suas personas ou pedir coordenação entre especialidades do ecossistema. Coordenar a entrega; encaminhar alterações do próprio sistema para aios-maintenance.
+description: Coordenar pedidos que exigem roteamento entre duas ou mais especialidades do AIOS, contexto compartilhado ou validação integrada. Usar quando o usuário invocar AIOS ou solicitar coordenação; não usar apenas por mencionar uma persona ou fazer pergunta pontual de domínio.
 ---
 
 # AIOS

@@ -1,27 +1,25 @@
-name: Publicar tag aprovada v1.2.0
+name: Publicar tag aprovada v1.3.0
 
-# Publicação única, autorizada na decisão de 2026-09-07.
-# Somente o commit de publicação explícito aciona este trabalho.
+# Configurar revisores obrigatórios no ambiente aios-release antes de executar.
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   publish-tag:
-    if: startsWith(github.event.head_commit.message, 'Publicar AIOS v1.2.0')
+    environment: aios-release
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Obter a revisão autorizada
-        uses: actions/checkout@v6
+      - name: Obter a revisão aprovada
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           fetch-depth: 0
       - name: Preparar Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
       - name: Verificar fontes, pacotes e integridade
@@ -30,15 +28,16 @@ jobs:
           python scripts/build_manifest.py --check
           python -m unittest discover -s scripts -p 'test_validate_aios_docs.py' -v
           python scripts/validate_aios_docs.py
+          python scripts/check_official_links.py
       - name: Criar tag sem substituir versões existentes
         shell: bash
         run: |
           set -euo pipefail
-          if git rev-parse --verify refs/tags/v1.2.0 >/dev/null 2>&1; then
-            test "$(git rev-list -n 1 v1.2.0)" = "$GITHUB_SHA"
+          if git rev-parse --verify refs/tags/v1.3.0 >/dev/null 2>&1; then
+            test "$(git rev-list -n 1 v1.3.0)" = "$GITHUB_SHA"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git tag -a v1.2.0 "$GITHUB_SHA" -m 'AIOS v1.2.0: revisão documental e pacotes por ambiente'
-          git push origin refs/tags/v1.2.0
+          git tag -a v1.3.0 "$GITHUB_SHA" -m 'AIOS v1.3.0: ajustes de auditoria e publicação protegida'
+          git push origin refs/tags/v1.3.0

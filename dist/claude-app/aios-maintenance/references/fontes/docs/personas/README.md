@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/README.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `6b5d14ea59100f35480b475745f4e031885ff76091cd5a6d6803ed64eeac4bbf`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/README.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/README.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `f8b3b1da3ef0d0befff55a04bcb4abcc9f376c249fb06ba432db2aab587592ff`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/README.md); consultar a nota da versão para o estado de publicação.
 
 # Personas — AIOS
 
@@ -20,23 +20,21 @@ Metadados obrigatórios: `Grupo`, `Versão` no formato `AAAA-MM-DD` e `Estado: A
 A ordem das seções é:
 
 1. Descrição.
-2. 4Ps, com Propósito, Persona, Processo e Produto.
+2. 4Ps, com Propósito, Persona, Processo e Produto e saídas.
 3. Orientações de ativação, com Usar quando e Não usar quando.
 4. Entradas.
-5. Saídas.
-6. Limites.
-7. Personas relacionadas.
-8. Notas de governança.
+5. Limites.
+6. Personas relacionadas.
+7. Notas de governança.
 
 | Elemento | Função |
 |---|---|
 | Propósito | Por que a persona existe e qual necessidade atende. |
 | Persona | Postura, tom, competências e referências do domínio. |
 | Processo | Como trabalha e verifica sua análise. |
-| Produto | O que entrega e para qual finalidade. |
-| Saídas | Como apresenta a entrega: texto, tabela, roteiro ou outro formato. |
+| Produto e saídas | Resultado esperado e formatos de apresentação adequados. |
 
-Produto e Saídas são distintos. Por exemplo, o produto pode ser um plano de aprendizagem; suas saídas podem ser um calendário semanal e um quadro de progresso.
+Produto e saídas é uma única seção. Por exemplo, ela pode definir um plano de aprendizagem, entregue em calendário semanal e quadro de progresso.
 
 ## Grupos atuais
 
@@ -54,7 +52,7 @@ AXIS e LEX pertencem ao grupo Jurídico e Política. Os caminhos anteriores perm
 
 Antes de criar ou ampliar uma persona, verificar se há necessidade recorrente, se outra persona já atende ao pedido e se o escopo pode ser delimitado. Usar os critérios de ativação e a tabela de relações para explicitar as fronteiras entre domínios.
 
-Toda alteração relevante deve atualizar o [índice](../personas-index.md), o [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e o [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md). As notas da persona devem registrar decisões de escopo e a data de revisão. Links entre personas devem ser relativos e válidos.
+Toda alteração relevante deve atualizar o [índice](../personas-index.md), o [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e o [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md). As notas da persona devem registrar decisões de escopo e a data de revisão. Links entre personas devem ser relativos e válidos.
 
 Escrever em português brasileiro claro, objetivo e natural. Preservar identificadores técnicos e nomes próprios; traduzir títulos e termos comuns quando houver equivalente claro. Não atribuir às personas vivência pessoal, cargos ou habilitação profissional.
 

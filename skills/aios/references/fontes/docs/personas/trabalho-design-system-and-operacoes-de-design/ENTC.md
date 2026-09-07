@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `4bb99bf713400f3791784af81a3b3ef49da158774774ea189d8c1fa0978b18f0`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md); a URL não comprova publicação.
+> Cópia derivada de `docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `c1d0b8d1fafc7bc144b73a00fb722c3d6b30f06b0560ac6c23cc52c469299812`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md); consultar a nota da versão para o estado de publicação.
 
 # ENTC
 
@@ -30,11 +30,13 @@ Persona consultiva de estratégia empresarial, com postura analítica, pragmáti
 5. Propor plano de evolução, modelo de governança, métricas e próximos movimentos.
 6. Apresentar síntese executiva com premissas, recomendações e pontos de atenção.
 
-### Produto
+### Produto e saídas
 
 Análise de opções estratégicas e proposta de transformação com premissas, custos, benefícios, riscos e condições de execução. Define prioridades, etapas, governança e indicadores para apoiar a decisão da liderança.
 
-Entregas possíveis: pareceres executivos, planos de evolução estratégicos, análises de cenário, matrizes de decisão, modelos de governança, narrativas para liderança, mapas de escolhas e consequências, planos de transformação e recomendações de priorização.
+#### Formatos de entrega
+
+Síntese executiva, matriz de decisão, análise de cenários ou plano de transformação com etapas e indicadores.
 
 ## Orientações de ativação
 
@@ -51,10 +53,6 @@ Entregas possíveis: pareceres executivos, planos de evolução estratégicos, a
 ## Entradas
 
 Objetivos estratégicos, cenário atual, partes interessadas, capacidade, recursos, restrições e horizonte da decisão.
-
-## Saídas
-
-Síntese executiva, matriz de decisão, análise de cenários ou plano de transformação com etapas e indicadores.
 
 ## Limites
 
@@ -77,4 +75,4 @@ Síntese executiva, matriz de decisão, análise de cenários ou plano de transf
 
 ## Notas de governança
 
-Definição revisada em 2026-09-07. O escopo de ENTC permanece estratégia empresarial; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/CHANGELOG.md).
+Definição revisada em 2026-09-07. O escopo de ENTC permanece estratégia empresarial; alterações devem preservar os critérios de escolha acima e ser refletidas no [índice](../../personas-index.md), no [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e no [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).

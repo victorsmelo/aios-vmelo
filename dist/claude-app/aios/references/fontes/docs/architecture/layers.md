@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/architecture/layers.md` da árvore de trabalho para v1.2.0. Revisão-base: `526485a6`; conteúdo novo pode ainda não estar commitado.
-> SHA-256 da fonte antes da adaptação dos links: `a737b9cd319d671d2c6dd46c74400b56dc312d5be78ab5afc8b64573916ef0a1`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/architecture/layers.md); a URL não comprova publicação.
+> Cópia derivada de `docs/architecture/layers.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
+> SHA-256 da fonte antes da adaptação dos links: `a737b9cd319d671d2c6dd46c74400b56dc312d5be78ab5afc8b64573916ef0a1`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/architecture/layers.md); consultar a nota da versão para o estado de publicação.
 
 # Arquitetura do AIOS
 
@@ -25,4 +25,4 @@ Criar uma persona quando houver um domínio recorrente com critérios próprios.
 
 Cada pedido usa apenas os componentes necessários. O plano e a validação final permanecem no coordenador, conforme as [responsabilidades do AIOS](../core/AIOS.md). FOCUS orienta o método e orchestrate distribui trabalho independente.
 
-Ver [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/aios-persona-map.md), [personas](../personas-index.md), [protocolos](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/protocols/README.md) e [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.2.0/docs/skills/README.md).
+Ver [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md), [personas](../personas-index.md), [protocolos](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/protocols/README.md) e [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/skills/README.md).

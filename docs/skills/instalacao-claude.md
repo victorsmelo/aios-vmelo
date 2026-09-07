@@ -1,6 +1,6 @@
 # Instalação no Claude
 
-**Versão alvo:** 1.2.0  
+**Versão alvo:** 1.3.0  
 **Verificação documental:** 2026-09-07  
 **Estado:** pacotes preparados; instalação e execução no Claude pendentes.
 
