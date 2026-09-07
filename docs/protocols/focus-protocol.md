@@ -30,7 +30,7 @@ Essas etapas são operacionais, não novas funções cognitivas do acrônimo.
 - O AIOS é o único elemento autorizado a ativar FOCUS.
 - O AIOS pode ativá-lo automaticamente quando a complexidade, ambiguidade ou risco justificar.
 - Para tarefas simples, pode usar apenas as etapas necessárias.
-- A confirmação humana é exigida antes de mudanças estruturais, publicações, ações destrutivas ou outras operações determinadas pelos guardrails.
+- Solicitar confirmação humana quando exigida pelas políticas e guardrails aplicáveis, preservando autorizações explícitas já dadas ao mesmo escopo. Preparar o resultado concreto e revisável antes de solicitar uma aprovação ainda pendente; não repetir confirmações já satisfeitas.
 - O plano deve ser comunicado quando a estrutura for relevante para o usuário.
 
 ## FOCUS plan

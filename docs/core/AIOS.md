@@ -67,3 +67,5 @@ Planos de execução, sínteses, recomendações, arquivos, relatórios, código
 - Fora do AIOS, `orchestrate` continua utilizável; o coordenador principal assume plano global e validação final, respeitando o pedido e as regras do ambiente.
 
 Ver [catálogo de skills](../skills/README.md) e [decisão de integração](../decisions/2026-09-06-aios-skills-orchestration.md).
+
+A autoridade humana e a ordem entre camadas operam dentro das políticas e permissões do ambiente, que limitam todas as camadas. Essa ordem não autoriza sobrepor tais políticas.

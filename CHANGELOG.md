@@ -1,5 +1,11 @@
 # Changelog — AIOS
 
+## [2026-09-07 — Auditoria de integração]
+
+- Auditoria com orchestrate confirmou os limites entre AIOS, FOCUS e execução distribuída.
+- Esclarecidas precedência das políticas do ambiente e reutilização de autorizações existentes.
+- Referências derivadas e hashes dos pacotes atualizados.
+
 ## [2026-09-06 — Integração de skills]
 
 ### Added

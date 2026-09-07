@@ -1,11 +1,11 @@
 # Referências canônicas do AIOS
 
-Edição: 2026-09-06 — integração de skills. Snapshot derivado dos documentos desta edição; verificar hashes das fontes no manifesto do projeto. Não há sincronização automática. Para manutenção, buscar o estado atual.
+Edição: 2026-09-07 — auditoria de integração. Snapshot derivado; verificar hashes no manifesto. Não há sincronização automática. Para manutenção, buscar o estado atual.
 
 ## docs/core/AIOS.md
 
 Fonte: https://github.com/victorsmelo/aios-vmelo/blob/main/docs/core/AIOS.md
-SHA-256 da fonte nesta edição: 66ccbdb135f7c579ee4cd11920d782d1671f86692d0f01ade21d7f9de76b2b8c
+SHA-256 da fonte nesta edição: 818864308b8f30f4410760a2a5a3afcd207ebc9e3bcd6f9e0d8e659995d699fe
 
 # AIOS — Orchestrator
 
@@ -77,6 +77,8 @@ Planos de execução, sínteses, recomendações, arquivos, relatórios, código
 
 Ver [catálogo de skills](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/skills/README.md) e [decisão de integração](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/decisions/2026-09-06-aios-skills-orchestration.md).
 
+A autoridade humana e a ordem entre camadas operam dentro das políticas e permissões do ambiente, que limitam todas as camadas. Essa ordem não autoriza sobrepor tais políticas.
+
 ## docs/constitution/aios-constitution.md
 
 Fonte: https://github.com/victorsmelo/aios-vmelo/blob/main/docs/constitution/aios-constitution.md
@@ -107,7 +109,7 @@ Nem toda tarefa usa todas as etapas. O AIOS escolhe o caminho mínimo suficiente
 ## docs/protocols/focus-protocol.md
 
 Fonte: https://github.com/victorsmelo/aios-vmelo/blob/main/docs/protocols/focus-protocol.md
-SHA-256 da fonte nesta edição: 4f1d3a6f01fc48b767f01e5c7567f10f931d68e3514651a120942d288e8a8e3b
+SHA-256 da fonte nesta edição: 4097ebac59f71e25eb95d7a7969087e70544511be60520545d59d4f67751703d
 
 # FOCUS — Cognitive Protocol
 
@@ -141,7 +143,7 @@ Essas etapas são operacionais, não novas funções cognitivas do acrônimo.
 - O AIOS é o único elemento autorizado a ativar FOCUS.
 - O AIOS pode ativá-lo automaticamente quando a complexidade, ambiguidade ou risco justificar.
 - Para tarefas simples, pode usar apenas as etapas necessárias.
-- A confirmação humana é exigida antes de mudanças estruturais, publicações, ações destrutivas ou outras operações determinadas pelos guardrails.
+- Solicitar confirmação humana quando exigida pelas políticas e guardrails aplicáveis, preservando autorizações explícitas já dadas ao mesmo escopo. Preparar o resultado concreto e revisável antes de solicitar uma aprovação ainda pendente; não repetir confirmações já satisfeitas.
 - O plano deve ser comunicado quando a estrutura for relevante para o usuário.
 
 ## FOCUS plan
