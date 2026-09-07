@@ -1,6 +1,6 @@
-# AIOS System Map
+# Mapa do AIOS
 
-**Version:** 2026-09-06
+**Versão:** 2026-09-07
 
 ```mermaid
 flowchart TD
@@ -22,6 +22,7 @@ flowchart TD
   D --> PE[Pessoal]
   D --> F[Família]
   D --> E[Estratégia]
+  D --> J[Jurídico e Política]
   W --> DSYS[DSYS]
   W --> DOPS[DOPS]
   W --> CSYS[CSYS]
@@ -36,29 +37,30 @@ flowchart TD
   PE --> FITS[FITS]
   PE --> BHKR[BHKR]
   PE --> EVNT[EVNT]
-  PE --> AXIS[AXIS]
-  PE --> LEX[LEX]
+  J --> AXIS[AXIS]
+  J --> LEX[LEX]
   F --> KOGN[KOGN]
   F --> KHELP[KHELP]
   F --> SOUL[SOUL]
   E --> F0NT[F0NT]
 ```
 
-## Core references
+## Referências centrais
 
-- [AIOS core](core/AIOS.md)
-- [Constitution](constitution/aios-constitution.md)
+- [Coordenação AIOS](core/AIOS.md)
+- [Constituição](constitution/aios-constitution.md)
 - [FOCUS](protocols/focus-protocol.md)
 - [Skills](skills/README.md)
-- [Personas index](personas-index.md)
-- [Decision records](decisions/README.md)
+- [Índice de personas](personas-index.md)
+- [Decisões](decisions/README.md)
 
-## Persona groups
+## Grupos de personas
 
 - [Trabalho](personas/trabalho-design-system-and-operacoes-de-design)
 - [Pessoal](personas/pessoal-conhecimento-and-saude)
 - [Família](personas/familia-assuntos-familiares-e-escolares)
 - [Estratégia](personas/estrategia-disciplina-and-lideranca)
+- [Jurídico e Política](personas-index.md#jurídico-e-política)
 
 ## Integração de saúde e performance
 

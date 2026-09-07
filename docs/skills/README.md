@@ -1,37 +1,54 @@
 # Skills
 
-**Version:** 2026-09-06  
-**Status:** Active
+**Versão:** 1.2.0  
+**Estado:** pacotes preparados; instalação é uma operação separada.
 
-Skills are reusable capabilities or workflows. They are not personas and do not hold decision authority.
+Skills são capacidades reutilizáveis. O AIOS seleciona as necessárias ao pedido, respeitando a autorização e as ferramentas disponíveis. Uma skill não se torna persona nem recebe autoridade para ampliar o escopo.
 
-## Rules
+## Responsabilidades
 
-- The AIOS selects a skill when the task clearly matches its scope.
-- A skill cannot override human authority, environment policies or AIOS governance.
-- A skill may require mandatory preparation, validation or confirmation.
-- Missing, unavailable or blocked skills must be reported and handled with the safest viable fallback.
-- Structural changes to skills follow DOCOPS and require human review.
-- A skill may use personas, protocols, connectors and tools, but does not become their owner.
-
-Examples include document rendering, spreadsheet analysis, product-design audits, ELI5 explanations and Sites workflows.
-
-## Pacotes executáveis
-
-| Skill | Responsabilidade | Pacote |
+| Skill | Entrada | Saída |
 | --- | --- | --- |
-| aios | Coordenação global e validação final; adaptação executável do core | [aios](../../skills/aios/SKILL.md) |
-| aios-maintenance | Manutenção documental e consistência conforme DOCOPS | [aios-maintenance](../../skills/aios-maintenance/SKILL.md) |
-| orchestrate | Distribuição de atribuições e coordenação de subagentes | [orchestrate](../../skills/orchestrate/SKILL.md) |
+| [aios](../../skills/aios/SKILL.md) | Pedido, contexto e restrições | Entrega coordenada e validação final |
+| [aios-maintenance](../../skills/aios-maintenance/SKILL.md) | Pedido de auditoria, mudança ou instalação do AIOS | Achados ou mudanças verificadas, com estado de aplicação |
+| [orchestrate](../../skills/orchestrate/SKILL.md) | Plano, critérios e frentes independentes | Atribuições coordenadas e resultados integrados |
 
-A skill `aios` implementa o core no ambiente; não cria outro orquestrador acima dele. FOCUS permanece protocolo cognitivo. Personas permanecem perspectivas de domínio, sem correspondência obrigatória com agentes.
+O [core](../core/AIOS.md) mantém o contrato entre AIOS, FOCUS e execução. Personas oferecem perspectivas de domínio. A ausência de uma capacidade não deve impedir trabalho útil que possa ser feito diretamente.
 
-## Fonte e instalação
+## Fontes e geração
 
-`docs/` contém as definições canônicas; `skills/` contém os pacotes executáveis mantidos neste projeto. Snapshots em `references/` de cada pacote são derivados identificados, não fontes paralelas. Atualizar os snapshots quando uma mudança afetar suas fontes.
+`docs/` e `DOCOPS.md` contêm as definições canônicas. `skills/` mantém instruções executáveis comuns e metadados OpenAI. As referências por assunto, em `references/fontes/`, são derivadas das fontes pelo [gerador](../../scripts/build_skill_packages.py). O índice `references/fontes.md` orienta leitura seletiva e `references/fontes.json` registra SHA-256 das fontes originais.
 
-A publicação no GitHub não instala nem atualiza automaticamente a skill no ChatGPT. Para atualizar: comparar versões → revisar mudanças → validar pacote → instalar pelo mecanismo de gestão de skills → verificar o conteúdo instalado. Preservar customizações divergentes e resolver conflitos antes de substituir.
+A revisão-base é `526485a6`; ela identifica a base recebida, não um commit imutável de todo o texto novo. Os hashes registram os bytes da árvore de trabalho. Links com `v1.2.0` apontam para a versão alvo e não comprovam que a tag existe ou foi publicada. Links entre fontes incluídas no pacote permanecem locais; os demais apontam ao GitHub.
 
-O [manifesto de pacotes](../../skills/manifest.json) registra versão, caminhos e hashes SHA-256 do conteúdo desta edição. Metadados ou ícones gerados pela plataforma podem diferir; comparar os arquivos declarados. O manifesto não atesta o estado futuro de nenhuma conta.
+Executar da raiz do projeto depois de concluir mudanças canônicas:
 
-Ver [decisão de integração e limites](../decisions/2026-09-06-aios-skills-orchestration.md).
+```bash
+python scripts/build_skill_packages.py
+python scripts/build_skill_packages.py --check
+```
+
+O gerador substitui apenas referências geradas e os diretórios de distribuição Claude. Editar as fontes, nunca as cópias geradas. `--check` apenas verifica e retorna erro quando há divergências ou arquivos obsoletos. Para incluir os seis arquivos ZIP determinísticos:
+
+```bash
+python scripts/build_skill_packages.py --zip
+python scripts/build_skill_packages.py --check --zip
+```
+
+Os ZIPs usam uma pasta raiz com o nome da skill. O script não instala, publica nem atualiza o [manifesto de distribuição](../../skills/manifest.json), que deve ser recalculado no fechamento da edição.
+
+## Ambientes e instalação
+
+| Destino | Pacotes | Adaptação |
+| --- | --- | --- |
+| OpenAI | `skills/<nome>/` | Metadados em `agents/openai.yaml` e instruções de ambiente OpenAI |
+| Claude Code | `dist/claude-code/<nome>/` | Ferramentas e delegação condicionadas à sessão Claude Code |
+| Claude app/web | `dist/claude-app/<nome>/` | Arquivos e conectores disponíveis; execução direta quando não houver delegação real |
+
+Os três destinos compartilham as instruções de cada skill e as mesmas fontes. Somente a referência de ambiente e os metadados específicos variam. Os pacotes Claude não incluem `openai.yaml` nem parâmetros de colaboração OpenAI. Consultar [instalação Claude](instalacao-claude.md).
+
+Publicação no GitHub não comprova instalação em nenhum produto. Comparar conteúdo instalado e pacote, preservar ajustes do usuário, validar, instalar no escopo autorizado e verificar o resultado. Não há sincronização automática criada pelo AIOS. Limitações da plataforma ou da conta devem ser registradas quando forem observadas.
+
+## Avaliação
+
+Os [cenários](avaliacoes.md) e seus [dados estruturados](avaliacoes.json) definem verificações de ativação, escopo, falta de acesso e delegação. Checagem estrutural e leitura de instruções não substituem execução real em cada produto. Não marcar um cenário como aprovado sem registrar ambiente, entrada, saída observada e evidência.

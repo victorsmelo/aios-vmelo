@@ -1,0 +1,9 @@
+{
+  "base_revision": "526485a6",
+  "target_version": "v1.2.0",
+  "source_state": "árvore de trabalho; hashes identificam os bytes das fontes, não um commit publicado",
+  "sources": {
+    "docs/core/AIOS.md": "0b5331f1384ed0e70792360dc40d5a7a9c0da16ba303a795e3e09a40cbafd5bf",
+    "docs/editorial.md": "2893a3ac4d8850f9bd3f0641aefc49297886db9fbe0c403b432482f81dff89ed"
+  }
+}

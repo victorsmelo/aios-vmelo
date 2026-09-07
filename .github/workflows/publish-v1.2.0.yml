@@ -1,0 +1,44 @@
+name: Publicar tag aprovada v1.2.0
+
+# Publicação única, autorizada na decisão de 2026-09-07.
+# Somente o commit de publicação explícito aciona este trabalho.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  publish-tag:
+    if: startsWith(github.event.head_commit.message, 'Publicar AIOS v1.2.0')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Obter a revisão autorizada
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Preparar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Verificar fontes, pacotes e integridade
+        run: |
+          python scripts/build_skill_packages.py --check --zip
+          python scripts/build_manifest.py --check
+          python -m unittest discover -s scripts -p 'test_validate_aios_docs.py' -v
+          python scripts/validate_aios_docs.py
+      - name: Criar tag sem substituir versões existentes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git rev-parse --verify refs/tags/v1.2.0 >/dev/null 2>&1; then
+            test "$(git rev-list -n 1 v1.2.0)" = "$GITHUB_SHA"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git tag -a v1.2.0 "$GITHUB_SHA" -m 'AIOS v1.2.0: revisão documental e pacotes por ambiente'
+          git push origin refs/tags/v1.2.0

@@ -1,20 +1,9 @@
-# Decision Records
+# Decisões do AIOS
 
-Use this directory for durable architectural decisions affecting AIOS governance, taxonomy, protocols, personas, skills, connectors or operating rules.
+Registrar contexto, decisão aprovada, alternativas e consequências. Propostas permanecem propostas até aprovação explícita. Manter links para os documentos afetados.
 
-Each decision should record:
+- [2026-09-07 — revisão completa e seis lotes](2026-09-07-revisao-completa.md)
+- [2026-09-06 — integração de skills](2026-09-06-aios-skills-orchestration.md)
+- [2026-09-06 — separação FITS–BHKR](2026-09-06-fits-bhkr.md)
 
-- date and status;
-- context and problem;
-- decision;
-- alternatives considered;
-- consequences;
-- affected files or layers.
-
-Conversation ideas remain proposals until explicitly approved and recorded.
-
-## Accepted decisions
-
-- [2026-09-06 — Separação e integração FITS–BHKR](2026-09-06-fits-bhkr.md)
-
-- [2026-09-06 — Integração de skills e limites da orquestração](2026-09-06-aios-skills-orchestration.md)
+Seguir [DOCOPS](../../DOCOPS.md).

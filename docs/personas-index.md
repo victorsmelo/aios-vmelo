@@ -1,10 +1,10 @@
-# Personas Index
+# Índice de personas
 
-**Version:** 2026-09-06
+**Versão:** 2026-09-07
 
-Personas são autoridades de domínio. AIOS, FOCUS, skills e conectores não aparecem como personas.
+As 20 personas são configurações de atuação em domínios específicos. AIOS, FOCUS, skills e conectores não aparecem como personas.
 
-## Trabalho — Design System & Operações de Design
+## Trabalho — Sistema de Design e Operações de Design
 
 - [DSYS](personas/trabalho-design-system-and-operacoes-de-design/DSYS.md)
 - [DOPS](personas/trabalho-design-system-and-operacoes-de-design/DOPS.md)
@@ -35,6 +35,8 @@ Personas são autoridades de domínio. AIOS, FOCUS, skills e conectores não apa
 - [KHELP](personas/familia-assuntos-familiares-e-escolares/KHELP.md)
 - [SOUL](personas/familia-assuntos-familiares-e-escolares/SOUL.md)
 
-## Estratégia — Disciplina & Liderança
+## Estratégia — Disciplina e Liderança
 
 - [F0NT](personas/estrategia-disciplina-and-lideranca/F0NT.md)
+
+AXIS e LEX pertencem ao grupo Jurídico e Política; seus caminhos anteriores são mantidos para preservar os links. Todas as personas seguem o [modelo completo](templates/persona-template.md), com Produto distinto de Saídas.

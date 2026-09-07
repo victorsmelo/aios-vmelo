@@ -1,16 +1,7 @@
-# AIOS — AI Operating System
+# AIOS — ponto de entrada
 
-Este arquivo é um entry point compatível. A definição canônica do orquestrador está em [docs/core/AIOS.md](docs/core/AIOS.md).
+A definição central está em [AIOS: responsabilidades e execução](docs/core/AIOS.md). Este arquivo preserva o caminho de entrada existente.
 
-O AIOS coordena contexto, protocolos, skills, personas, conectores, ferramentas, execução, validação e entregáveis, preservando a autoridade humana final.
+O AIOS interpreta o pedido, seleciona contexto, métodos, skills, personas e ferramentas, executa o trabalho autorizado e valida a entrega.
 
-Fluxo canônico:
-
-`Intent → classification → context → protocol → skill/persona/source → execution → validation → delivery → record`
-
-Consulte também:
-
-- [Constituição](docs/constitution/aios-constitution.md)
-- [FOCUS](docs/protocols/focus-protocol.md)
-- [Skills](docs/skills/README.md)
-- [Índice de personas](docs/personas-index.md)
+Consulte o [índice principal](README.md) para navegar pelo projeto.

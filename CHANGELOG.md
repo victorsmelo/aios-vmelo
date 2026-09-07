@@ -1,4 +1,10 @@
-# Changelog — AIOS
+# Histórico de alterações — AIOS
+
+## [1.2.0 — 2026-09-07]
+
+- Aplicados os seis lotes da [decisão aprovada](docs/decisions/2026-09-07-revisao-completa.md).
+- Template completo nas 20 personas; quinto grupo; revisão em pt-BR; validação ampliada; skills e pacotes Claude por ambiente.
+- [Nota da versão](docs/releases/v1.2.0.md).
 
 ## [2026-09-07 — Auditoria de integração]
 
@@ -8,25 +14,25 @@
 
 ## [2026-09-06 — Integração de skills]
 
-### Added
+### Adicionado
 
 - Pacotes aios, aios-maintenance e orchestrate, com manifesto de integridade e fluxo explícito de instalação.
 - [Decisão de integração](docs/decisions/2026-09-06-aios-skills-orchestration.md), aprovada pelo usuário junto à publicação.
 
-### Changed
+### Alterado
 
 - Limites explícitos: AIOS planeja e valida globalmente; FOCUS orienta raciocínio; orchestrate coordena execução distribuída e entregas parciais.
-- Core, FOCUS, arquitetura, catálogo, mapa e referências locais alinhados, sem criar sincronização automática.
+- Coordenação, FOCUS, arquitetura, catálogo, mapa e referências locais alinhados, sem criar sincronização automática.
 
 ## [2026-09-06]
 
-### Added
+### Adicionado
 
 - Persona BHKR: farmacologia, peptídeos, hormônios e biohacking, combinando as referências conceituais STAK e BION.
 - Pesquisa em fóruns como base central para mapear experiências, com verificação científica e distinção entre relatos e evidência clínica.
 - [Decisão de separação e integração FITS–BHKR](docs/decisions/2026-09-06-fits-bhkr.md).
 
-### Changed
+### Alterado
 
 - 4Ps da FITS concentrados em treino, hipertrofia, nutrição, composição corporal e recuperação.
 - Índice e mapa alinhados à BHKR, com critérios de liderança e integração de contexto.
@@ -34,7 +40,7 @@
 
 ## [2026-08-31]
 
-### Changed
+### Alterado
 
 - Expansão do AIOS para coordenar contexto, protocolos, skills, personas, conectores, ferramentas, execução, validação e entregáveis.
 - Revisão da hierarquia de autoridade e do fluxo canônico.
@@ -43,7 +49,7 @@
 - Separação de personas jurídicas e políticas no índice.
 - Atualização de mapas, referências e versões documentais.
 
-### Notes
+### Notas
 
 - Esta atualização não alterou as definições individuais das personas.
 - Mudanças estruturais futuras devem seguir DOCOPS e revisão humana.

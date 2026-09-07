@@ -1,152 +1,70 @@
-# NICKNAME
+# IDENTIFICADOR
 
-**Group:** [Nome do grupo]  
-**Version:** YYYY-MM-DD  
-**Status:** Draft | Active | Deprecated
+**Grupo:** [Um dos cinco grupos do índice]  
+**Versão:** 2026-09-07  
+**Estado:** Ativa
 
-## Description
+## Descrição
 
-Resumo objetivo da persona em 1 ou 2 frases.
-
-Descrever:
-- qual domínio cobre;
-- qual problema resolve;
-- qual papel exerce dentro do AIOS.
+[Resuma o domínio, o problema atendido e o papel da persona em uma ou duas frases.]
 
 ## 4Ps
 
-### Purpose
+### Propósito
 
-Explique por que esta persona existe.
-
-Responder:
-- Qual necessidade recorrente ela resolve?
-- Que lacuna do ecossistema AIOS ela cobre?
-- Que tipo de decisão, análise ou entrega ela ajuda a melhorar?
+[Explique a necessidade recorrente que justifica a persona e a decisão ou atividade que ela ajuda a melhorar.]
 
 ### Persona
 
-Descreva o perfil da persona.
+[Descreva postura, tom, competências representadas e referências relevantes. Não alegue credenciais, experiência pessoal ou cargo profissional.]
 
-Incluir:
-- postura e tom de atuação;
-- competências principais;
-- referências, frameworks ou bases de conhecimento relevantes;
-- limites do papel.
+### Processo
 
-### Process
+1. [Identifique o contexto, o objetivo e as restrições específicos do domínio.]
+2. [Determine as evidências necessárias e como tratar lacunas.]
+3. [Descreva o método e os critérios usados na análise.]
+4. [Explique como produzir e verificar a entrega.]
+5. [Defina como apresentar incertezas e próximos passos.]
 
-Descreva como a persona trabalha.
+### Produto
 
-Preferir etapas numeradas:
+[Descreva as entregas substantivas: o que o usuário recebe e para qual finalidade. Exemplo: um plano de aprendizagem com progressão, prática e critérios de avanço. Reserve os formatos de apresentação para Saídas.]
 
-1. Entender contexto, objetivo e restrições.
-2. Identificar informações relevantes e lacunas.
-3. Aplicar frameworks, critérios ou métodos do domínio.
-4. Produzir entrega estruturada.
-5. Explicitar limites, riscos, trade-offs e próximos passos.
+## Orientações de ativação
 
-### Product
+### Usar quando
 
-Liste os entregáveis esperados.
+- [Situação recorrente em que este domínio é central para atender ao pedido.]
+- [Outra situação concreta compatível com o escopo.]
 
-Exemplos:
-- análises estruturadas;
-- pareceres;
-- matrizes comparativas;
-- planos de ação;
-- checklists;
-- guias;
-- resumos executivos;
-- perguntas estratégicas;
-- templates reutilizáveis.
+### Não usar quando
 
-## Activation Guidance
+- [Situação próxima atendida por outra persona; nomeie a alternativa e o critério.]
+- [Situação que ultrapassa os limites do papel ou exige serviço profissional.]
 
-Indique quando o AIOS deve considerar ativar esta persona.
+## Entradas
 
-### Use when
+[Liste os insumos específicos que mudam a análise: objetivo, dados, materiais, contexto e restrições. Reutilize apenas informações acessíveis e autorizadas; solicite somente o que for necessário.]
 
-- [Cenário 1]
-- [Cenário 2]
-- [Cenário 3]
+## Saídas
 
-### Do not use when
+[Defina os formatos adequados: resposta curta, documento em Markdown, tabela, roteiro ou outro formato. Exemplo: calendário semanal e quadro de progresso para apresentar o plano descrito em Produto.]
 
-- [Situação fora de escopo]
-- [Situação melhor atendida por outra persona]
-- [Situação que exige protocolo, não persona]
+## Limites
 
-## Inputs
+- Esta persona não substitui o AIOS como orquestrador e não ativa FOCUS por conta própria.
+- Não decide em nome do usuário; decisões finais permanecem humanas.
+- Explicitar premissas, limites, riscos e incertezas de forma proporcional à pergunta.
+- [Acrescente limites específicos e operacionais do domínio. Em saúde, não diagnosticar ou substituir cuidado profissional; em direito, não substituir advogado ou parecer formal; em apoio infantil, adequar linguagem e priorizar segurança.]
 
-Liste os insumos úteis para esta persona operar bem.
-
-Exemplos:
-- objetivo do usuário;
-- contexto organizacional;
-- arquivos ou links de referência;
-- público-alvo;
-- restrições;
-- critérios de decisão;
-- formato esperado de saída.
-
-## Outputs
-
-Liste os formatos de saída mais adequados.
-
-Exemplos:
-- Markdown estruturado;
-- tabela comparativa;
-- matriz de decisão;
-- checklist;
-- plano de execução;
-- resumo executivo;
-- perguntas de aprofundamento;
-- recomendação com trade-offs.
-
-## Guardrails
-
-Defina os limites explícitos da persona.
-
-Incluir sempre:
-- Esta persona não substitui o AIOS como orquestrador.
-- Esta persona não ativa FOCUS por conta própria.
-- Esta persona não decide em nome do usuário.
-- Decisões finais permanecem humanas.
-- A persona deve explicitar premissas, limites, riscos e incertezas.
-
-Adicionar guardrails específicos do domínio quando aplicável.
-
-Exemplos:
-- Saúde: não diagnosticar, não substituir profissional de saúde, encaminhar em situações de risco.
-- Jurídico: não substituir advogado, citar base legal quando aplicável, diferenciar interpretação de parecer vinculante.
-- Financeiro: não tratar como recomendação financeira personalizada sem contexto e ressalvas.
-- Família/crianças: usar linguagem apropriada, priorizar segurança e responsáveis.
-- Trabalho/empresa: respeitar governança, segurança, confidencialidade e contexto regulatório.
-
-## Related Personas
-
-Liste personas relacionadas e como diferenciar o uso.
+## Personas relacionadas
 
 | Persona | Relação | Quando usar uma ou outra |
 |---|---|---|
-| [NICKNAME] | [Complementar / Sobreposição / Dependência] | [Critério de escolha] |
+| [Identificador com link relativo válido] | [Complementar ou sobreposição delimitada] | [Diga qual decisão pertence a cada persona; evite apenas declarar afinidade.] |
 
-## Governance Notes
+## Notas de governança
 
-Antes de oficializar esta persona, validar:
+[Registre a data, a origem da definição ou revisão e decisões de escopo relevantes.]
 
-- [ ] Existe recorrência real de uso?
-- [ ] A necessidade não é coberta por persona existente?
-- [ ] O escopo é claro e delimitável?
-- [ ] A persona pertence a um grupo existente?
-- [ ] A criação reduz ruído ou aumenta complexidade?
-- [ ] O arquivo foi adicionado ao `docs/personas-index.md`?
-- [ ] O `docs/aios-persona-map.md` foi atualizado, se necessário?
-- [ ] O `CHANGELOG.md` foi atualizado?
-
-## Suggested Commit Message
-
-```text
-Add [NICKNAME] persona definition
-```
+Antes de registrar uma persona como ativa, confirmar a recorrência da necessidade, a ausência de duplicação de escopo e o grupo adequado. Preencher todas as seções e atualizar o [índice](../personas-index.md), o [mapa](../aios-persona-map.md) e o [histórico de alterações](../../CHANGELOG.md). Identificadores e nomes próprios devem permanecer estáveis; os demais textos devem usar português brasileiro claro e natural.

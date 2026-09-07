@@ -1,128 +1,64 @@
 # Personas — AIOS
 
-Esta pasta reúne as **personas de domínio** do AIOS.
+**Versão:** 2026-09-07
 
-Personas são autoridades especializadas que atuam dentro do enquadramento definido pelo **AIOS** e, quando aplicável, pelo protocolo cognitivo ativo, como **FOCUS**.
+Esta pasta reúne as 20 personas de domínio do AIOS. Cada persona configura conhecimentos, postura e critérios de atuação em um domínio. AIOS coordena seu uso; FOCUS, quando ativo, estrutura o método de raciocínio.
 
-## Purpose
+## Finalidade
 
-Organizar especialistas de domínio em arquivos claros, rastreáveis e reutilizáveis.
+Manter definições claras, rastreáveis e reutilizáveis, com escopo, entregas e limites explícitos. Persona não é uma pessoa, credencial profissional, protocolo, skill ou conector. Sua definição não concede ferramentas, acesso a dados ou autoridade para decidir pelo usuário.
 
-Cada persona deve ter escopo definido, limites explícitos e entregáveis esperados.
+## Estrutura obrigatória
 
-## What a Persona Is
+As 20 definições devem seguir integralmente o [modelo oficial](../templates/persona-template.md). Não existe versão mínima reduzida para personas ativas.
 
-Uma persona é uma configuração especializada para atuar sobre um domínio específico, por exemplo:
+Metadados obrigatórios: `Grupo`, `Versão` no formato `AAAA-MM-DD` e `Estado: Ativa`.
 
-- Design System
-- DesignOps
-- Acessibilidade
-- Pesquisa
-- Jurídico
-- Saúde e bem-estar
-- Apoio familiar ou escolar
-- Estratégia e liderança
+A ordem das seções é:
 
-## What a Persona Is Not
+1. Descrição.
+2. 4Ps, com Propósito, Persona, Processo e Produto.
+3. Orientações de ativação, com Usar quando e Não usar quando.
+4. Entradas.
+5. Saídas.
+6. Limites.
+7. Personas relacionadas.
+8. Notas de governança.
 
-Uma persona não deve:
-
-- substituir o AIOS como orquestrador;
-- ativar protocolos por conta própria;
-- decidir em nome do usuário;
-- misturar método cognitivo com autoridade de domínio;
-- expandir escopo sem registro documental.
-
-## Standard Structure — 4Ps
-
-Toda persona deve seguir o padrão 4Ps:
-
-| Seção | Função |
+| Elemento | Função |
 |---|---|
-| Purpose | Por que a persona existe e qual problema resolve. |
-| Persona | Como ela se comporta, que perfil assume e quais competências representa. |
-| Process | Como ela trabalha, em etapas claras. |
-| Product | Quais entregáveis produz. |
+| Propósito | Por que a persona existe e qual necessidade atende. |
+| Persona | Postura, tom, competências e referências do domínio. |
+| Processo | Como trabalha e verifica sua análise. |
+| Produto | O que entrega e para qual finalidade. |
+| Saídas | Como apresenta a entrega: texto, tabela, roteiro ou outro formato. |
 
-## Template
+Produto e Saídas são distintos. Por exemplo, o produto pode ser um plano de aprendizagem; suas saídas podem ser um calendário semanal e um quadro de progresso.
 
-Use o template oficial para criar novas personas:
+## Grupos atuais
 
-- [`docs/templates/persona-template.md`](../templates/persona-template.md)
+| Grupo | Personas | Pasta |
+|---|---|---|
+| Trabalho — Sistema de Design e Operações de Design | DSYS, DOPS, CSYS, A11Y, UXR, ZHUB, T0OL, FGM8, ENTC | `trabalho-design-system-and-operacoes-de-design` |
+| Pessoal — Conhecimento, Saúde e Cultura | AILIB, KNOW, FITS, BHKR, EVNT | `pessoal-conhecimento-and-saude` |
+| Jurídico e Política | AXIS, LEX | `pessoal-conhecimento-and-saude` |
+| Família — Assuntos familiares e escolares | KOGN, KHELP, SOUL | `familia-assuntos-familiares-e-escolares` |
+| Estratégia — Disciplina e Liderança | F0NT | `estrategia-disciplina-and-lideranca` |
 
-O template inclui:
+AXIS e LEX pertencem ao grupo Jurídico e Política. Os caminhos anteriores permanecem para preservar os links existentes; a pasta não determina o grupo.
 
-- metadados obrigatórios;
-- estrutura 4Ps;
-- orientação de ativação;
-- inputs e outputs esperados;
-- guardrails gerais e específicos;
-- relação com outras personas;
-- checklist de governança.
+## Regras de governança
 
-## Required File Structure
+Antes de criar ou ampliar uma persona, verificar se há necessidade recorrente, se outra persona já atende ao pedido e se o escopo pode ser delimitado. Usar os critérios de ativação e a tabela de relações para explicitar as fronteiras entre domínios.
 
-Cada arquivo de persona deve conter, no mínimo:
+Toda alteração relevante deve atualizar o [índice](../personas-index.md), o [mapa](../aios-persona-map.md) e o [histórico de alterações](../../CHANGELOG.md). As notas da persona devem registrar decisões de escopo e a data de revisão. Links entre personas devem ser relativos e válidos.
 
-```md
-# NICKNAME
+Escrever em português brasileiro claro, objetivo e natural. Preservar identificadores técnicos e nomes próprios; traduzir títulos e termos comuns quando houver equivalente claro. Não atribuir às personas vivência pessoal, cargos ou habilitação profissional.
 
-**Group:** Nome do grupo  
-**Version:** YYYY-MM-DD  
-**Status:** Active
+## Limites comuns
 
-## Description
-Resumo objetivo da persona.
-
-## 4Ps
-
-### Purpose
-...
-
-### Persona
-...
-
-### Process
-...
-
-### Product
-...
-
-## Guardrails
-- Limites explícitos de atuação.
-- Relação com AIOS e FOCUS.
-```
-
-## Current Groups
-
-| Grupo | Pasta |
-|---|---|
-| Trabalho — Design System & Operações de Design | `trabalho-design-system-and-operacoes-de-design` |
-| Pessoal — Conhecimento & Saúde | `pessoal-conhecimento-and-saude` |
-| Família — Assuntos familiares e escolares | `familia-assuntos-familiares-e-escolares` |
-| Estratégia — Disciplina & Liderança | `estrategia-disciplina-and-lideranca` |
-
-## Governance Rules
-
-Antes de criar uma nova persona, validar:
-
-1. Existe recorrência real de uso?
-2. A necessidade não é coberta por persona existente?
-3. O escopo é claro e delimitável?
-4. Ela pertence a um grupo existente?
-5. A criação reduz ruído ou aumenta complexidade?
-
-## Required Updates When Adding or Changing Personas
-
-Sempre que uma persona for criada, removida ou alterada de forma relevante, atualizar:
-
-- `docs/personas-index.md`
-- `docs/aios-persona-map.md`
-- `CHANGELOG.md`
-
-## Guardrails
-
-- AIOS não deve ser documentado como persona.
-- FOCUS não deve ser documentado como persona.
-- Toda persona deve deixar explícitos seus limites.
-- Personas sensíveis, como saúde, direito e família, devem ter guardrails reforçados.
+- AIOS coordena; personas não substituem essa função nem ativam FOCUS por conta própria.
+- Personas não decidem pelo usuário; decisões finais permanecem humanas.
+- Toda análise deve explicitar premissas, riscos, incertezas e limitações relevantes.
+- Saúde, direito e apoio familiar exigem limites específicos do domínio.
+- A atuação depende das ferramentas, permissões e informações realmente disponíveis.

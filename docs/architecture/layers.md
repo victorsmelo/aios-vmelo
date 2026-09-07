@@ -1,38 +1,25 @@
-# AIOS Architecture Layers
+# Arquitetura do AIOS
 
-**Version:** 2026-09-06  
-**Status:** Active
+**Versão:** 2026-09-07  
+**Estado:** Ativa
 
-## Layers
+## Componentes
 
-1. **Human** — defines intent, approves consequential changes and retains final judgment.
-2. **Environment policies** — safety, privacy, permissions and product constraints.
-3. **AIOS** — classifies the request, selects the operating mode and coordinates the system.
-4. **Protocols** — define cognitive or operational methods, such as FOCUS.
-5. **Skills** — reusable capabilities and specialized workflows, such as document creation, data analysis or ELI5 explanations.
-6. **Personas** — domain authorities such as DSYS, FITS or LEX.
-7. **Connectors and tools** — external sources and execution surfaces such as GitHub, Drive, Notion or Sites.
-8. **Deliverables** — answers, files, reports, code, published sites or automations.
+| Componente | Função |
+| --- | --- |
+| Usuário | Definir objetivos e decisões finais |
+| Políticas do ambiente | Delimitar permissões, privacidade e segurança de todas as ações |
+| AIOS | Planejar, selecionar recursos, coordenar e validar |
+| Protocolos | Orientar métodos de investigação e execução |
+| Skills | Descrever procedimentos reutilizáveis |
+| Personas | Fornecer perspectivas de domínio |
+| Conectores e ferramentas | Acessar fontes e executar operações |
+| Entregas | Apresentar respostas, arquivos e resultados verificados |
 
-## Canonical flow
+## Escolha do recurso
 
-`Intent → classification → context → protocol → skill/persona/source → execution → validation → delivery → record`
+Criar uma persona quando houver um domínio recorrente com critérios próprios. Criar uma skill para um procedimento reutilizável. Definir um protocolo para um método e usar um conector para acesso a um sistema externo.
 
-Not every request uses every layer. The AIOS selects the minimum sufficient path and increases scrutiny with risk, ambiguity or external impact.
+Cada pedido usa apenas os componentes necessários. O plano e a validação final permanecem no coordenador, conforme as [responsabilidades do AIOS](../core/AIOS.md). FOCUS orienta o método e orchestrate distribui trabalho independente.
 
-## Taxonomy rule
-
-Create a **persona** for durable domain authority, a **skill** for a reusable capability or workflow, a **protocol** for a method that governs reasoning or execution, and a **connector** for access to an external system.
-
-## Relação entre AIOS, FOCUS e orchestrate
-
-- AIOS define o plano global, os critérios de aceitação e a validação final da entrega.
-- FOCUS orienta investigação, organização e síntese quando necessário. Funciona com um único agente e não define a topologia da equipe.
-- `orchestrate` transforma partes do plano em atribuições, coordena dependências e verifica as entregas dos subagentes segundo os critérios recebidos. Não cria um segundo método cognitivo nem substitui a validação final do AIOS.
-- Não mapear automaticamente as cinco funções do FOCUS para cinco agentes. Dividir por trabalho independente, não por etapa do acrônimo ou persona.
-- FOCUS e paralelismo são escolhas independentes: usar ambos, somente um ou nenhum conforme a tarefa.
-- Fora do AIOS, `orchestrate` continua utilizável; o coordenador principal assume plano global e validação final, respeitando o pedido e as regras do ambiente.
-
-Ver [catálogo de skills](../skills/README.md) e [decisão de integração](../decisions/2026-09-06-aios-skills-orchestration.md).
-
-A autoridade humana e a ordem entre camadas operam dentro das políticas e permissões do ambiente, que limitam todas as camadas. Essa ordem não autoriza sobrepor tais políticas.
+Ver [mapa](../aios-persona-map.md), [personas](../personas-index.md), [protocolos](../protocols/README.md) e [skills](../skills/README.md).

@@ -1,24 +1,23 @@
-# DOCOPS — Documentation Operations for AIOS
+# DOCOPS — manutenção documental do AIOS
 
-DOCOPS define como o AIOS evolui documentalmente com rigor, rastreabilidade e autoridade humana final.
+DOCOPS define como revisar e publicar as definições deste projeto. É distinto das operações de documentação de produtos descritas pela persona ZHUB.
 
-## Triggers
+## Quando aplicar
 
-Ative DOCOPS quando houver mudança em Constituição, Manifesto, protocolos, skills, personas, agrupamentos, precedência, conectores, automações, artefatos publicados, estrutura, links ou templates.
+Aplicar ao criar ou alterar personas, protocolos, skills, grupos, regras, referências, documentos e pacotes. Em auditorias somente leitura, apresentar achados sem modificar ou publicar arquivos.
 
-## Release flow
+## Procedimento
 
-1. Definição conceitual e decisão humana explícita.
-2. Atualização dos arquivos afetados e dos índices.
-3. Auditoria de links, referências, exemplos e validações.
-4. Registro no CHANGELOG.md e, quando arquitetural, em docs/decisions/.
-5. Revisão humana.
-6. Commit e merge em main, com tag opcional.
+1. Identificar o pedido, a autorização existente e a revisão de origem.
+2. Comparar a proposta com os documentos relacionados e registrar decisões estruturais em [Decisões](docs/decisions/README.md).
+3. Preparar alterações concretas, atualizar índices e seguir o [padrão editorial](docs/editorial.md).
+4. Executar `python scripts/build_skill_packages.py --zip` e `python scripts/build_manifest.py` na raiz para gerar pacotes e atualizar o manifesto de hashes e executar as verificações de integridade e comportamento aplicáveis.
+5. Apresentar para revisão humana quando houver aprovação pendente. Reutilizar a autorização explícita já dada ao mesmo escopo; não exigir uma segunda confirmação automática.
+6. Publicar e verificar o estado remoto. Toda mudança estrutural exige versão formal, nota de versão e tag conforme o [processo de publicação](RELEASE_PROCESS.md).
+7. Atualizar instalações somente quando autorizado e verificar cada destino separadamente. Publicação no GitHub não comprova instalação.
 
-## Guardrails
+## Critério de conclusão
 
-- Não tratar hipótese como definição oficial.
-- Não misturar método, capacidade, domínio e acesso.
-- Não automatizar decisões de publicação.
-- Não publicar mudanças estruturais sem revisão humana.
-- Validar referências antes de concluir o release.
+Entregar mudanças, verificações, limitações e links reais. Distinguir preparado, publicado e instalado. Não apresentar uma versão como formalmente publicada antes de verificar sua tag. Não transformar decisões propostas em fatos históricos.
+
+Ver [checklist de integridade](docs/LINK_INTEGRITY_CHECKLIST.md) e [histórico de alterações](CHANGELOG.md).

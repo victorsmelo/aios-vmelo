@@ -1,0 +1,33 @@
+# Fontes do pacote
+
+Revisão-base: `526485a6`. Versão alvo: `v1.2.0`. As cópias vêm da árvore de trabalho e podem incluir mudanças ainda não commitadas. URLs da versão alvo não atestam que a versão foi publicada. [Hashes das fontes](fontes.json) identificam os bytes usados antes da adaptação de links. Não há sincronização automática.
+
+Leia somente o assunto necessário. Os links entre fontes incluídas funcionam localmente; outros links apontam para a versão alvo no GitHub e podem exigir acesso ou publicação.
+
+- [docs/architecture/layers.md](fontes/docs/architecture/layers.md)
+- [docs/constitution/aios-constitution.md](fontes/docs/constitution/aios-constitution.md)
+- [docs/core/AIOS.md](fontes/docs/core/AIOS.md)
+- [docs/editorial.md](fontes/docs/editorial.md)
+- [docs/personas-index.md](fontes/docs/personas-index.md)
+- [docs/personas/README.md](fontes/docs/personas/README.md)
+- [docs/personas/estrategia-disciplina-and-lideranca/F0NT.md](fontes/docs/personas/estrategia-disciplina-and-lideranca/F0NT.md)
+- [docs/personas/familia-assuntos-familiares-e-escolares/KHELP.md](fontes/docs/personas/familia-assuntos-familiares-e-escolares/KHELP.md)
+- [docs/personas/familia-assuntos-familiares-e-escolares/KOGN.md](fontes/docs/personas/familia-assuntos-familiares-e-escolares/KOGN.md)
+- [docs/personas/familia-assuntos-familiares-e-escolares/SOUL.md](fontes/docs/personas/familia-assuntos-familiares-e-escolares/SOUL.md)
+- [docs/personas/pessoal-conhecimento-and-saude/AILIB.md](fontes/docs/personas/pessoal-conhecimento-and-saude/AILIB.md)
+- [docs/personas/pessoal-conhecimento-and-saude/AXIS.md](fontes/docs/personas/pessoal-conhecimento-and-saude/AXIS.md)
+- [docs/personas/pessoal-conhecimento-and-saude/BHKR.md](fontes/docs/personas/pessoal-conhecimento-and-saude/BHKR.md)
+- [docs/personas/pessoal-conhecimento-and-saude/EVNT.md](fontes/docs/personas/pessoal-conhecimento-and-saude/EVNT.md)
+- [docs/personas/pessoal-conhecimento-and-saude/FITS.md](fontes/docs/personas/pessoal-conhecimento-and-saude/FITS.md)
+- [docs/personas/pessoal-conhecimento-and-saude/KNOW.md](fontes/docs/personas/pessoal-conhecimento-and-saude/KNOW.md)
+- [docs/personas/pessoal-conhecimento-and-saude/LEX.md](fontes/docs/personas/pessoal-conhecimento-and-saude/LEX.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/A11Y.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/A11Y.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md)
+- [docs/personas/trabalho-design-system-and-operacoes-de-design/ZHUB.md](fontes/docs/personas/trabalho-design-system-and-operacoes-de-design/ZHUB.md)
+- [docs/protocols/focus-protocol.md](fontes/docs/protocols/focus-protocol.md)

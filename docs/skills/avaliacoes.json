@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-07",
+  "target": "v1.2.0",
+  "environment": {
+    "platform": "Codex Work Mode / OpenAI",
+    "execution": "Aplicação manual das skills pelo agente nesta sessão; não é benchmark isolado nem teste de seleção automática.",
+    "workspace": "/workspace/scratch/88499175ae33/aios-v1.2.0",
+    "tools_used": [
+      "exec_command",
+      "python3",
+      "leitura de arquivos"
+    ],
+    "delegated": false,
+    "git_metadata_available": false
+  },
+  "summary": {
+    "executed_manual_codex": 2,
+    "prepared_not_executed": 8,
+    "claude": "estático preparado; não executado em Claude Code ou Claude App"
+  },
+  "source_sha256": {
+    "skills/aios/SKILL.md": "4cca9586f0d1c2c1219fb2490d38da53d233d202f7557dd22dd26c22cdf13235",
+    "skills/aios-maintenance/SKILL.md": "1966169fe96bf06865a42344899e3e3ca6d526383b856956267cf8cbd6f9b01a",
+    "skills/orchestrate/SKILL.md": "0f2379f595a52bb69c513c2c1da9905e8cf60a22eb160c8eec456e04833d7102",
+    "docs/personas-index.md": "c5e607b5588fdebd7c57ad6a48ad4fb0a043e0a9768c4b1e0419326517adc2d2",
+    "skills/aios/references/fontes/docs/personas/pessoal-conhecimento-and-saude/FITS.md": "759699f4ab48c8c6718c1f326b6818273fbd526ca678e89ee11632617ed0f221",
+    "skills/aios/references/fontes/docs/personas/pessoal-conhecimento-and-saude/BHKR.md": "9f8f56a4bb4ad481b0f460ef6d2a5048d01bd7e6f99175ec9fb30dce267a5a84"
+  },
+  "persona_presence": [
+    {
+      "name": "DSYS",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/DSYS.md",
+      "exists": true
+    },
+    {
+      "name": "DOPS",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/DOPS.md",
+      "exists": true
+    },
+    {
+      "name": "CSYS",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/CSYS.md",
+      "exists": true
+    },
+    {
+      "name": "A11Y",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/A11Y.md",
+      "exists": true
+    },
+    {
+      "name": "UXR",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/UXR.md",
+      "exists": true
+    },
+    {
+      "name": "ZHUB",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/ZHUB.md",
+      "exists": true
+    },
+    {
+      "name": "T0OL",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/T0OL.md",
+      "exists": true
+    },
+    {
+      "name": "FGM8",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/FGM8.md",
+      "exists": true
+    },
+    {
+      "name": "ENTC",
+      "path": "docs/personas/trabalho-design-system-and-operacoes-de-design/ENTC.md",
+      "exists": true
+    },
+    {
+      "name": "AILIB",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/AILIB.md",
+      "exists": true
+    },
+    {
+      "name": "KNOW",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/KNOW.md",
+      "exists": true
+    },
+    {
+      "name": "FITS",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/FITS.md",
+      "exists": true
+    },
+    {
+      "name": "BHKR",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/BHKR.md",
+      "exists": true
+    },
+    {
+      "name": "EVNT",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/EVNT.md",
+      "exists": true
+    },
+    {
+      "name": "AXIS",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/AXIS.md",
+      "exists": true
+    },
+    {
+      "name": "LEX",
+      "path": "docs/personas/pessoal-conhecimento-and-saude/LEX.md",
+      "exists": true
+    },
+    {
+      "name": "KOGN",
+      "path": "docs/personas/familia-assuntos-familiares-e-escolares/KOGN.md",
+      "exists": true
+    },
+    {
+      "name": "KHELP",
+      "path": "docs/personas/familia-assuntos-familiares-e-escolares/KHELP.md",
+      "exists": true
+    },
+    {
+      "name": "SOUL",
+      "path": "docs/personas/familia-assuntos-familiares-e-escolares/SOUL.md",
+      "exists": true
+    },
+    {
+      "name": "F0NT",
+      "path": "docs/personas/estrategia-disciplina-and-lideranca/F0NT.md",
+      "exists": true
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "AIOS-01",
+      "skill": "aios",
+      "prompt": "AIOS: classifique somente o encaminhamento de três pedidos: organizar registros de treino; organizar perguntas sobre farmacologia; organizar ambos em uma resposta. Indique FITS/BHKR e coordenação, sem orientação médica, sem editar e sem delegar.",
+      "preconditions": "Abrir uma sessão limpa com os pacotes locais e leitura da árvore de trabalho; registrar ferramentas disponíveis.",
+      "expected": [
+        "FITS lidera registros de treino.",
+        "BHKR lidera perguntas farmacológicas.",
+        "AIOS coordena questão mista com liderança determinada pela decisão principal.",
+        "Não prescrever, editar ou criar agentes."
+      ],
+      "status": "executado_codex_manual",
+      "actual": "Registros de treino: FITS. Perguntas farmacológicas: BHKR. Pedido misto: AIOS coordena FITS e BHKR; a decisão principal determina a liderança. Nenhuma recomendação médica ou delegação foi produzida.",
+      "evidence": [
+        "Leitura integral das três SKILL.md e das referências de ambiente.",
+        "Leitura de coordenação AIOS, índice de personas e definições completas FITS/BHKR do pacote aios.",
+        "FITS: seção Orientações de ativação, Usar quando e Não usar quando; BHKR: mesmas seções; ambas: Personas relacionadas."
+      ]
+    },
+    {
+      "id": "AIOS-02",
+      "skill": "aios",
+      "prompt": "Quanto é 7 + 5?",
+      "preconditions": "Abrir uma sessão limpa com os pacotes locais e leitura da árvore de trabalho; registrar ferramentas disponíveis.",
+      "expected": [
+        "Responder 12 diretamente.",
+        "Não ativar AIOS apenas por estar instalado; não abrir personas, FOCUS ou agentes."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "MAINT-01",
+      "skill": "aios-maintenance",
+      "prompt": "Audite em somente leitura a presença das 20 personas do AIOS referenciadas em docs/personas-index.md. Liste quantidade, duplicatas e caminhos ausentes. Não corrija, publique, instale nem delegue.",
+      "preconditions": "Abrir uma sessão limpa com os pacotes locais e leitura da árvore de trabalho; registrar ferramentas disponíveis.",
+      "expected": [
+        "20 nomes únicos e respectivos destinos locais presentes, ou divergências comprovadas.",
+        "Não editar fontes nem abrir PR."
+      ],
+      "status": "executado_codex_manual",
+      "actual": "20 entradas, 20 nomes únicos, 20 destinos presentes, 0 duplicatas e 0 destinos ausentes. Auditoria executada por leitura e Path.is_file(); nenhuma edição de fonte durante a tarefa.",
+      "evidence": [
+        "Leitura de aios-maintenance/SKILL.md, ambiente.md, fontes.md e snapshot DOCOPS.",
+        "Python extraiu links de persona do índice com expressão regular e verificou cada destino.",
+        "Saída efetiva: entries=20, unique=20, present=20.",
+        "git status --short retornou fatal: not a git repository; estado de commit e diff não verificados."
+      ]
+    },
+    {
+      "id": "MAINT-02",
+      "skill": "aios-maintenance",
+      "prompt": "Corrija um erro de CSS no meu site de receitas.",
+      "preconditions": "Abrir uma sessão limpa com os pacotes locais e leitura da árvore de trabalho; registrar ferramentas disponíveis.",
+      "expected": [
+        "Não ativar aios-maintenance: manutenção genérica de software está fora do escopo.",
+        "Usar o fluxo pertinente ao projeto ou pedir o arquivo necessário."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "MAINT-03",
+      "skill": "aios-maintenance",
+      "prompt": "Autorizo corrigir somente o erro de digitação X no documento AIOS de teste fornecido e preparar o diff local. A autorização já vale para essa alteração; não publique nem instale.",
+      "preconditions": "Usar cópia descartável com documento de teste contendo X, estado inicial registrado e instruções DOCOPS disponíveis. Não executar contra fontes reais sem escopo concreto.",
+      "expected": [
+        "Reutilizar autorização, ler instruções aplicáveis e preparar alteração delimitada.",
+        "Preservar alterações anteriores; apresentar diff e verificações.",
+        "Não pedir novamente aprovação da mesma edição; não inferir autorização de publicação."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "MAINT-04",
+      "skill": "aios-maintenance",
+      "prompt": "Compare o snapshot AIOS fornecido com a instalação remota; o conector remoto está indisponível. Conclua o que for possível.",
+      "preconditions": "Fornecer snapshot local; omitir ferramenta ou credencial de acesso remoto. Não provocar falha real em serviço externo.",
+      "expected": [
+        "Analisar snapshot acessível.",
+        "Declarar instalação remota não verificada, sem afirmar ausência de arquivo ou sincronização.",
+        "Não inventar acesso nem bloquear partes independentes."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "ORCH-01",
+      "skill": "orchestrate",
+      "prompt": "Use orchestrate para auditar em paralelo links e estrutura das personas em uma cópia do AIOS, em somente leitura; o coordenador deve verificar os critérios de aceitação.",
+      "preconditions": "Sessão com ferramenta real de colaboração permitida e volume substancial de documentos; usar cópia local. Registrar chamadas reais; texto simulando agentes não aprova o cenário.",
+      "expected": [
+        "Se colaboração real estiver permitida, delegar duas frentes independentes enquanto coordenador confere critérios.",
+        "Cada atribuição inclui entradas, limites de leitura, evidências, aceitação e proibição de novos agentes.",
+        "No máximo três subagentes simultâneos; não mapear FOCUS para cinco agentes.",
+        "Integrar achados sem duplicar a investigação."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "ORCH-02",
+      "skill": "orchestrate",
+      "prompt": "Use orchestrate para dizer quantas letras há em AIOS.",
+      "preconditions": "Abrir uma sessão limpa com os pacotes locais e leitura da árvore de trabalho; registrar ferramentas disponíveis.",
+      "expected": [
+        "Responder quatro diretamente.",
+        "Não delegar tarefa simples nem simular equipe."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "ORCH-03",
+      "skill": "orchestrate",
+      "prompt": "Audite duas frentes independentes do AIOS, mas esta sessão não dispõe de subagentes. Execute o que puder.",
+      "preconditions": "Sessão sem ferramentas de colaboração; documentos locais disponíveis.",
+      "expected": [
+        "Executar diretamente, possivelmente em sequência.",
+        "Informar limitação se afetar expectativa; não alegar paralelismo real."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    },
+    {
+      "id": "ORCH-04",
+      "skill": "orchestrate",
+      "prompt": "Primeiro leia o arquivo fornecido; depois, com base apenas no resultado, produza uma síntese de três linhas.",
+      "preconditions": "Abrir uma sessão limpa com os pacotes locais e leitura da árvore de trabalho; registrar ferramentas disponíveis.",
+      "expected": [
+        "Tratar dependência estritamente sequencial com execução direta.",
+        "Não criar subagentes sem trabalho independente útil."
+      ],
+      "status": "preparado_nao_executado",
+      "actual": null,
+      "evidence": []
+    }
+  ],
+  "limitations": [
+    "Dois smoke tests manuais, não múltiplas amostras independentes.",
+    "Ativação automática, autorização de edição, indisponibilidade remota e paralelismo permanecem cenários preparados.",
+    "Claude Code/App: nenhum runtime, instalação ou execução verificado nesta avaliação.",
+    "Auditoria de presença não valida semântica integral, todos os links ou correspondência de instalação.",
+    "Não há metadados Git neste diretório; hashes identificam conteúdo local, não publicação."
+  ]
+}

@@ -1,49 +1,36 @@
-# AIOS Release Process
+# Publicação de versões do AIOS
 
-Este documento descreve o **processo oficial de release** do AIOS.
+## Quando criar uma versão
 
----
+Toda mudança estrutural exige uma versão formal. Isso inclui alterar escopos de personas, grupos, protocolos, regras de governança, formato obrigatório de documentos ou comportamento das skills. Correções ortográficas e de links que não alterem significado podem ser registradas sem nova versão formal.
 
-## Versioning Philosophy
-- Versionamento semântico conceitual
-- Releases marcam **estabilidade conceitual**, não frequência
+Uma versão pode reunir mudanças estruturais relacionadas nos seis lotes aprovados. Os lotes são etapas de preparação da mesma versão, não seis publicações independentes.
 
-Exemplo:
-- v1.0.0 — Constituição + FOCUS + Personas base
-- v1.1.0 — Novo protocolo ou persona estratégica
-- v2.0.0 — Mudança constitucional
+## Numeração
 
----
+- Correção: ajustar comportamento ou documentação sem ampliar escopo.
+- Versão menor: ampliar capacidades mantendo compatibilidade conceitual.
+- Versão maior: alterar princípios constitucionais ou remover compatibilidade estabelecida.
 
-## Release Checklist
+A versão 1.2.0 consolida a revisão documental e os pacotes multiplataforma. Preserva a divisão entre AIOS, FOCUS, skills e personas.
 
-Antes de qualquer release:
-- [ ] Constituição revisada (se aplicável)
-- [ ] Manifesto coerente
-- [ ] Protocolos atualizados
-- [ ] Personas documentadas (4Ps)
-- [ ] CHANGELOG atualizado
-- [ ] README atualizado (se necessário)
+## Procedimento obrigatório
 
----
+1. Preparar as mudanças em uma revisão de trabalho, preservando alterações preexistentes.
+2. Registrar a decisão estrutural e atualizar o histórico de alterações.
+3. Executar o [checklist de integridade](docs/LINK_INTEGRITY_CHECKLIST.md) e as avaliações pertinentes.
+4. Concluir a revisão humana exigida, aproveitando autorização explícita já concedida ao mesmo escopo.
+5. Publicar o conteúdo validado em `main` sem sobrescrever alterações concorrentes.
+6. Criar uma tag `vX.Y.Z` no commit validado. Nunca mover uma tag existente para reescrever o histórico.
+7. Verificar no GitHub conteúdo, tag e resultado das verificações automáticas. A página de GitHub Release é opcional; a nota em `docs/releases/` e a tag são obrigatórias.
+8. Conferir instalações separadamente, quando estiverem no escopo.
 
-## Recommended Git Flow
+## Estados
 
-1. Branch de trabalho (`aios-release-x.y.z`)
-2. Commit(s) documentais claros
-3. Pull Request com descrição conceitual
-4. Merge em `main`
-5. Tag da versão
+- Em preparação: conteúdo em revisão.
+- Conteúdo publicado: arquivos disponíveis, mas a tag ou outra condição de publicação ainda está pendente.
+- Publicada: conteúdo e tag verificados.
 
----
+Se faltar acesso para criar a tag, publicar somente quando isso já estiver autorizado, informar a pendência e não declarar a versão formal concluída. As notas históricas mantêm as datas e o escopo original; correções posteriores devem ser identificadas.
 
-## Authority
-
-- O humano decide quando algo vira release
-- O AIOS auxilia, organiza e prepara
-- O Git registra
-
----
-
-> *Releases não celebram quantidade de mudanças,  
-celebram clareza alcançada.*
+Ver [DOCOPS](DOCOPS.md), [versões](docs/releases/README.md) e [histórico de alterações](CHANGELOG.md).

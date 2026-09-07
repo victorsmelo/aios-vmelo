@@ -1,78 +1,27 @@
-# Link Integrity Checklist — AIOS
+# Verificação de integridade
 
-Este checklist deve ser usado antes de qualquer release documental do AIOS.
+Aplicar antes de publicar mudanças, conforme [DOCOPS](../DOCOPS.md).
 
-## Purpose
+## Estrutura e referências
 
-Garantir que os links internos, entry points e referências cruzadas do repositório estejam íntegros, coerentes e alinhados à arquitetura conceitual do AIOS.
+- [ ] Os documentos estão acessíveis a partir do [índice principal](../README.md).
+- [ ] Links relativos, âncoras e caminhos do próprio repositório resolvem corretamente.
+- [ ] Arquivos, índice e mapa contêm as mesmas personas e os cinco grupos oficiais.
+- [ ] As 20 personas seguem o [template completo](templates/persona-template.md), sem seções genéricas ou vazias.
+- [ ] Alterações de caminho preservam ou atualizam referências de entrada e saída.
 
-## When to Use
+## Pacotes e comportamento
 
-Usar este checklist quando houver:
+- [ ] Metadados e referências das skills são válidos.
+- [ ] Pacotes derivados correspondem às fontes e aos hashes do manifesto.
+- [ ] As avaliações relevantes foram executadas e suas limitações registradas.
+- [ ] O estado da instalação foi verificado separadamente da publicação.
 
-- criação, remoção ou movimentação de arquivos;
-- criação ou alteração de persona;
-- criação ou alteração de protocolo;
-- mudança no `README.md`;
-- mudança no `docs/personas-index.md`;
-- mudança no `docs/aios-persona-map.md`;
-- preparação de release.
+## Escrita e publicação
 
-## Checklist
+- [ ] O texto segue o [padrão editorial](editorial.md) em pt-BR.
+- [ ] As decisões e o histórico descrevem o que foi realmente alterado.
+- [ ] Toda mudança estrutural está associada a uma nota de versão e tag verificadas.
+- [ ] Não há alegação de testes executados em ambientes indisponíveis.
 
-### 1. Entry Points
-- [ ] `README.md` aponta para arquivos existentes.
-- [ ] `docs/constitution/aios-constitution.md` existe.
-- [ ] `docs/core/AIOS.md` existe.
-- [ ] `docs/protocols/focus-protocol.md` existe.
-- [ ] `docs/personas-index.md` existe.
-- [ ] `docs/aios-persona-map.md` existe.
-
-### 2. Core Layer
-- [ ] AIOS está documentado em `docs/core/AIOS.md`.
-- [ ] AIOS não está listado como persona de domínio.
-- [ ] AIOS é tratado como orquestrador soberano.
-
-### 3. Protocol Layer
-- [ ] Protocolos estão documentados em `docs/protocols/`.
-- [ ] FOCUS está em `docs/protocols/focus-protocol.md`.
-- [ ] Nenhum protocolo está listado como persona.
-- [ ] Alterações de protocolo foram registradas no `CHANGELOG.md`.
-
-### 4. Personas Layer
-- [ ] Toda persona listada em `docs/personas-index.md` possui arquivo correspondente.
-- [ ] Toda persona segue o padrão 4Ps.
-- [ ] Toda persona possui guardrails explícitos.
-- [ ] Personas sensíveis possuem guardrails reforçados.
-- [ ] Toda nova persona está associada a um grupo existente ou justifica novo grupo.
-
-### 5. Persona Map
-- [ ] `docs/aios-persona-map.md` inclui todos os grupos ativos.
-- [ ] O mapa diferencia AIOS, FOCUS e personas.
-- [ ] O mapa não representa AIOS ou FOCUS como personas.
-- [ ] O mapa termina com decisão humana quando aplicável.
-
-### 6. Governance Files
-- [ ] `CHANGELOG.md` foi atualizado.
-- [ ] `DOCOPS.md` continua coerente com o fluxo usado.
-- [ ] `RELEASE_PROCESS.md` continua coerente com o tipo de mudança.
-- [ ] `MANIFESTO.md` não entra em conflito com a alteração.
-
-## Recommended Manual Validation
-
-Antes de fechar uma release, abrir manualmente os principais arquivos no GitHub e validar:
-
-- links relativos;
-- nomes de pastas;
-- capitalização de arquivos;
-- consistência entre índice e arquivos reais;
-- coerência entre Constituição, README, mapa e personas.
-
-## Release Gate
-
-Uma release documental só deve ser considerada pronta quando:
-
-- todos os entry points funcionarem;
-- todas as personas listadas existirem;
-- AIOS, FOCUS e personas estiverem em camadas separadas;
-- o `CHANGELOG.md` refletir a alteração realizada.
+Execute `python3 scripts/validate_aios_docs.py` e os testes do validador na raiz. A verificação local de caminhos não comprova disponibilidade HTTP de fontes externas.

@@ -1,63 +1,26 @@
-# FOCUS — Cognitive Protocol
+# FOCUS — protocolo de investigação e síntese
 
-**Version:** 2026-09-06  
-**Status:** Active
+**Versão:** 2026-09-07  
+**Estado:** Ativo
 
-## Overview
+## Funções
 
-FOCUS é o protocolo cognitivo do AIOS para estruturar tarefas complexas, ambíguas, incertas ou de alto impacto. Ele governa como pensar, não o conteúdo nem a decisão.
+1. **Find — localizar:** buscar fontes, evidências, contradições e lacunas.
+2. **Organize — organizar:** separar fatos, hipóteses e opiniões e relacionar informações.
+3. **Condense — condensar:** reduzir repetições sem perder informações relevantes.
+4. **Understand — compreender:** esclarecer conceitos, pressupostos, causas e limitações.
+5. **Synthesize — sintetizar:** produzir conclusões úteis para o objetivo do usuário.
 
-## Five cognitive functions
+## Aplicação
 
-1. **Find** — localizar fontes, evidências, contradições e lacunas.
-2. **Organize** — estruturar informações, conceitos, fatos, hipóteses e opiniões.
-3. **Condense** — reduzir redundância sem perder nuance ou rigor.
-4. **Understand** — esclarecer conceitos, pressupostos, causas, correlações e trade-offs.
-5. **Synthesize** — integrar achados em entendimento acionável, sem usurpar a decisão humana.
+AIOS seleciona FOCUS quando complexidade, ambiguidade ou impacto justificarem. Pode usar apenas parte das funções e retomá-las conforme surgirem novas informações. Não transformar o acrônimo em títulos obrigatórios da resposta.
 
-## Optional operational checks
+Para tarefas com ações externas, complementar o método com execução autorizada, validação e registro quando necessário. Essas operações não acrescentam letras ao acrônimo.
 
-Quando a tarefa produzir um resultado externo, FOCUS pode ser complementado por:
+Comunicar plano, fontes e verificações quando isso ajudar o usuário a acompanhar o trabalho. Preservar autorizações existentes; solicitar apenas aprovações ainda necessárias para ações concretas.
 
-- **Execute** — realizar a ação autorizada;
-- **Validate** — verificar o resultado, integridade, referências, cálculos, testes ou renderização;
-- **Record** — registrar uma mudança estrutural, decisão ou artefato quando aplicável.
+## Relação com execução distribuída
 
-Essas etapas são operacionais, não novas funções cognitivas do acrônimo.
+FOCUS funciona com um agente ou com trabalho distribuído. Não define agentes, ferramentas ou permissões. A skill orchestrate organiza atribuições; AIOS mantém plano global e validação final, conforme as [responsabilidades](../core/AIOS.md).
 
-## Activation rules
-
-- O AIOS é o único elemento autorizado a ativar FOCUS.
-- O AIOS pode ativá-lo automaticamente quando a complexidade, ambiguidade ou risco justificar.
-- Para tarefas simples, pode usar apenas as etapas necessárias.
-- Solicitar confirmação humana quando exigida pelas políticas e guardrails aplicáveis, preservando autorizações explícitas já dadas ao mesmo escopo. Preparar o resultado concreto e revisável antes de solicitar uma aprovação ainda pendente; não repetir confirmações já satisfeitas.
-- O plano deve ser comunicado quando a estrutura for relevante para o usuário.
-
-## FOCUS plan
-
-Quando aplicável, declarar:
-
-- etapas ativadas;
-- etapas omitidas e motivo;
-- fontes e limitações;
-- ordem das entregas;
-- validações previstas.
-
-## What FOCUS is not
-
-FOCUS não decide, não cria autoridade normativa, não substitui especialistas, não se autoativa e não publica alterações.
-
-## Relationship with other layers
-
-O AIOS coordena FOCUS. Skills podem implementar partes do processo. Personas fornecem conhecimento de domínio. Conectores e ferramentas fornecem acesso a fontes ou superfícies de execução. O AIOS consolida e valida o resultado.
-
-## Relação entre AIOS, FOCUS e orchestrate
-
-- AIOS define o plano global, os critérios de aceitação e a validação final da entrega.
-- FOCUS orienta investigação, organização e síntese quando necessário. Funciona com um único agente e não define a topologia da equipe.
-- `orchestrate` transforma partes do plano em atribuições, coordena dependências e verifica as entregas dos subagentes segundo os critérios recebidos. Não cria um segundo método cognitivo nem substitui a validação final do AIOS.
-- Não mapear automaticamente as cinco funções do FOCUS para cinco agentes. Dividir por trabalho independente, não por etapa do acrônimo ou persona.
-- FOCUS e paralelismo são escolhas independentes: usar ambos, somente um ou nenhum conforme a tarefa.
-- Fora do AIOS, `orchestrate` continua utilizável; o coordenador principal assume plano global e validação final, respeitando o pedido e as regras do ambiente.
-
-Ver [catálogo de skills](../skills/README.md) e [decisão de integração](../decisions/2026-09-06-aios-skills-orchestration.md).
+Ver [skills](../skills/README.md) e [DOCOPS](../../DOCOPS.md).
