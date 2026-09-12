@@ -38,3 +38,7 @@ Se faltar acesso para criar a tag, publicar somente quando isso já estiver auto
 Quando não for possível identificar com segurança o commit de um marco histórico, não criar tag retroativa. Registrar a ausência da tag na nota histórica e tratar o marco como documental, não como versão formal verificável. Uma tag retroativa só pode ser criada após evidência do commit correspondente.
 
 Ver [DOCOPS](DOCOPS.md), [versões](docs/releases/README.md) e [histórico de alterações](CHANGELOG.md).
+
+## Revisão v1.3.1
+
+A revisão de instruções comuns usa o fluxo manual publish-v1.3.1.yml, com as mesmas exigências de ambiente protegido aios-release e revisão. Não cria retroativamente v1.3.0. Antes de declarar a versão publicada, verificar a tag no remoto e o commit correspondente; passar na checagem de links locais não comprova isso. Os pacotes desta revisão usam main para links externos resolvíveis durante a preparação, com hashes identificando o conteúdo empacotado.

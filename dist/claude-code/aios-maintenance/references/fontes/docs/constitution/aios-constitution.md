@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/constitution/aios-constitution.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
-> SHA-256 da fonte antes da adaptação dos links: `2ff6bd5c8cf0a3500c86f9761a131b5dc3dee5c8ad0d31b217ec0fe36670f71b`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/constitution/aios-constitution.md); consultar a nota da versão para o estado de publicação.
+> Cópia derivada de `docs/constitution/aios-constitution.md` para v1.3.1. Revisão-base: `fad18c4624293c4408487efb95e5103a5cfe470b`.
+> SHA-256 da fonte antes da adaptação dos links: `2ff6bd5c8cf0a3500c86f9761a131b5dc3dee5c8ad0d31b217ec0fe36670f71b`. [URL da fonte](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/constitution/aios-constitution.md); consultar a nota da versão para o estado de publicação.
 
 # Constituição do AIOS
 

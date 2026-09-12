@@ -6,7 +6,7 @@
 ## Decisões do usuário
 
 - 1.1 B: template completo obrigatório nas 20 personas.
-- 1.2 B: Produto e Saídas separados por finalidade e formato.
+- 1.2 B: Produto e Saídas separados por finalidade e formato. Decisão posteriormente ajustada para seção única em [ajustes de auditoria](2026-09-07-ajustes-de-auditoria.md), preservando a distinção entre resultado e formato.
 - 1.3 A: Jurídico e Política como quinto grupo oficial; caminhos existentes preservados.
 - 1.4 B: toda mudança estrutural exige versão formal.
 - 3.1 A: traduzir também documentos históricos, preservando fatos e identificando correções.

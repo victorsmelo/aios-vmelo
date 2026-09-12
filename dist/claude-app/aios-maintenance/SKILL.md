@@ -1,30 +1,28 @@
 ---
 name: aios-maintenance
-description: Revisar, alterar ou auditar definições, personas, protocolos, skills e referências do projeto AIOS de Victor em victorsmelo/aios-vmelo. Usar para manutenção do próprio AIOS e comparação de instalações com a fonte, não para manutenção genérica de software.
+description: Auditar, alterar ou comparar definições, personas e pacotes do AIOS em victorsmelo/aios-vmelo. Usar para manutenção do próprio AIOS; excluir manutenção genérica de software.
 ---
 
 # Manutenção do AIOS
 
-Distinguir proposta, alteração preparada, publicação e instalação verificada.
+Identificar pedido, decisões aprovadas, autorização e revisão de origem. Aplicar [DOCOPS](references/fontes/DOCOPS.md). Consultar [fontes](references/fontes.md) para localizar documentos ou conferir procedência e [ambiente](references/ambiente.md) quando acesso, ferramentas ou delegação exigirem verificação. Reutilizar conteúdo já lido e atual.
 
-## Entradas e modo
+## Escolha do fluxo
 
-Identificar o pedido, as decisões aprovadas e os arquivos afetados. Ler [ambiente](references/ambiente.md), [mapa das fontes](references/fontes.md) e [DOCOPS](references/fontes/DOCOPS.md). Para editar, obter o estado atual do repositório, instruções aplicáveis, documentos afetados, índices e CHANGELOG por checkout ou conector disponível. Os snapshots identificam a base; não comprovam o estado atual remoto.
+- **Auditoria:** ler fontes e apresentar achados; não editar fontes, abrir PR, publicar ou instalar. Um relatório de auditoria pode ser entregue como arquivo.
+- **Alteração autorizada:** obter o estado atual do repositório e instruções aplicáveis; ler documentos afetados, decisões e índices relacionados. Preservar alterações preexistentes.
+- **Instalação autorizada:** carregar a skill de gestão disponível, comparar pacote e destino, preservar customizações e verificar cada instalação. Publicação não comprova instalação.
 
-- Auditoria somente leitura: consultar e apresentar achados sem alterar arquivos, abrir PR ou instalar.
-- Implementação autorizada: preparar mudanças dentro do escopo e preservar alterações preexistentes.
-- Instalação autorizada: comparar pacote e conteúdo instalado, preservar customizações e seguir o mecanismo de gestão disponível. Carregar a skill de criação/gestão de skills aplicável antes dessa operação.
-
-Não interpretar falha de acesso como ausência de arquivo. Quando faltar acesso, concluir a análise possível com as fontes fornecidas e indicar o que não foi verificado. Pedir conteúdo somente se sua ausência impedir trabalho útil.
+Snapshots identificam uma base, não o estado atual remoto. Falha de acesso não comprova ausência de arquivo: concluir a análise possível e declarar o que não foi verificado. Solicitar conteúdo apenas quando necessário para avançar.
 
 ## Análise e execução
 
-1. Registrar problema, evidência, mudança proposta, arquivos e dependências na profundidade necessária. Separar decisão aprovada, proposta e inferência.
-2. Verificar consistência entre [camadas](references/fontes/docs/architecture/layers.md), nomes, aliases, 4Ps, índices, links e exemplos. Usar a [definição AIOS](references/fontes/docs/core/AIOS.md) para o contrato entre coordenação, FOCUS e execução; evitar repeti-lo em cada documento.
-3. Implementar apenas o modo autorizado. Atualizar índices, CHANGELOG e decisão arquitetural quando DOCOPS exigir. Preparar diff revisável antes de pedir uma aprovação ainda necessária; reutilizar autorização explícita já dada ao mesmo escopo.
-4. Para frentes independentes de auditoria, usar `orchestrate` se disponível e permitido. Manter responsabilidade exclusiva por arquivos e restrições de leitura nas atribuições.
-5. Após alterar fontes de pacotes, regenerar referências e distribuições pelo script do projeto e executar os validadores aplicáveis. Conferir diff, links, metadados e hashes.
+1. Registrar achado, evidência, proposta, arquivos e dependências na profundidade necessária; separar decisão aprovada de proposta.
+2. Conferir nomes, aliases, 4Ps, índices e links afetados. Consultar [camadas](references/fontes/docs/architecture/layers.md) e [coordenação](references/fontes/docs/core/AIOS.md) quando responsabilidades ou relações mudarem.
+3. Em mudanças autorizadas, editar fontes canônicas; atualizar índices, histórico e decisão estrutural conforme DOCOPS. Preparar diff concreto antes de solicitar qualquer aprovação ainda pendente; reutilizar a autorização do mesmo escopo.
+4. Em auditorias com frentes substanciais independentes, usar `orchestrate` se a delegação real for permitida. Delimitar responsabilidades e restrições de escrita.
+5. Após alterações de fontes dos pacotes, gerar referências e distribuições; depois atualizar o manifesto. Executar os validadores aplicáveis, corrigir falhas causadas pela mudança e repetir os checks afetados até satisfazer os critérios. Verificar tags remotamente quando a entrega incluir publicação formal.
 
-## Saída e limites
+## Entrega
 
-Entregar achados ou mudanças, verificações realizadas e pendências concretas. Confirmar separadamente conteúdo salvo, publicação e instalação. Não afirmar instalação pela existência de um arquivo no GitHub, nem sincronização contínua. Se uma ação ficar bloqueada, concluir as partes independentes autorizadas e identificar o estado exato da entrega.
+Apresentar achados ou alterações, verificações e pendências concretas. Distinguir preparado, publicado e instalado. Encerrar quando o escopo e suas verificações estiverem concluídos; se bloqueado, concluir partes independentes e indicar a causa e o estado exatos. Não alegar sincronização automática.

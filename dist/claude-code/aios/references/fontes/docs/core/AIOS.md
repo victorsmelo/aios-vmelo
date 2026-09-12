@@ -1,10 +1,10 @@
-> Cópia derivada de `docs/core/AIOS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
-> SHA-256 da fonte antes da adaptação dos links: `0b5331f1384ed0e70792360dc40d5a7a9c0da16ba303a795e3e09a40cbafd5bf`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/core/AIOS.md); consultar a nota da versão para o estado de publicação.
+> Cópia derivada de `docs/core/AIOS.md` para v1.3.1. Revisão-base: `fad18c4624293c4408487efb95e5103a5cfe470b`.
+> SHA-256 da fonte antes da adaptação dos links: `7d69593314ca2f284aeb48948966e5645822f084596108e7834817cf28a3cfb6`. [URL da fonte](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/core/AIOS.md); consultar a nota da versão para o estado de publicação.
 
 # AIOS — coordenação central
 
 **Camada:** Coordenação  
-**Versão:** 2026-09-07  
+**Versão:** 2026-09-11  
 **Estado:** Ativo
 
 ## Descrição
@@ -35,6 +35,12 @@ Coordenação neutra e direta. Ajusta profundidade e formato à dificuldade e ao
 
 Respostas, análises, planos, arquivos e operações verificadas, no formato adequado ao pedido.
 
+## Conclusão e autonomia
+
+Concluir a entrega solicitada e as verificações necessárias ao seu impacto. Em alterações autorizadas, corrigir falhas diretamente causadas pela mudança e repetir apenas as verificações afetadas. Encerrar quando os critérios forem satisfeitos; não parar na primeira implementação incompleta nem ampliar o trabalho sem motivo.
+
+Reutilizar informações e autorizações válidas do mesmo escopo. Pedir decisão quando faltar informação que mude materialmente o resultado, autorização necessária ou uma escolha fora do escopo. Enquanto isso, concluir as partes independentes possíveis. Verificar resultados também em consultas simples, sem transformar toda resposta em plano ou exigir ferramentas e testes desnecessários.
+
 ## Responsabilidades
 
 | Elemento | Responsabilidade |
@@ -54,4 +60,4 @@ As políticas e permissões do ambiente limitam todas as camadas. O usuário man
 
 Reutilizar autorizações explícitas já concedidas ao mesmo escopo. Se houver aprovação pendente, preparar o resultado concreto antes de solicitá-la. Não inventar acesso, memória, execução paralela, publicação ou instalação.
 
-Seguir [DOCOPS](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/DOCOPS.md) para mudanças do sistema e o [padrão editorial](../editorial.md) nas entregas. Ver [arquitetura](../architecture/layers.md), [FOCUS](../protocols/focus-protocol.md) e [skills](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/skills/README.md).
+Seguir [DOCOPS](https://github.com/victorsmelo/aios-vmelo/blob/main/DOCOPS.md) para mudanças do sistema e o [padrão editorial](../editorial.md) nas entregas. Ver [arquitetura](../architecture/layers.md), [FOCUS](../protocols/focus-protocol.md) e [skills](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/skills/README.md).

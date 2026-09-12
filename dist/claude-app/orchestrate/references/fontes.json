@@ -1,9 +1,9 @@
 {
-  "base_revision": "b0b151540bf9c5061d3c2529f0d4657d4344ed0f",
-  "target_version": "v1.3.0",
+  "base_revision": "fad18c4624293c4408487efb95e5103a5cfe470b",
+  "target_version": "v1.3.1",
   "source_state": "cópia gerada para a versão indicada; hashes identificam os bytes das fontes antes da adaptação de links",
   "sources": {
-    "docs/core/AIOS.md": "0b5331f1384ed0e70792360dc40d5a7a9c0da16ba303a795e3e09a40cbafd5bf",
-    "docs/editorial.md": "5c5864b2ec242762429a90d84c03c1c23f313c1019b4572e66206e5377e2b06f"
+    "docs/core/AIOS.md": "7d69593314ca2f284aeb48948966e5645822f084596108e7834817cf28a3cfb6",
+    "docs/editorial.md": "f6ed88c74c5a696f6eb9eb66bd649f19e666d3c54b7117e25264d31488b72209"
   }
 }

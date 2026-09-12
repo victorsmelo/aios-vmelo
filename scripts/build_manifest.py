@@ -17,7 +17,7 @@ def main():
     manifest = ROOT / 'skills/manifest.json'
     files = sorted(p for folder in ['skills', 'dist'] for p in (ROOT/folder).rglob('*') if p.is_file() and p != manifest)
     sources = sorted(set(p for folder in ['docs','references','scripts'] for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts) | set(ROOT.glob('*.md')))
-    data = {'version': '1.3.0', 'automatic_sync': False,
+    data = {'version': '1.3.1', 'automatic_sync': False,
             'files': {p.relative_to(ROOT).as_posix(): digest(p) for p in files},
             'source_files': {p.relative_to(ROOT).as_posix(): digest(p) for p in sources}}
     content = json.dumps(data, ensure_ascii=False, indent=2)+'\n'

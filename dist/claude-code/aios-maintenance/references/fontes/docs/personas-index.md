@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas-index.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
-> SHA-256 da fonte antes da adaptação dos links: `c5e607b5588fdebd7c57ad6a48ad4fb0a043e0a9768c4b1e0419326517adc2d2`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas-index.md); consultar a nota da versão para o estado de publicação.
+> Cópia derivada de `docs/personas-index.md` para v1.3.1. Revisão-base: `fad18c4624293c4408487efb95e5103a5cfe470b`.
+> SHA-256 da fonte antes da adaptação dos links: `9811293e42801f5e0fa1ed5b6849214fa4b3c4c20af7bae3daa25267c7d46bc6`. [URL da fonte](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/personas-index.md); consultar a nota da versão para o estado de publicação.
 
 # Índice de personas
 
@@ -42,4 +42,4 @@ As 20 personas são configurações de atuação em domínios específicos. AIOS
 
 - [F0NT](personas/estrategia-disciplina-and-lideranca/F0NT.md)
 
-AXIS e LEX pertencem ao grupo Jurídico e Política; seus caminhos anteriores são mantidos para preservar os links. Todas as personas seguem o [modelo completo](templates/persona-template.md), com Produto distinto de Saídas.
+AXIS e LEX pertencem ao grupo Jurídico e Política; seus caminhos anteriores são mantidos para preservar os links. Todas as personas seguem o [modelo completo](templates/persona-template.md), com Produto e saídas em uma única seção, distinguindo resultado esperado e formato.

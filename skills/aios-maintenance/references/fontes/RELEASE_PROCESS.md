@@ -1,5 +1,5 @@
-> Cópia derivada de `RELEASE_PROCESS.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
-> SHA-256 da fonte antes da adaptação dos links: `850ac0e4eb900ccf0c86695fdafa30aa02d3b2f31beb095cd591c34e3523273e`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/RELEASE_PROCESS.md); consultar a nota da versão para o estado de publicação.
+> Cópia derivada de `RELEASE_PROCESS.md` para v1.3.1. Revisão-base: `fad18c4624293c4408487efb95e5103a5cfe470b`.
+> SHA-256 da fonte antes da adaptação dos links: `5a0b86d0757f26b397bca80f24dd56547d722571f5a80bfd7c1b7a37b319ca08`. [URL da fonte](https://github.com/victorsmelo/aios-vmelo/blob/main/RELEASE_PROCESS.md); consultar a nota da versão para o estado de publicação.
 
 # Publicação de versões do AIOS
 
@@ -21,7 +21,7 @@ A versão 1.3.0 consolida ajustes de auditoria, preservando a divisão entre AIO
 
 1. Preparar as mudanças em uma revisão de trabalho, preservando alterações preexistentes.
 2. Registrar a decisão estrutural e atualizar o histórico de alterações.
-3. Executar o [checklist de integridade](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/LINK_INTEGRITY_CHECKLIST.md) e as avaliações pertinentes.
+3. Executar o [checklist de integridade](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/LINK_INTEGRITY_CHECKLIST.md) e as avaliações pertinentes.
 4. Concluir a revisão humana exigida, aproveitando autorização explícita já concedida ao mesmo escopo.
 5. Publicar o conteúdo validado em `main` sem sobrescrever alterações concorrentes.
 6. Criar uma tag `vX.Y.Z` no commit validado. Nunca mover uma tag existente para reescrever o histórico.
@@ -40,4 +40,8 @@ Se faltar acesso para criar a tag, publicar somente quando isso já estiver auto
 
 Quando não for possível identificar com segurança o commit de um marco histórico, não criar tag retroativa. Registrar a ausência da tag na nota histórica e tratar o marco como documental, não como versão formal verificável. Uma tag retroativa só pode ser criada após evidência do commit correspondente.
 
-Ver [DOCOPS](DOCOPS.md), [versões](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/releases/README.md) e [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md).
+Ver [DOCOPS](DOCOPS.md), [versões](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/releases/README.md) e [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/main/CHANGELOG.md).
+
+## Revisão v1.3.1
+
+A revisão de instruções comuns usa o fluxo manual publish-v1.3.1.yml, com as mesmas exigências de ambiente protegido aios-release e revisão. Não cria retroativamente v1.3.0. Antes de declarar a versão publicada, verificar a tag no remoto e o commit correspondente; passar na checagem de links locais não comprova isso. Os pacotes desta revisão usam main para links externos resolvíveis durante a preparação, com hashes identificando o conteúdo empacotado.

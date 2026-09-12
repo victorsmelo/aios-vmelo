@@ -1,9 +1,9 @@
-> Cópia derivada de `docs/editorial.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
-> SHA-256 da fonte antes da adaptação dos links: `5c5864b2ec242762429a90d84c03c1c23f313c1019b4572e66206e5377e2b06f`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/editorial.md); consultar a nota da versão para o estado de publicação.
+> Cópia derivada de `docs/editorial.md` para v1.3.1. Revisão-base: `fad18c4624293c4408487efb95e5103a5cfe470b`.
+> SHA-256 da fonte antes da adaptação dos links: `f6ed88c74c5a696f6eb9eb66bd649f19e666d3c54b7117e25264d31488b72209`. [URL da fonte](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/editorial.md); consultar a nota da versão para o estado de publicação.
 
 # Padrão editorial e de escrita de skills
 
-**Versão:** 2026-09-07
+**Versão:** 2026-09-11
 
 ## Linguagem comum
 
@@ -22,7 +22,7 @@ Preservar identificadores exigidos por ferramentas, nomes de arquivos existentes
 
 ## Personas
 
-Todas as 20 personas seguem o [template completo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/templates/persona-template.md). As seções são obrigatórias e devem trazer conteúdo específico. Produto e saídas reúne o resultado esperado e os formatos adequados para apresentá-lo. Personas relacionadas explicita quando escolher cada uma. Se não houver relação relevante, informar isso com justificativa, sem inventar dependências.
+Todas as 20 personas seguem o [template completo](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/templates/persona-template.md). As seções são obrigatórias e devem trazer conteúdo específico. Produto e saídas reúne o resultado esperado e os formatos adequados para apresentá-lo. Personas relacionadas explicita quando escolher cada uma. Se não houver relação relevante, informar isso com justificativa, sem inventar dependências.
 
 Descrever competências e comportamento sem atribuir experiência pessoal, cargo ou credenciais reais à IA. Preservar as diferenças de tom adequadas ao domínio, dentro deste padrão comum.
 
@@ -36,8 +36,16 @@ Descrever competências e comportamento sem atribuir experiência pessoal, cargo
 6. Registrar exemplos positivos e negativos e avaliar o comportamento em tarefas reais ou cenários reproduzíveis.
 7. Distinguir instruções, exemplos e evidências de testes. Não declarar compatibilidade executada quando houve apenas revisão estática.
 
+## Instruções comuns a diferentes modelos
+
+Definir resultado, contexto necessário, limites e critérios de conclusão. Condicionar passos ao tipo de pedido; manter sequência obrigatória apenas quando sua ordem alterar a correção, como conversões de unidades ou geração de pacotes. Na seção Processo das personas, indicar quando explicar, comparar, calcular, planejar ou acompanhar; as entradas são insumos relevantes, não um questionário obrigatório. Produto e saídas descreve entregas possíveis; selecionar apenas as pertinentes ao pedido.
+
+Manter as 20 personas completas. Remover repetições dentro do mesmo documento sem tornar limites essenciais dependentes de referências que não serão carregadas. Consultar referências por necessidade e reutilizar conteúdo já lido e ainda atual.
+
+Compartilhar uma base entre modelos e adaptar capacidades por ambiente. Criar exceções por modelo somente com falha reproduzível e avaliação registrada. Compatibilidade estrutural de um pacote não comprova comportamento; registrar revisão, modelo, ambiente, entrada e resultado real.
+
 ## Revisão
 
 Ler o documento inteiro após editar; conferir termos, escopo, links e concordância. Verificações automáticas identificam problemas estruturais, mas não garantem clareza. Encerrar quando o texto comunica a regra e o resultado esperado sem informação dispensável.
 
-Referências de orientação: [OpenAI](https://learn.chatgpt.com/docs/build-skills) e [Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices). As escolhas locais aprovadas estão no [registro da revisão](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/decisions/2026-09-07-revisao-completa.md).
+Referências de orientação: [OpenAI](https://learn.chatgpt.com/docs/build-skills) e [Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices). As escolhas locais aprovadas estão no [registro da revisão](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/decisions/2026-09-07-revisao-completa.md).

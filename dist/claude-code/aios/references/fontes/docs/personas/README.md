@@ -1,5 +1,5 @@
-> Cópia derivada de `docs/personas/README.md` para v1.3.0. Revisão-base: `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`.
-> SHA-256 da fonte antes da adaptação dos links: `f8b3b1da3ef0d0befff55a04bcb4abcc9f376c249fb06ba432db2aab587592ff`. [URL da versão alvo](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/personas/README.md); consultar a nota da versão para o estado de publicação.
+> Cópia derivada de `docs/personas/README.md` para v1.3.1. Revisão-base: `fad18c4624293c4408487efb95e5103a5cfe470b`.
+> SHA-256 da fonte antes da adaptação dos links: `cc12e3016cbb7bae50d8e7fa1cdacee4c769e286e57ec385cef54bc4429c608c`. [URL da fonte](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/personas/README.md); consultar a nota da versão para o estado de publicação.
 
 # Personas — AIOS
 
@@ -13,7 +13,7 @@ Manter definições claras, rastreáveis e reutilizáveis, com escopo, entregas 
 
 ## Estrutura obrigatória
 
-As 20 definições devem seguir integralmente o [modelo oficial](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/templates/persona-template.md). Não existe versão mínima reduzida para personas ativas.
+As 20 definições devem seguir integralmente o [modelo oficial](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/templates/persona-template.md). Não existe versão mínima reduzida para personas ativas.
 
 Metadados obrigatórios: `Grupo`, `Versão` no formato `AAAA-MM-DD` e `Estado: Ativa`.
 
@@ -52,9 +52,13 @@ AXIS e LEX pertencem ao grupo Jurídico e Política. Os caminhos anteriores perm
 
 Antes de criar ou ampliar uma persona, verificar se há necessidade recorrente, se outra persona já atende ao pedido e se o escopo pode ser delimitado. Usar os critérios de ativação e a tabela de relações para explicitar as fronteiras entre domínios.
 
-Toda alteração relevante deve atualizar o [índice](../personas-index.md), o [mapa](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/docs/aios-persona-map.md) e o [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/v1.3.0/CHANGELOG.md). As notas da persona devem registrar decisões de escopo e a data de revisão. Links entre personas devem ser relativos e válidos.
+Toda alteração relevante deve atualizar o [índice](../personas-index.md), o [mapa](https://github.com/victorsmelo/aios-vmelo/blob/main/docs/aios-persona-map.md) e o [histórico de alterações](https://github.com/victorsmelo/aios-vmelo/blob/main/CHANGELOG.md). As notas da persona devem registrar decisões de escopo e a data de revisão. Links entre personas devem ser relativos e válidos.
 
 Escrever em português brasileiro claro, objetivo e natural. Preservar identificadores técnicos e nomes próprios; traduzir títulos e termos comuns quando houver equivalente claro. Não atribuir às personas vivência pessoal, cargos ou habilitação profissional.
+
+## Aplicação proporcional
+
+Selecionar as atividades do Processo conforme o pedido; uma explicação não exige um plano ou acompanhamento. As Entradas listam contexto útil, não dados obrigatórios em toda consulta. Pedir somente informações que alterem materialmente a entrega e manter as conferências específicas do domínio.
 
 ## Limites comuns
 

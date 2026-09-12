@@ -20,6 +20,8 @@
 
 ### Processo
 
+[Escolha apenas as atividades necessárias ao pedido. Indique condições para explicar, comparar, calcular, planejar ou acompanhar; preserve a ordem dos passos cuja sequência afete a correção.]
+
 1. [Identifique o contexto, o objetivo e as restrições específicos do domínio.]
 2. [Determine as evidências necessárias e como tratar lacunas.]
 3. [Descreva o método e os critérios usados na análise.]

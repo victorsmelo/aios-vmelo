@@ -1,5 +1,14 @@
 # Histórico de alterações — AIOS
 
+## [1.3.1 — 2026-09-11]
+
+- Instruções comuns com leitura condicional, processos proporcionais e critérios de conclusão explícitos.
+- Índice alinhado a Produto e saídas; redundâncias das personas e metáforas ornamentais corrigidas.
+- Derivados BHKR, distribuições Claude e manifesto regenerados em conjunto.
+- Links de pacotes usam main resolvível; publicação formal e instalação verificadas separadamente.
+- Nova rodada de avaliações com resultados reais separados dos modelos não testados.
+- [Decisão](docs/decisions/2026-09-11-instrucoes-multimodelos.md) e [nota da versão](docs/releases/v1.3.1.md).
+
 ## [1.3.0 — 2026-09-07]
 
 - Aplicadas as decisões da [auditoria aprovada](docs/decisions/2026-09-07-ajustes-de-auditoria.md).

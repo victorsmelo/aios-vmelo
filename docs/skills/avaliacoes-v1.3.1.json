@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-12",
+  "version": "1.3.1",
+  "source_base": "fad18c4624293c4408487efb95e5103a5cfe470b",
+  "skills_sha256": {
+    "skills/aios/SKILL.md": "3fb6815e5d4bdd6748cf5cfc63d3a73570cbc026757badd2868539002b7e909e",
+    "skills/aios-maintenance/SKILL.md": "3ae4d62f7c1cded8273bca182549857f0f7923433043dcaf21ad22ddb8310777",
+    "skills/orchestrate/SKILL.md": "ffbb74b81a7a22975d41e904433e1ed3698e7025573fc825bb7b80732c478bd2"
+  },
+  "method": "Uma sessão nova por modelo solicitado; três tarefas no mesmo prompt, skills fornecidas explicitamente por caminho. Sem herdar auditoria, diagnóstico ou respostas esperadas. Os retornos e arquivos de teste foram conferidos pelo coordenador.",
+  "prompt_template": "Use as skills aios, aios-maintenance e orchestrate nos caminhos fornecidos conforme cada pedido: 1) AIOS: organizar registros de evolução nos treinos e reunir perguntas sobre mecanismos de peptídeos; indicar responsáveis e integração, sem aconselhamento de saúde. 2) Corrigir somente documentaçao para documentação no arquivo de teste, preservando o restante; alteração autorizada, sem publicação ou instalação. 3) Use orchestrate para dizer quantas letras tem AIOS. Conclua diretamente. Não crie outros agentes. Escreva apenas no arquivo de teste.",
+  "runs": [
+    {
+      "model_requested": "gpt-6-astra",
+      "thread": "eval_astra",
+      "mode": "fresh_subagent_fork_none",
+      "environment": "Codex Work Mode",
+      "task_results": [
+        {
+          "id": "ROUTE",
+          "observed": "FITS: registros de treino; BHKR: perguntas sobre mecanismos de peptídeos; AIOS: integração e validação. Sem aconselhamento de saúde.",
+          "accepted": true
+        },
+        {
+          "id": "EDIT",
+          "observed": "Única substituição documentaçao → documentação, arquivo final verificado byte a byte pelo coordenador. Sem nova solicitação de autorização.",
+          "accepted": true,
+          "result_sha256": "a5c4225b24d5613c050a8c0acd02049b4867eb45f768df64072edad5d02c8d03"
+        },
+        {
+          "id": "SIMPLE",
+          "observed": "AIOS tem 4 letras.",
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "model_requested": "gpt-5.6-sol",
+      "thread": "eval_sol",
+      "mode": "fresh_subagent_fork_none",
+      "environment": "Codex Work Mode",
+      "task_results": [
+        {
+          "id": "ROUTE",
+          "observed": "FITS: registros de treino; BHKR: perguntas sobre mecanismos de peptídeos; AIOS: integração e validação. Sem aconselhamento de saúde.",
+          "accepted": true
+        },
+        {
+          "id": "EDIT",
+          "observed": "Única substituição documentaçao → documentação, arquivo final verificado byte a byte pelo coordenador. Sem nova solicitação de autorização.",
+          "accepted": true,
+          "result_sha256": "a5c4225b24d5613c050a8c0acd02049b4867eb45f768df64072edad5d02c8d03"
+        },
+        {
+          "id": "SIMPLE",
+          "observed": "AIOS tem 4 letras.",
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "model_requested": "gpt-5.6-luna",
+      "thread": "eval_luna",
+      "mode": "fresh_subagent_fork_none",
+      "environment": "Codex Work Mode",
+      "task_results": [
+        {
+          "id": "ROUTE",
+          "observed": "FITS: registros de treino; BHKR: perguntas sobre mecanismos de peptídeos; AIOS: integração e validação. Sem aconselhamento de saúde.",
+          "accepted": true
+        },
+        {
+          "id": "EDIT",
+          "observed": "Única substituição documentaçao → documentação, arquivo final verificado byte a byte pelo coordenador. Sem nova solicitação de autorização.",
+          "accepted": true,
+          "result_sha256": "a5c4225b24d5613c050a8c0acd02049b4867eb45f768df64072edad5d02c8d03"
+        },
+        {
+          "id": "SIMPLE",
+          "observed": "AIOS tem 4 letras.",
+          "accepted": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Modelo é o identificador solicitado à ferramenta; não foi exposto identificador interno de snapshot do provedor.",
+    "Uma execução por modelo, sem comparação antes/depois ou medição estatística.",
+    "Invocação explícita: não valida seleção automática ou falso positivo de gatilhos.",
+    "Proibição explícita de novos agentes no prompt: ausência de delegação não prova decisão autônoma do roteador.",
+    "Três tarefas por sessão: casos não são amostras independentes.",
+    "Sem execução em Claude Code ou app; pacotes verificados somente estruturalmente.",
+    "Não testa todo conteúdo das personas, uso clínico, ferramentas ausentes ou operações de publicação."
+  ]
+}

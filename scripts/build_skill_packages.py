@@ -11,8 +11,10 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_REVISION = 'b0b151540bf9c5061d3c2529f0d4657d4344ed0f'
-TARGET_VERSION = 'v1.3.0'
+BASE_REVISION = 'fad18c4624293c4408487efb95e5103a5cfe470b'
+TARGET_VERSION = 'v1.3.1'
+# main permanece resolvível durante a publicação; hashes identificam as fontes.
+REFERENCE_REF = 'main'
 REPO = 'https://github.com/victorsmelo/aios-vmelo'
 NAMES = ('aios', 'aios-maintenance', 'orchestrate')
 ENVIRONMENTS = {
@@ -70,12 +72,12 @@ def snapshot(path: str, selected: set[str]) -> bytes:
         resolved = posixpath.normpath(posixpath.join(posixpath.dirname(path), file))
         if resolved in selected:
             return match.group(0)
-        return f'[{label}]({REPO}/blob/{TARGET_VERSION}/{resolved}' + (f'#{anchor}' if sep else '') + ')'
+        return f'[{label}]({REPO}/blob/{REFERENCE_REF}/{resolved}' + (f'#{anchor}' if sep else '') + ')'
     body = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link, body)
     header = (f'> Cópia derivada de `{path}` para {TARGET_VERSION}. '
               f'Revisão-base: `{BASE_REVISION}`.\n'
               f'> SHA-256 da fonte antes da adaptação dos links: `{digest(original)}`. '
-              f'[URL da versão alvo]({REPO}/blob/{TARGET_VERSION}/{path}); '
+              f'[URL da fonte]({REPO}/blob/{REFERENCE_REF}/{path}); '
               'consultar a nota da versão para o estado de publicação.\n\n')
     return (header + body).encode('utf-8')
 
@@ -91,7 +93,7 @@ def reference_files(name: str) -> dict[str, bytes]:
               'identificam os bytes usados antes da adaptação de links. Consultar a nota da versão para o estado de '
               'publicação. Não há sincronização automática.\n\n'
               'Leia somente o assunto necessário. Os links entre fontes incluídas funcionam localmente; '
-              'outros links apontam para a versão alvo no GitHub e podem exigir acesso.\n\n')
+              'outros links apontam para main no GitHub e podem exigir acesso. main é mutável; os hashes identificam o conteúdo incluído no pacote.\n\n')
     index += '\n'.join(f'- [{p}](fontes/{p})' for p in selected)+'\n'
     files['references/fontes.md'] = index.encode()
     return files

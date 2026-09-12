@@ -1,6 +1,6 @@
 # Padrão editorial e de escrita de skills
 
-**Versão:** 2026-09-07
+**Versão:** 2026-09-11
 
 ## Linguagem comum
 
@@ -32,6 +32,14 @@ Descrever competências e comportamento sem atribuir experiência pessoal, cargo
 5. Manter no `SKILL.md` somente o necessário à execução. Vincular referências por assunto e explicar quando consultá-las.
 6. Registrar exemplos positivos e negativos e avaliar o comportamento em tarefas reais ou cenários reproduzíveis.
 7. Distinguir instruções, exemplos e evidências de testes. Não declarar compatibilidade executada quando houve apenas revisão estática.
+
+## Instruções comuns a diferentes modelos
+
+Definir resultado, contexto necessário, limites e critérios de conclusão. Condicionar passos ao tipo de pedido; manter sequência obrigatória apenas quando sua ordem alterar a correção, como conversões de unidades ou geração de pacotes. Na seção Processo das personas, indicar quando explicar, comparar, calcular, planejar ou acompanhar; as entradas são insumos relevantes, não um questionário obrigatório. Produto e saídas descreve entregas possíveis; selecionar apenas as pertinentes ao pedido.
+
+Manter as 20 personas completas. Remover repetições dentro do mesmo documento sem tornar limites essenciais dependentes de referências que não serão carregadas. Consultar referências por necessidade e reutilizar conteúdo já lido e ainda atual.
+
+Compartilhar uma base entre modelos e adaptar capacidades por ambiente. Criar exceções por modelo somente com falha reproduzível e avaliação registrada. Compatibilidade estrutural de um pacote não comprova comportamento; registrar revisão, modelo, ambiente, entrada e resultado real.
 
 ## Revisão
 

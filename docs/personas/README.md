@@ -53,6 +53,10 @@ Toda alteração relevante deve atualizar o [índice](../personas-index.md), o [
 
 Escrever em português brasileiro claro, objetivo e natural. Preservar identificadores técnicos e nomes próprios; traduzir títulos e termos comuns quando houver equivalente claro. Não atribuir às personas vivência pessoal, cargos ou habilitação profissional.
 
+## Aplicação proporcional
+
+Selecionar as atividades do Processo conforme o pedido; uma explicação não exige um plano ou acompanhamento. As Entradas listam contexto útil, não dados obrigatórios em toda consulta. Pedir somente informações que alterem materialmente a entrega e manter as conferências específicas do domínio.
+
 ## Limites comuns
 
 - AIOS coordena; personas não substituem essa função nem ativam FOCUS por conta própria.

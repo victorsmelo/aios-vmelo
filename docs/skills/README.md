@@ -1,6 +1,6 @@
 # Skills
 
-**Versão:** 1.3.0  
+**Versão:** 1.3.1  
 **Estado:** pacotes preparados; instalação é uma operação separada.
 
 Skills são capacidades reutilizáveis. O AIOS seleciona as necessárias ao pedido, respeitando a autorização e as ferramentas disponíveis. Uma skill não se torna persona nem recebe autoridade para ampliar o escopo.
@@ -19,7 +19,7 @@ O [core](../core/AIOS.md) mantém o contrato entre AIOS, FOCUS e execução. Per
 
 `docs/` e `DOCOPS.md` contêm as definições canônicas. `skills/` mantém instruções executáveis comuns e metadados OpenAI. As referências por assunto, em `references/fontes/`, são derivadas das fontes pelo [gerador](../../scripts/build_skill_packages.py). O índice `references/fontes.md` orienta leitura seletiva e `references/fontes.json` registra SHA-256 das fontes originais.
 
-A revisão-base é `b0b151540bf9c5061d3c2529f0d4657d4344ed0f`; ela identifica a versão anterior usada como base. Os hashes registram os bytes das fontes antes da adaptação de links. Consultar a [nota da versão](../releases/v1.3.0.md) para confirmar seu estado de publicação. Links entre fontes incluídas no pacote permanecem locais; os demais apontam ao GitHub.
+A revisão-base é `fad18c4624293c4408487efb95e5103a5cfe470b`; ela identifica a versão anterior usada como base. Os hashes registram os bytes das fontes antes da adaptação de links. Consultar a [nota da versão](../releases/v1.3.1.md) para confirmar seu estado de publicação. Links entre fontes incluídas no pacote permanecem locais; os demais apontam a main no GitHub enquanto a publicação formal estiver pendente. Esse destino é mutável; os hashes identificam os bytes incluídos. A disponibilidade da tag deve ser verificada separadamente dos links locais.
 
 Executar da raiz do projeto depois de concluir mudanças canônicas:
 
@@ -52,3 +52,5 @@ Publicação no GitHub não comprova instalação em nenhum produto. Comparar co
 ## Avaliação
 
 Os [cenários](avaliacoes.md) e seus [dados estruturados](avaliacoes.json) definem verificações de ativação, escopo, falta de acesso e delegação. Checagem estrutural e leitura de instruções não substituem execução real em cada produto. Não marcar um cenário como aprovado sem registrar ambiente, entrada, saída observada e evidência.
+
+A rodada de [avaliação da v1.3.1](avaliacoes-v1.3.1.md) registra modelos, artefatos e limitações da revisão comum.

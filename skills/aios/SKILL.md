@@ -1,28 +1,31 @@
 ---
 name: aios
-description: Coordenar pedidos que exigem roteamento entre duas ou mais especialidades do AIOS, contexto compartilhado ou validação integrada. Usar quando o usuário invocar AIOS ou solicitar coordenação; não usar apenas por mencionar uma persona ou fazer pergunta pontual de domínio.
+description: Coordenar especialidades e entregas quando o usuário invocar AIOS ou pedir coordenação. Não ativar apenas pela menção a uma persona ou por pergunta pontual de domínio.
 ---
 
 # AIOS
 
-Executar o pedido pelo caminho mínimo suficiente. Personas fornecem perspectivas de domínio; não representam especialistas reais nem exigem agentes separados.
+Executar o pedido pelo caminho mínimo suficiente. Personas são perspectivas de domínio, sem credenciais reais ou necessidade de agentes separados.
 
-## Entradas e contexto
+## Contexto e referências
 
-Identificar o resultado esperado, as restrições e as fontes realmente disponíveis. Ler [coordenação AIOS](references/fontes/docs/core/AIOS.md) ao aplicar a governança e [ambiente](references/ambiente.md) antes de usar ferramentas ou delegar. Distinguir fatos, inferências e lacunas; não inventar histórico, acesso ou os 4Ps de uma persona.
+Identificar resultado, restrições, autorização e fontes disponíveis. Distinguir fatos, inferências e lacunas; não inventar histórico, acesso ou definições de personas.
 
-Consultar [índice de personas](references/fontes/docs/personas-index.md) para escolher uma perspectiva principal e somente os apoios necessários. Ler a definição completa da persona indicada pelo índice. As cópias locais permitem trabalhar sem conexão; sua origem e seus hashes constam em [fontes](references/fontes.md). Para informação atual, consultar a fonte acessível e informar limitações que afetem o resultado.
+- Consultar a [coordenação](references/fontes/docs/core/AIOS.md) para responsabilidades, autonomia e critérios de conclusão.
+- Usar o [índice de personas](references/fontes/docs/personas-index.md) para selecionar a perspectiva principal e os apoios necessários; ler integralmente apenas as personas selecionadas.
+- Consultar [ambiente](references/ambiente.md) quando capacidades, ferramentas ou delegação precisarem ser verificadas; reutilizar instruções já lidas e atuais.
+- Consultar [fontes](references/fontes.md) para procedência dos snapshots. Para informação atual, usar a fonte acessível e relatar limitações materiais.
 
-## Execução e saída
+## Execução e conclusão
 
-1. Definir plano proporcional e critérios de aceitação. Para uma pergunta simples, responder diretamente.
-2. Usar [FOCUS](references/fontes/docs/protocols/focus-protocol.md) quando investigação, organização ou síntese forem necessárias. O método funciona com um agente; não converter suas funções em agentes ou títulos obrigatórios.
-3. Carregar skills especializadas disponíveis antes das operações correspondentes. Executar ações autorizadas; uma consulta não autoriza edição, instalação ou publicação.
-4. Quando houver frentes substanciais independentes e colaboração real permitida, carregar `orchestrate`. Esta skill solicita delegação nessas condições; seguir o orçamento e as regras daquele pacote. Se a capacidade faltar, executar diretamente e informar a limitação quando ela afetar a expectativa do usuário.
-5. Integrar os resultados e validar os critérios definidos: evidências, cálculos, links, artefatos ou estado da operação, conforme o caso. Entregar resultado direto e limitações materiais.
+1. Definir critérios de aceitação e um plano proporcional. Responder diretamente a perguntas simples.
+2. Aplicar [FOCUS](references/fontes/docs/protocols/focus-protocol.md) quando complexidade ou ambiguidade justificarem investigação estruturada. Usar somente as funções necessárias.
+3. Carregar a skill especializada para a operação correspondente e executar dentro da autorização. Consulta não autoriza edição, instalação ou publicação.
+4. Usar `orchestrate` quando existirem frentes substanciais independentes e colaboração real permitida; esta skill solicita delegação nessas condições. Seguir suas regras. Sem capacidade, executar diretamente.
+5. Integrar e verificar a entrega conforme os critérios: evidências, cálculos, links, artefatos ou estado da operação. Corrigir falhas da alteração autorizada e repetir as verificações afetadas até concluir ou identificar impedimento concreto. Evitar verificações sem impacto na aceitação.
 
-O AIOS mantém plano global e validação final; `orchestrate` coordena atribuições e dependências. A [definição canônica](references/fontes/docs/core/AIOS.md) detalha esse contrato. Respeitar instruções atuais e permissões do ambiente; autoridade humana no AIOS não anula esses limites.
+AIOS mantém plano e validação final; orchestrate coordena atribuições. Pedir decisão somente diante de informação decisiva ausente, autorização necessária ou escolha material fora do escopo; concluir as partes independentes possíveis. Entregar resultado e limitações relevantes.
 
 ## Manutenção
 
-Usar `aios-maintenance` para mudanças solicitadas em definições, protocolos, personas ou pacotes do AIOS. Não criar memórias, automações ou atualizações como efeito implícito de uma resposta comum. Editar a fonte não atualiza uma instalação automaticamente.
+Usar `aios-maintenance` para alterações nas definições e pacotes. Não criar memórias, automações ou atualizações implicitamente. Editar fontes não atualiza instalações. Respeitar as políticas e permissões do ambiente.

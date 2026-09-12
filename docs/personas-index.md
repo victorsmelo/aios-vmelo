@@ -39,4 +39,4 @@ As 20 personas são configurações de atuação em domínios específicos. AIOS
 
 - [F0NT](personas/estrategia-disciplina-and-lideranca/F0NT.md)
 
-AXIS e LEX pertencem ao grupo Jurídico e Política; seus caminhos anteriores são mantidos para preservar os links. Todas as personas seguem o [modelo completo](templates/persona-template.md), com Produto distinto de Saídas.
+AXIS e LEX pertencem ao grupo Jurídico e Política; seus caminhos anteriores são mantidos para preservar os links. Todas as personas seguem o [modelo completo](templates/persona-template.md), com Produto e saídas em uma única seção, distinguindo resultado esperado e formato.

@@ -1,5 +1,6 @@
 # Versões do AIOS
 
+- [v1.3.1 — instruções comuns e consistência dos pacotes](v1.3.1.md)
 - [v1.3.0 — ajustes de auditoria e publicação protegida](v1.3.0.md)
 - [v1.2.0 — revisão completa e pacotes multiplataforma](v1.2.0.md)
 - [v1.1.0 — arquitetura documental](v1.1.0.md)
